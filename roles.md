@@ -340,10 +340,12 @@ These roles are common in particular industries, regulated domains, or instituti
 *Dedicated roles for maintaining standards and legal safety requirements across industries.*
 *   **Quality Assurance (QA) Manager:** Ensures products and processes meet internal and external standards.
 *   **Health & Safety (HSE) Officer:** Manages workplace safety, risk assessments, and incident reporting.
-*   **Regulatory Affairs Specialist:** Manages certifications, filings, and compliance in highly regulated sectors.
+*   **Certification / Standards Specialist:** Manages ISO, CE, and industry-specific certification processes and audits.
 
 ### 34. Specialized Advisory & Consulting
 *Cross-functional expert roles that typically appear in consulting firms or specialist advisory functions.*
 *   **Management Consultant:** Provides expert advice on strategy and organizational efficiency.
 *   **Technical Consultant / Functional Consultant:** Implements systems, process improvements, and client-specific configurations.
-*   **Quality Manager / Quality Assurance Specialist:** Maintains quality systems, audits, and process controls.
+*   **IT / Strategy Consultant:** Delivers technology assessments, architecture reviews, and transformation roadmaps.
+*   **Due Diligence Analyst:** Supports M&A, investment, or compliance investigations with structured research.
+*   **Interim Manager:** Fills temporary leadership gaps during transitions, restructurings, or crises.

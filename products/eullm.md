@@ -2,7 +2,7 @@
 
 **Category:** AI Infrastructure, LLM Platform
 **Type:** Self-hosted (open source)
-**Jurisdiction:** EU-hostable
+**Jurisdiction:** Italy (EU) — developed in Italy, open source
 **Website:** [eullm.eu](https://www.eullm.eu)
 
 ## What It Is
@@ -36,4 +36,5 @@ EULLM is an open-source platform for creating, distributing, and running soverei
 - Apache 2.0 — prune, distill, rebrand, and sell models with zero restrictions
 - Only permissive-licensed models (Apache 2.0, MIT)
 - EU AI Act ready out of the box
-- Launched April 2026
+- Launched April 2026 — early development phase
+- Developed in Italy (EU) under the `eullm` GitHub organization

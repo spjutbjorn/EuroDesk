@@ -89,7 +89,9 @@
 ## Key Compliance Observations
 
 ### 1. Sovereign AI and LLMs
-The addition of **Mistral AI, Aleph Alpha, EULLM, and Open WebUI** provides a complete, sovereign AI stack. These tools range from EU-native managed APIs (Mistral, Aleph Alpha) to fully self-hosted infrastructures (EULLM) and frontends (Open WebUI), ensuring that "Generative AI" does not necessitate data export to non-EU jurisdictions.
+The addition of **Mistral AI, Aleph Alpha, EULLM, Langdock, eustella, and Open WebUI** provides a complete, sovereign AI stack. These tools range from EU-native managed APIs (Mistral, Aleph Alpha) to fully self-hosted infrastructures (EULLM, developed in Italy under Apache 2.0) and frontends (Open WebUI), ensuring that "Generative AI" does not necessitate data export to non-EU jurisdictions.
+
+**Maturity note:** eustella (Austria) is in closed beta as of April 2026 — not yet production-ready. EULLM is in early development. Both meet inclusion rules but should be flagged as evaluate-before-commit for migration planning. Langdock (Germany, ISO 27001, SOC 2 Type II) is the most enterprise-ready multi-model option, though its SaaS tier uses Azure Germany (US-owned infra) — on-prem deployment available for strict sovereignty.
 
 ### 2. The Self-Hosting Exception (Rule 3)
 A significant number of specialized tools (**AppFlowy, Logseq, Cal.com, Excalidraw, BigBlueButton, AnythingLLM, Open WebUI, Eramba**) are developed outside the EU but are included under the "Self-Hosting Exception." These tools are open-source and verified to allow full data residency on EU infrastructure.

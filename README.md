@@ -18,6 +18,9 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 - **[Verification Report](verification_report.md)**: Compliance audit of all included tools.
 - **[Audit Status](audit_status.md)**: Ongoing tracking of tool verifications.
 - **[Full Product List](products.md)**: Categorized overview of all 76 tools.
+- **[Migration Guide](migration_guide.md)**: Step-by-step playbook for moving to the EuroDesk stack.
+- **[Conversion Calculator](conversion_calculator.html)**: Estimate migration time and monthly costs.
+- **[Migration Priority Matrix](migration_priority.html)**: Score and rank tools by migration urgency.
 
 ## Tool Categories
 

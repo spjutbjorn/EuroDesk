@@ -34,4 +34,4 @@ eustella is a Vienna-based AI assistant built as a European alternative to ChatG
 - No data sold, shared, or used for model training
 - All processing in EU data centers under GDPR
 - Austrian jurisdiction — no US parent company
-- Early stage: waitlist/closed beta as of April 2026
+- **Not production-ready:** Closed beta as of April 2026 — evaluate before committing to migration plans
