@@ -9,6 +9,12 @@
 
 A privacy-focused web browser developed in collaboration between Mullvad VPN and the Tor Project. It is designed to minimize tracking and fingerprinting without routing traffic through the Tor network.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Client software** | Endpoint browser installed on user devices; no hosted backend required |
+
 ## Why it fits EuroDesk
 
 - **Jurisdiction:** Mullvad is based in Sweden.

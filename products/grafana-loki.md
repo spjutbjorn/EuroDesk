@@ -19,6 +19,12 @@ The standard observability stack for self-hosted infrastructure:
 
 Together these replace Datadog, Splunk, and PaperTrail with zero data leaving your EU server.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run the full observability stack on your own EU-owned infrastructure |
+
 ## Architecture
 
 ```

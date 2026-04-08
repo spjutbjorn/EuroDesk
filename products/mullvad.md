@@ -9,6 +9,12 @@
 
 Mullvad is a privacy-focused VPN provider based in Gothenburg, Sweden. It is widely regarded as one of the most privacy-respecting VPN services in the world — no email required to sign up, no usage logs, audited independently.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Mullvad managed** | Managed VPN service operated by a Swedish provider |
+
 ## Pricing
 
 | Plan | Price |

@@ -11,6 +11,12 @@ Sentry captures and aggregates errors, exceptions, and crashes from your applica
 
 > **Note:** The managed sentry.io is US-hosted. Only the self-hosted version qualifies for EuroDesk.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run Sentry on your own EU-owned infrastructure |
+
 ## Setup (Self-hosted)
 
 ### Requirements

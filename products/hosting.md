@@ -3,6 +3,13 @@
 **Category:** Cloud Infrastructure, GPU Hosting, AI Inference
 **Type:** IaaS / PaaS
 **Jurisdiction:** EU-ägda bolag, data stannar i EU
+**Website:** [hetzner.com](https://www.hetzner.com)
+
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **EU-owned infrastructure providers** | Run the rest of the EuroDesk stack on EU- or adequacy-country-owned hosting |
 
 ## Generell molninfrastruktur
 
@@ -41,3 +48,9 @@ GDPR-compliance ≠ suveränitet. För verklig suveränitet krävs att leverant�
 **Fullt suveräna:** Hetzner, OVHcloud, Scaleway, IONOS, STACKIT, UpCloud, Exoscale, Open Telekom Cloud
 
 **Ej suveräna (US-ägda med EU-regioner):** AWS, Azure, GCP — data kan nås via CLOUD Act oavsett serverplacering.
+
+## Compliance Notes
+
+- För managed drift bör leverantören vara EU-ägd eller ligga i ett adequacy-godkänt land.
+- Undvik US-ägda hyperscalers för känsliga arbetslaster även om regionen ligger i EU.
+- Dokumentera datalagring, underbiträden och backup-lokalisering för varje vald hostingleverantör.

@@ -9,6 +9,12 @@
 
 Proton VPN is a no-log VPN service from the makers of Proton Mail. Based in Geneva, Switzerland, it is subject to Swiss privacy law (FADP) and benefits from Switzerland's strong neutrality and tradition of bank-level privacy protections.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Proton managed** | Managed VPN service operated from Switzerland |
+
 ## Plans
 
 | Plan | Price | Devices | Servers |

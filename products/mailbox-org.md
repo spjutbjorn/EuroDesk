@@ -9,6 +9,12 @@
 
 Mailbox.org is a privacy-focused business email and groupware provider based in Berlin, Germany. It offers email, calendar, contacts, cloud storage, and video conferencing — powered entirely by open-source software and hosted in German data centers.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Mailbox.org managed** | Managed service hosted in German data centers |
+
 ## Plans
 
 | Plan | Price | Storage | Notes |

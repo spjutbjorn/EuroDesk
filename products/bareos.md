@@ -9,6 +9,12 @@
 
 Bareos is an open-source enterprise backup platform for servers, databases, VMs, and workstations. It is designed for scheduled backups, retention policies, cataloging, and full restore workflows — making it a strong fit for business continuity inside an EU-controlled environment.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run Bareos on your own EU-owned infrastructure |
+
 ## Good Fit For
 
 - Central backups for Linux and Windows servers

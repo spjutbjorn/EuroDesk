@@ -9,6 +9,12 @@
 
 Tuta is an encrypted email and calendar service based in Hannover, Germany. All data is stored in Germany, making it fully subject to EU GDPR and German data protection law (BDSG), which is among the strictest in the world.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Tuta managed** | Managed service hosted in Germany |
+
 ## Plans
 
 | Plan | Price | Users | Storage |

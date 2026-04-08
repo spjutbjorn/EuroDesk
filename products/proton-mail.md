@@ -9,6 +9,12 @@
 
 Proton Mail is an end-to-end encrypted email service headquartered in Geneva, Switzerland. Switzerland has data protection laws equivalent to EU GDPR. Proton Mail is widely used as a privacy-first alternative to Gmail and Outlook.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Proton managed** | Managed service operated from Switzerland |
+
 ## Plans
 
 | Plan | Price | Mailboxes | Storage |

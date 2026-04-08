@@ -9,6 +9,12 @@
 
 Planka is a lightweight, open-source Kanban board inspired by Trello. It is fully self-hosted, has a clean interface, and covers the day-to-day task management needs of small to medium teams without the complexity of full project management tools like OpenProject.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run Planka on your own EU-owned infrastructure |
+
 ## Setup (Docker Compose — recommended)
 
 ### docker-compose.yml

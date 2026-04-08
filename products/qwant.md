@@ -9,6 +9,12 @@
 
 Qwant is a French search engine headquartered in Paris, operating its own index (not a Google proxy). It is one of the few European search engines with a fully independent crawling infrastructure, making it the most "EU-native" search option. The French government has endorsed Qwant as the recommended browser for civil servants.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Qwant managed** | Managed search service operated from France |
+
 ## Qwant Products
 
 | Product | Description |

@@ -18,6 +18,12 @@ Startpage is a privacy-preserving search engine based in Amsterdam, Netherlands.
 
 This means you get Google results with zero personal data going to Google.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Startpage managed** | Managed search service operated from the Netherlands |
+
 ## Setup
 
 ### Set as Default Browser Search Engine

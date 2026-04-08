@@ -9,6 +9,12 @@
 
 opsi is an open-source client management platform for deploying software, patching systems, inventorying endpoints, and automating workstation setup. It is aimed at organizations that want centralized endpoint control without handing device data to a US cloud vendor.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run opsi on your own EU-hosted infrastructure |
+
 ## Good Fit For
 
 - Windows desktop fleet management

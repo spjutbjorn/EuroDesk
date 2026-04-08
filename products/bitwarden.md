@@ -11,6 +11,12 @@ Bitwarden is an open-source password manager with polished apps for every platfo
 
 > **Note:** The managed cloud version of Bitwarden is hosted in the US. Only the self-hosted version qualifies for EuroDesk.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run Bitwarden Unified or Vaultwarden on your own EU infrastructure |
+
 ## Which Server to Use
 
 | Option | Description |

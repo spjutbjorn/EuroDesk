@@ -60,13 +60,6 @@ Odoo is a modular business platform that covers CRM, invoicing, accounting, HR, 
 | Hubspot | US company, high lock-in |
 | Microsoft Dynamics | US company, telemetry |
 
-## Compliance Notes
-
-- **Jurisdiction:** Odoo S.A. is based in Belgium (EU).
-- **Data Sovereignty:** Fully hostable on your own EU infrastructure or via the Odoo.sh cloud in EU regions.
-- **Privacy:** As a self-hosted tool, you have full control over all business data, customer information, and financial records.
-- **GDPR:** Fully compliant as a Belgian company. DPA available for managed customers.
-
 ## EuroDesk Verdict
 
 Odoo covers several missing business-office categories at once and is a strong fit when you want an EU-based operational backbone.

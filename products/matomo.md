@@ -9,6 +9,13 @@
 
 Matomo (formerly Piwik) is a powerful, open-source Google Analytics alternative that protects your data and your customers' privacy.
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run Matomo on your own EU infrastructure |
+| **Matomo Cloud** | Use a managed service if it meets your sovereignty requirements |
+
 ## Why it fits EuroDesk
 
 - **Data Ownership:** You own 100% of your data when self-hosted on your own EU infrastructure.
