@@ -100,3 +100,43 @@ This document maps the EuroDesk sovereign office stack to the most common white-
 ### 📰 Media, Publishing & Editorial
 *   [Collabora Online](products/collabora.md) (Fine-grained document track-changes and review)
 *   [Outline](products/outline.md) (Knowledge base and internal editorial guides)
+
+### 🚛 Logistics, Transportation & Fleet Management
+*   [Odoo](products/odoo.md) (Inventory, shipping, and routing management)
+*   [GLPI](products/glpi.md) (Fleet, vehicle, and asset tracking)
+*   [n8n](products/n8n.md) (Automating tracking and dispatch notifications)
+
+### 🏨 Hospitality, Tourism & Travel Management
+*   [Odoo](products/odoo.md) (POS, bookings, and customer billing)
+*   [Easy!Appointments](products/easyappointments.md) (Service and slot-based bookings)
+*   [n8n](products/n8n.md) (Connecting booking engines to internal systems)
+
+### ⚡ Energy, Utilities & Environmental Services
+*   [Apache Superset](products/apache-superset.md) (Grid and energy market visualizations)
+*   [Wazuh](products/wazuh.md) (Operational monitoring of critical management systems)
+*   [Odoo](products/odoo.md) (Project and maintenance management)
+
+### 🛍️ Retail & E-commerce Operations
+*   [PrestaShop](products/prestashop.md) or [Shopware](products/shopware.md) (European-native e-commerce engines)
+*   [Odoo](products/odoo.md) (Omnichannel retail inventory and POS)
+*   [Matomo](products/matomo.md) (Privacy-compliant conversion and sales analytics)
+
+### 🖼️ Arts, Culture & Museum Management
+*   [GLPI](products/glpi.md) (Collection management and artifact tracking)
+*   [Nextcloud](products/nextcloud.md) (High-resolution asset storage and sharing)
+*   [CryptPad](products/cryptpad.md) (Collaborative planning for sensitive exhibitions)
+
+### 🌍 Translation, Interpretation & Localization
+*   [DeepL](products/deepl.md) (Professional-grade AI translation and API)
+*   [Nextcloud](products/nextcloud.md) (Secure file exchange for large translation projects)
+*   [Outline](products/outline.md) (Terminology management and shared glossaries)
+
+### 📐 Architecture, Urban Planning & Construction Management
+*   [Nextcloud](products/nextcloud.md) (Large-scale document and CAD/BIM model management)
+*   [OpenProject](products/openproject.md) (Complex construction timelines and project tasks)
+*   [Documenso](products/documenso.md) (Signing of technical approvals and site plans)
+
+### 🛡️ Safety, Quality & Regulatory Compliance (QHSE)
+*   [Wazuh](products/wazuh.md) (Audit trails, file integrity, and security monitoring)
+*   [ZITADEL](products/zitadel.md) (Identity governance and high-assurance access controls)
+*   [Odoo](products/odoo.md) (Quality control, audit logs, and non-conformance tracking)

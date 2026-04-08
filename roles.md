@@ -1,8 +1,17 @@
 # EU White-Collar Roles
 
-This document outlines the diverse roles in the European white-collar workforce. These roles represent the primary users of the EuroDesk sovereign office stack, requiring varying levels of data sovereignty, collaboration, and privacy.
+This document outlines the main white-collar roles served by the EuroDesk sovereign office stack. The list is split into:
 
-## 1. Administration & Office Support
+- **Core roles** — functions found across most organizations, regardless of industry
+- **Sector-specific roles** — functions that appear mainly in regulated, public, academic, or specialized sectors
+
+This structure is meant to reduce overlap while still covering the breadth of the European office workforce.
+
+## Core Roles
+
+These are the cross-industry roles most likely to exist in private companies, public organizations, NGOs, and institutions.
+
+### 1. Administration & Office Support
 *The backbone of office operations, focusing on coordination, documentation, and communication.*
 *   **Administrative Assistant / Secretary:** Handles scheduling, document preparation, and general office coordination.
 *   **Office Manager:** Oversees facility operations, supplies, and administrative staff.
@@ -10,127 +19,137 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Receptionist / Front Desk Coordinator:** Manages visitors, calls, meeting rooms, and front-office logistics.
 *   **Document Controller / Records Officer:** Maintains document versioning, archiving, and retention processes.
 *   **Board / Governance Coordinator:** Supports board meetings, minutes, resolutions, and executive governance workflows.
-*   **Bid / Proposal Coordinator:** Prepares tenders, RFP responses, and supporting business documents.
 *   **Travel / Mobility Coordinator:** Manages business travel, itineraries, and cross-border administrative logistics.
 
-## 2. Management & Leadership
-*Responsible for strategy, project execution, and team performance.*
-*   **Project Manager:** Plans, executes, and closes projects using collaborative tools and Gantt charts.
-*   **Operations Manager:** Ensures business processes are efficient and effective.
+### 2. Management & Leadership
+*Responsible for strategy, execution, coordination, and team performance.*
 *   **Team Lead / Department Head:** Manages personnel, sets goals, and reports on departmental progress.
+*   **Project Manager:** Plans, executes, and closes projects using collaborative tools and structured delivery methods.
 *   **Program Manager:** Oversees multiple related projects and cross-functional delivery.
 *   **Portfolio Manager / PMO Lead:** Coordinates investment priorities, reporting, and governance across initiatives.
+*   **Operations Manager:** Ensures business processes are efficient and effective.
 *   **Chief of Staff:** Supports senior leadership with planning, communication, and organizational execution.
 *   **Transformation Manager:** Leads organizational change, operating model updates, and process redesign.
 *   **Service Manager:** Owns service performance, SLAs, and continuous improvement for internal or external services.
 
-## 3. Business, Finance & Legal
-*Focuses on the "numbers" and regulatory compliance of the organization.*
+### 3. Finance, Legal & Governance
+*Focuses on financial control, legal risk, contracts, and regulatory compliance.*
 *   **Accountant / Financial Controller:** Manages bookkeeping, tax compliance (VAT), and financial reporting.
-*   **Business Analyst:** Analyzes data to help the organization make better business decisions.
-*   **Legal Counsel / Compliance Officer:** Ensures the company adheres to EU laws (GDPR, etc.) and manages contracts.
-*   **Risk Manager:** Identifies and assesses potential threats to the organization's profitability or reputation.
 *   **Financial Analyst / FP&A Specialist:** Supports budgeting, forecasting, and management reporting.
 *   **Accounts Payable / Accounts Receivable Specialist:** Manages invoices, collections, and supplier payments.
-*   **Internal Auditor:** Reviews controls, processes, and compliance effectiveness.
 *   **Tax Advisor / VAT Specialist:** Handles corporate tax, cross-border VAT, and regulatory tax reporting.
+*   **Internal Auditor:** Reviews controls, processes, and compliance effectiveness.
+*   **Risk Manager:** Identifies and assesses threats to the organization's profitability or reputation.
+*   **Legal Counsel / Compliance Officer:** Ensures the company adheres to laws, contracts, and internal controls.
 *   **Paralegal / Legal Operations Specialist:** Supports contracts, filings, due diligence, and legal workflows.
-*   **Data Protection Officer (DPO):** Oversees GDPR compliance, privacy risk, and data governance.
-*   **Corporate Secretary / Governance Officer:** Coordinates statutory filings, entity governance, and board documentation.
 *   **Contract Manager:** Owns contract lifecycle, renewals, obligations, and negotiation support.
-*   **Procurement Counsel / Public Tender Lawyer:** Supports procurement law, framework agreements, and tender compliance.
+*   **Corporate Secretary / Governance Officer:** Coordinates statutory filings, entity governance, and board documentation.
+*   **Data Protection Officer (DPO):** Oversees GDPR compliance, privacy risk, and data governance.
 
-## 4. Sales, Marketing & Communication
-*The outward-facing roles responsible for growth and brand reputation.*
+### 4. Sales, Marketing & Communications
+*The outward-facing roles responsible for growth, messaging, and commercial performance.*
 *   **Sales Representative / Account Manager:** Manages client relationships and drives revenue.
-*   **Marketing Specialist / Manager:** Coordinates campaigns, manages social media, and produces content.
+*   **Business Development Manager:** Develops partnerships, new markets, and growth channels.
+*   **Sales Operations Specialist:** Maintains CRM hygiene, forecasts, territory data, and sales reporting.
+*   **Marketing Specialist / Manager:** Coordinates campaigns, channels, and content production.
+*   **Demand Generation / Performance Marketing Specialist:** Runs measurable acquisition campaigns and reporting.
+*   **SEO / Content Marketing Specialist:** Improves discoverability and produces editorial content.
+*   **Communications Manager:** Coordinates internal and external communications, announcements, and messaging.
 *   **Public Relations (PR) Officer:** Manages the external image and media relations of the company.
 *   **Brand Manager:** Oversees the integrity and development of the company's brand identity.
-*   **Business Development Manager:** Develops partnerships, new markets, and growth channels.
-*   **Demand Generation / Performance Marketing Specialist:** Runs measurable acquisition campaigns and reporting.
-*   **Communications Manager:** Coordinates internal and external communications, announcements, and messaging.
-*   **Event / Community Manager:** Runs trade shows, webinars, member communities, and partner events.
-*   **SEO / Content Marketing Specialist:** Improves discoverability and produces editorial content.
-*   **Sales Operations Specialist:** Maintains CRM hygiene, forecasts, territory data, and sales reporting.
+*   **Event / Community Manager:** Runs trade shows, webinars, communities, and partner events.
 *   **Partnerships / Channel Manager:** Runs reseller, alliance, and referral partner relationships.
+*   **Bid / Proposal Coordinator:** Prepares tenders, RFP responses, and supporting business documents.
 *   **Bid Manager / Tender Specialist:** Coordinates commercial proposals and public-sector bid submissions.
 
-## 5. Human Resources (HR)
-*Focuses on the lifecycle of the employee within the organization.*
+### 5. Human Resources (HR)
+*Focuses on the employee lifecycle, workforce administration, and people strategy.*
 *   **HR Manager / Generalist:** Handles recruitment, employee relations, and HR policy.
 *   **Recruiter / Talent Acquisition Specialist:** Focuses specifically on sourcing and hiring new talent.
-*   **Payroll Specialist:** Ensures accurate and timely compensation for staff.
-*   **Learning & Development (L&D) Specialist:** Manages employee training and professional growth programs.
 *   **People Operations Specialist:** Manages onboarding, offboarding, HR systems, and employee processes.
 *   **HR Business Partner:** Aligns workforce planning and people strategy with business needs.
+*   **Payroll Specialist:** Ensures accurate and timely compensation for staff.
 *   **Compensation & Benefits Specialist:** Manages salary bands, benefits, and reward structures.
+*   **Learning & Development (L&D) Specialist:** Manages employee training and professional growth programs.
 *   **Employer Branding Specialist:** Supports recruiting visibility, careers content, and talent marketing.
 *   **HRIS / People Systems Specialist:** Administers HR platforms, workflows, and employee data quality.
 *   **Employee Relations Specialist:** Handles workplace issues, investigations, and policy application.
 
-## 6. Information Technology (IT) & Data
-*The technical experts who build and maintain the digital infrastructure.*
-*   **IT Administrator / Systems Engineer:** Manages servers, networks, and internal software stacks (the primary "EuroDesk" implementer).
-*   **Software Developer / Engineer:** Builds and maintains internal or external applications.
-*   **Data Analyst / Scientist:** Processes and visualizes data to find actionable insights.
-*   **Cybersecurity Analyst:** Protects the organization's data and systems from digital threats.
+### 6. IT, Data & Security
+*The technical experts who build, support, and secure digital infrastructure.*
+*   **IT Administrator / Systems Engineer:** Manages servers, networks, and internal software stacks.
 *   **Helpdesk / Service Desk Analyst:** Handles day-to-day endpoint, access, and user support requests.
+*   **Application Support Analyst:** Owns business application support, permissions, and issue resolution.
+*   **Software Developer / Engineer:** Builds and maintains internal or external applications.
 *   **Cloud / Infrastructure Engineer:** Designs and runs hosting, containers, automation, and platform services.
 *   **DevOps / Platform Engineer:** Improves CI/CD, observability, deployments, and developer workflows.
-*   **Data Engineer:** Builds pipelines, warehouses, and governed reporting datasets.
 *   **Database Administrator (DBA):** Maintains database performance, backups, and access control.
-*   **Enterprise Architect / Solution Architect:** Defines system landscape, integrations, and technology standards.
-*   **Information Security Officer / CISO:** Owns security governance, policy, and risk posture.
+*   **Data Analyst / Scientist:** Processes and visualizes data to find actionable insights.
+*   **Data Engineer:** Builds pipelines, warehouses, and governed reporting datasets.
 *   **Business Intelligence (BI) Developer:** Builds semantic models, dashboards, and management reports.
 *   **QA / Test Manager:** Coordinates quality assurance, release testing, and defect workflows.
-*   **Application Support Analyst:** Owns business application support, permissions, and issue resolution.
+*   **Cybersecurity Analyst:** Protects the organization's data and systems from digital threats.
+*   **Information Security Officer / CISO:** Owns security governance, policy, and risk posture.
+*   **Enterprise Architect / Solution Architect:** Defines system landscape, integrations, and technology standards.
 
-## 7. Customer Success & Support
-*The direct link between the product/service and the end-user.*
+### 7. Customer Success & Support
+*The direct link between the organization’s services and its users or customers.*
 *   **Customer Support Specialist:** Handles inquiries, troubleshooting, and ticket management.
-*   **Customer Success Manager:** Ensures long-term client satisfaction and retention.
 *   **Technical Support Engineer:** Provides deep technical assistance for complex product issues.
+*   **Customer Success Manager:** Ensures long-term client satisfaction and retention.
 *   **Implementation / Onboarding Specialist:** Helps customers deploy and adopt the product.
 *   **Service Delivery Manager:** Coordinates contracted support, SLA performance, and customer reporting.
 *   **Customer Experience (CX) Manager:** Improves support journeys, feedback loops, and retention outcomes.
 *   **Knowledge Base / Support Content Manager:** Maintains help-center content, runbooks, and support documentation.
 *   **Escalation Manager:** Coordinates high-priority incidents, customer communications, and internal follow-through.
 
-## 8. Creative & Design Services
-*Roles that translate ideas into visual and experiential products.*
+### 8. Creative, Content & Design
+*Roles that translate ideas into visual, written, and user-facing outputs.*
 *   **Graphic Designer:** Creates visual concepts for digital and print media.
 *   **UX/UI Designer:** Designs user-friendly interfaces and experiences for software.
+*   **Product Designer:** Combines UX, UI, and product thinking into end-to-end digital experiences.
 *   **Creative Director:** Oversees the artistic direction of projects and teams.
 *   **Content Creator / Copywriter:** Produces text and multimedia content for various platforms.
-*   **Product Designer:** Combines UX, UI, and product thinking into end-to-end digital experiences.
-*   **Motion Designer / Multimedia Specialist:** Produces animations, presentations, and digital media assets.
 *   **Technical Writer:** Produces manuals, product documentation, and knowledge-base content.
+*   **Motion Designer / Multimedia Specialist:** Produces animations, presentations, and digital media assets.
 *   **Information Designer:** Structures complex information into clear visual and textual formats.
 *   **Localization Manager / Specialist:** Coordinates multilingual content, translation, and locale quality.
 
-## 9. Specialized Professionals (Consulting & Engineering)
-*Roles that require specific certifications or technical expertise.*
-*   **Management Consultant:** Provides expert advice on strategy and organizational efficiency.
-*   **Engineer (Civil, Mechanical, Electrical, etc.):** Works on technical designs, project specifications, and quality control.
-*   **Sustainability / ESG Officer:** Ensures the organization meets environmental, social, and governance standards.
-*   **Quality Manager / Quality Assurance Specialist:** Maintains quality systems, audits, and process controls.
-*   **Regulatory Affairs Specialist:** Manages compliance with sector-specific rules, standards, and filings.
-*   **HSE / EHS Manager:** Oversees health, safety, and environmental compliance in regulated workplaces.
-*   **Bid Engineer / Pre-Sales Engineer:** Translates technical requirements into proposals, demos, and solution designs.
-*   **Technical Consultant / Functional Consultant:** Implements systems, process improvements, and client-specific configurations.
+### 9. Product, Strategy & Business Operations
+*Roles that shape products, pricing, internal planning, and business execution.*
+*   **Product Manager:** Defines product strategy, priorities, and roadmap execution.
+*   **Product Operations Manager:** Improves product planning, tooling, and cross-team coordination.
+*   **Business Analyst:** Analyzes data to help the organization make better business decisions.
+*   **Strategy Manager:** Supports executive decision-making, market analysis, and transformation programs.
+*   **Business Operations Manager:** Improves internal processes, reporting, and organizational efficiency.
+*   **Revenue Operations (RevOps) Specialist:** Aligns sales, marketing, and customer success systems and reporting.
+*   **Pricing / Commercial Operations Analyst:** Owns pricing governance, approval workflows, and margin reporting.
+*   **COO Staff / Strategy Associate:** Supports executive operating cadence, analytics, and planning.
 
-## 10. Research, Development & Innovation (RDI)
-*Focuses on creating new knowledge and developing future technologies.*
-*   **Research Scientist:** Conducts academic or industrial research to advance a field.
-*   **R&D Manager:** Oversees the development of new products and technological improvements.
-*   **IP / Patent Specialist:** Manages intellectual property, patents, and technical documentation.
-*   **Innovation Manager:** Identifies new business opportunities, pilots, and partnerships.
-*   **Grant / Funding Manager:** Coordinates public innovation grants, EU funding, and reporting obligations.
-*   **Clinical / Research Coordinator:** Organizes studies, documentation, and ethics-related workflows.
-*   **Technology Transfer Officer:** Moves research outputs into licensing, spinouts, or commercial partnerships.
-*   **Lab Operations / Scientific Program Manager:** Coordinates research administration, equipment planning, and reporting.
+### 10. Procurement, Supply Chain & Vendor Management
+*Manages external purchasing, supplier relationships, and operational planning.*
+*   **Procurement Manager / Buyer:** Sources suppliers and manages purchasing for the organization.
+*   **Category Manager:** Owns sourcing strategy for specific spend categories.
+*   **Procurement Analyst:** Supports spend analysis, tender evaluation, and purchasing controls.
+*   **Vendor Manager:** Manages long-term relationships and performance of external suppliers.
+*   **Logistics / Supply Chain Manager:** Coordinates transport, storage, and distribution of goods.
+*   **Demand Planner / Supply Planner:** Aligns supply with forecasted operational demand.
+*   **Inventory Planner:** Balances stock levels, reorder cycles, and availability targets.
+*   **Customs / Trade Compliance Specialist:** Handles import-export rules, documentation, and tariff compliance.
 
-## 11. Public Administration & Government
+### 11. Facilities, Property & Workplace
+*Handles buildings, workplace services, leases, and employee-facing office logistics.*
+*   **Facilities Manager:** Manages workplace services, vendors, office access, and building operations.
+*   **Property Manager:** Oversees leases, tenants, maintenance coordination, and reporting.
+*   **Lease Administrator:** Manages lease data, renewals, invoicing, and landlord-tenant documentation.
+*   **Real Estate Analyst / Asset Manager:** Supports valuation, portfolio reporting, and investment analysis.
+*   **Workplace Experience Manager:** Coordinates employee-facing office services, events, and space planning.
+
+## Sector-Specific Roles
+
+These roles are common in particular industries, regulated domains, or institutional settings rather than in every organization.
+
+### 12. Public Administration & Government
 *Civil servants and policy experts working in local, national, or EU institutions.*
 *   **Policy Advisor / Officer:** Researches and develops government policies and regulations.
 *   **Civil Servant / Administrator:** Manages public services and regulatory compliance.
@@ -140,20 +159,10 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Case Handler / Permit Officer:** Processes applications, permits, and citizen-facing administrative decisions.
 *   **Registry / Records Officer:** Maintains official documents, archives, and public-record workflows.
 *   **Grants Administration Officer:** Manages funding programs, disbursements, and compliance reporting.
+*   **Procurement Counsel / Public Tender Lawyer:** Supports procurement law, framework agreements, and tender compliance.
 
-## 12. Procurement & Supply Chain
-*Manages the acquisition of goods and the movement of products.*
-*   **Procurement Manager / Buyer:** Sources suppliers and manages purchasing for the organization.
-*   **Logistics / Supply Chain Manager:** Coordinates the transport, storage, and distribution of goods.
-*   **Vendor Manager:** Manages long-term relationships and performance of external suppliers.
-*   **Category Manager:** Owns sourcing strategy for specific spend categories.
-*   **Procurement Analyst:** Supports spend analysis, tender evaluation, and purchasing controls.
-*   **Demand Planner / Supply Planner:** Aligns supply with forecasted operational demand.
-*   **Inventory Planner:** Balances stock levels, reorder cycles, and availability targets.
-*   **Customs / Trade Compliance Specialist:** Handles import-export rules, documentation, and tariff compliance.
-
-## 13. Education & Training
-*Focuses on formal education and professional instruction.*
+### 13. Education, Universities & Training
+*Focuses on formal education, academic administration, and structured learning environments.*
 *   **Lecturer / Academic Professor:** Teaches and conducts research in higher education.
 *   **Corporate Trainer:** Delivers professional training within business environments.
 *   **Instructional Designer:** Creates educational curricula and digital learning materials.
@@ -163,8 +172,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Admissions Officer:** Coordinates applicant pipelines, documentation, and enrollment decisions.
 *   **Examinations / Registry Officer:** Manages grades, transcripts, timetables, and formal academic records.
 
-## 14. Non-Profit & NGO Operations
-*Administrative roles within mission-driven organizations.*
+### 14. Non-Profit & NGO Operations
+*Administrative roles within mission-driven and grant-funded organizations.*
 *   **Fundraiser / Development Officer:** Manages relationships with donors and secures funding.
 *   **Program Coordinator:** Manages the execution of specific NGO initiatives and grants.
 *   **Advocacy Officer:** Works to influence policy and public opinion for specific causes.
@@ -174,8 +183,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Volunteer Coordinator:** Organizes volunteer onboarding, scheduling, and communications.
 *   **Safeguarding / Protection Officer:** Oversees compliance and incident handling in sensitive program settings.
 
-## 15. Healthcare & Social Care (Administration)
-*The non-clinical roles that keep the health system running.*
+### 15. Healthcare & Social Care Administration
+*The non-clinical roles that keep care systems running.*
 *   **Hospital Administrator:** Manages the operational and financial side of healthcare facilities.
 *   **Health Policy Analyst:** Researches and develops improvements to public health systems.
 *   **Social Services Coordinator:** Manages cases and coordinates support for vulnerable populations.
@@ -185,52 +194,134 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Patient Access / Admissions Coordinator:** Manages referrals, admissions, scheduling, and administrative intake.
 *   **Reimbursement / Billing Specialist:** Handles payer workflows, coding support, and claims administration.
 
-## 16. Product, Strategy & Business Operations
-*Roles that shape products, processes, and strategic execution in modern organizations.*
-*   **Product Manager:** Defines product strategy, priorities, and roadmap execution.
-*   **Product Operations Manager:** Improves product planning, tooling, and cross-team coordination.
-*   **Strategy Manager:** Supports executive decision-making, market analysis, and transformation programs.
-*   **Business Operations Manager:** Improves internal processes, reporting, and organizational efficiency.
-*   **Revenue Operations (RevOps) Specialist:** Aligns sales, marketing, and customer success systems and reporting.
-*   **Chief Operating Officer (COO) Staff / Strategy Associate:** Supports executive operating cadence, analytics, and planning.
-*   **Pricing / Commercial Operations Analyst:** Owns pricing governance, approval workflows, and margin reporting.
-
-## 17. Banking, Insurance & Financial Services
+### 16. Banking, Insurance & Financial Services
 *White-collar roles common in regulated financial sectors across the EU.*
 *   **Banking Operations Specialist:** Manages client onboarding, payments, and operational controls.
 *   **Compliance Analyst (AML/KYC):** Handles anti-money laundering, sanctions screening, and customer due diligence.
-*   **Insurance Underwriter / Claims Specialist:** Assesses risk, policies, and claims documentation.
-*   **Treasury / Cash Manager:** Oversees liquidity, banking relationships, and payment flows.
+*   **Financial Crime Investigator:** Reviews alerts, cases, and suspicious activity escalations.
 *   **Credit Analyst:** Assesses borrower risk, documentation, and lending decisions.
 *   **Loan / Mortgage Administrator:** Coordinates case files, approvals, and servicing workflows.
-*   **Financial Crime Investigator:** Reviews alerts, cases, and suspicious activity escalations.
+*   **Insurance Underwriter / Claims Specialist:** Assesses risk, policies, and claims documentation.
+*   **Treasury / Cash Manager:** Oversees liquidity, banking relationships, and payment flows.
 
-## 18. Real Estate, Property & Facilities
-*Administrative and managerial roles that coordinate buildings, leases, and workplace services.*
-*   **Property Manager:** Oversees leases, tenants, maintenance coordination, and reporting.
-*   **Facilities Manager:** Manages workplace services, vendors, office access, and building operations.
-*   **Real Estate Analyst / Asset Manager:** Supports valuation, portfolio reporting, and investment analysis.
-*   **Lease Administrator:** Manages lease data, renewals, invoicing, and landlord-tenant documentation.
-*   **Workplace Experience Manager:** Coordinates employee-facing office services, events, and space planning.
+### 17. Research, Development & Innovation
+*Focuses on scientific, technical, and innovation-led work.*
+*   **Research Scientist:** Conducts academic or industrial research to advance a field.
+*   **R&D Manager:** Oversees the development of new products and technological improvements.
+*   **Innovation Manager:** Identifies new business opportunities, pilots, and partnerships.
+*   **Grant / Funding Manager:** Coordinates public innovation grants, EU funding, and reporting obligations.
+*   **Clinical / Research Coordinator:** Organizes studies, documentation, and ethics-related workflows.
+*   **Technology Transfer Officer:** Moves research outputs into licensing, spinouts, or commercial partnerships.
+*   **Lab Operations / Scientific Program Manager:** Coordinates research administration, equipment planning, and reporting.
+*   **IP / Patent Specialist:** Manages intellectual property, patents, and technical documentation.
+
+### 18. Engineering, Architecture & Built Environment
+*Office-based and project-administration roles common in engineering and construction-related sectors.*
+*   **Engineer (Civil, Mechanical, Electrical, etc.):** Works on technical designs, specifications, and quality control.
+*   **Architect / Design Manager:** Coordinates building design, consultants, and documentation packages.
+*   **Urban Planner / Spatial Planner:** Works on land use, zoning, mobility, and public planning processes.
+*   **Construction Project Coordinator:** Manages schedules, permits, vendors, and site reporting.
+*   **BIM Coordinator / CAD Manager:** Maintains digital models, design standards, and multidisciplinary coordination.
+*   **Bid Engineer / Pre-Sales Engineer:** Translates technical requirements into proposals, demos, and solution designs.
+
+### 19. Life Sciences, Pharma & Regulatory Operations
+*Office-based roles common in life sciences, biotech, and regulated product environments.*
+*   **Regulatory Affairs Specialist:** Manages compliance with sector-specific rules, standards, and filings.
+*   **Regulatory Submissions Specialist:** Prepares and tracks filings to authorities and notified bodies.
+*   **Pharmacovigilance / Safety Officer:** Manages safety case reporting, documentation, and escalation workflows.
+*   **Medical Affairs Coordinator:** Supports scientific communications, field teams, and compliance processes.
+*   **Quality Systems Specialist:** Maintains SOPs, CAPAs, audits, and controlled documentation.
+*   **HSE / EHS Manager:** Oversees health, safety, and environmental compliance in regulated workplaces.
 
 ## 19. Media, Publishing & Editorial
 *Knowledge and communication roles centered on publishing, review, and editorial workflows.*
 *   **Editor / Managing Editor:** Coordinates content quality, publishing schedules, and approvals.
 *   **Journalist / Research Reporter:** Produces researched content, interviews, and investigative documentation.
 *   **Publishing Coordinator:** Manages manuscripts, production schedules, rights, and contributor workflows.
+
+## 20. Logistics, Transportation & Fleet Management
+*Administrative roles coordinating the movement of goods, people, and vehicles.*
+*   **Logistics Planner / Dispatcher:** Coordinates transport schedules, routes, and documentation.
+*   **Fleet Manager:** Oversees vehicle maintenance, fuel cards, insurance, and driver compliance.
+*   **Import/Export Coordinator:** Manages customs documentation, international trade rules, and shipping manifests.
+
+## 21. Hospitality, Tourism & Travel Management
+*The "back-office" roles of the travel and service industry.*
+*   **Hotel Manager / Revenue Manager:** Oversees facility operations, pricing strategy, and bookings.
+*   **Travel Consultant / Corporate Travel Manager:** Coordinates business travel, bookings, and expense policies.
+*   **Tourism Development Officer:** Researches and develops regional or national tourism strategies.
+
+## 22. Energy, Utilities & Environmental Services
+*White-collar roles in the critical infrastructure and green energy sectors.*
+*   **Energy Trader / Analyst:** Monitors energy markets, pricing, and grid demand.
+*   **Environmental Consultant:** Advises on impact assessments, carbon reporting, and sustainability.
+*   **Grid Operations Coordinator:** Manages the administrative side of utility distribution and maintenance scheduling.
+
+## 23. Retail & E-commerce Operations
+*The central management of physical and digital retail businesses.*
+*   **E-commerce Manager:** Oversees web store operations, digital inventory, and online customer journeys.
+*   **Retail Planner / Merchandiser:** Coordinates stock levels, pricing, and product placement across stores.
+*   **Digital Product Content Specialist:** Manages product descriptions, images, and metadata for online catalogs.
+
+## 24. Arts, Culture & Museum Management
+*Administrative and curatorial roles in the cultural sector.*
+*   **Curator / Exhibition Manager:** Coordinates artistic content, loans, and exhibition logistics.
+*   **Cultural Program Manager:** Plans and executes public programs, festivals, and community arts initiatives.
+*   **Registrar / Collection Manager:** Manages the documentation, insurance, and movement of artworks or artifacts.
+
+## 25. Translation, Interpretation & Localization
+*Language professionals managing cross-border communication.*
+*   **Translator / Localizer:** Adapts text and software for different linguistic and cultural contexts.
+*   **Localization Project Manager:** Coordinates large-scale translation projects, vendors, and deadlines.
+*   **Terminologist:** Maintains specialized glossaries and linguistic standards for organizations.
+
+## 26. Architecture, Urban Planning & Construction Management
+*The administrative and planning side of the built environment.*
+*   **Urban Planner:** Researches and develops land-use plans, zoning, and public infrastructure projects.
+*   **Architectural Assistant / CAD Coordinator:** Supports design documentation, project filing, and BIM coordination.
+*   **Construction Project Admin:** Manages site documentation, safety filings, and subcontractor contracts.
+
+## 27. Safety, Quality & Regulatory Compliance (QHSE)
+*Dedicated roles for maintaining standards and legal safety requirements.*
+*   **Quality Assurance (QA) Manager:** Ensures products and processes meet internal and external standards.
+*   **Health & Safety (HSE) Officer:** Manages workplace safety, risk assessments, and incident reporting.
+*   **Regulatory Affairs Specialist:** Manages certifications, filings, and compliance in highly regulated sectors (e.g., Pharma, Aviation).
+
 *   **Rights / Licensing Manager:** Handles intellectual property licensing, permissions, and usage agreements.
 *   **Audience Development Manager:** Grows readership, subscriptions, newsletters, and engagement analytics.
 
-## 20. Architecture, Planning & Built Environment
-*White-collar roles involved in planning, design coordination, and project administration for the built environment.*
-*   **Architect / Design Manager:** Coordinates building design, consultants, and documentation packages.
-*   **Urban Planner / Spatial Planner:** Works on land use, zoning, mobility, and public planning processes.
-*   **Construction Project Coordinator:** Manages schedules, permits, vendors, and site reporting.
-*   **BIM Coordinator / CAD Manager:** Maintains digital models, design standards, and multidisciplinary coordination.
+### 21. Specialized Advisory & Consulting Roles
+*Cross-functional expert roles that typically appear in consulting firms or specialist advisory functions.*
+*   **Management Consultant:** Provides expert advice on strategy and organizational efficiency.
+*   **Technical Consultant / Functional Consultant:** Implements systems, process improvements, and client-specific configurations.
+*   **Quality Manager / Quality Assurance Specialist:** Maintains quality systems, audits, and process controls.
+*   **Sustainability / ESG Officer:** Ensures the organization meets environmental, social, and governance standards.
 
-## 21. Pharmaceuticals, Life Sciences & Regulatory Operations
-*Office-based roles common in life sciences, biotech, and regulated product environments.*
-*   **Regulatory Submissions Specialist:** Prepares and tracks filings to authorities and notified bodies.
-*   **Pharmacovigilance / Safety Officer:** Manages safety case reporting, documentation, and escalation workflows.
-*   **Medical Affairs Coordinator:** Supports scientific communications, field teams, and compliance processes.
-*   **Quality Systems Specialist:** Maintains SOPs, CAPAs, audits, and controlled documentation.
+### 22. Legal Practice & Law Firms
+*Roles specific to independent legal practices, chambers, and notaries.*
+*   **Lawyer / Attorney / Solicitor:** Represents clients, drafts legal documents, and manages cases.
+*   **Notary Public:** Authenticates legal documents, contracts, and transactions.
+*   **Legal Secretary:** Specialized administrative support for legal proceedings, court filings, and client correspondence.
+*   **Legal Researcher:** Conducts case law research and prepares briefings for attorneys.
+
+### 23. Real Estate, Brokerage & Property Services
+*Commercial and residential real estate roles focusing on transactions, appraisals, and property portfolios.*
+*   **Real Estate Agent / Broker:** Facilitates the buying, selling, and leasing of properties.
+*   **Property Appraiser / Valuer:** Estimates the market value of land and buildings.
+*   **Real Estate Portfolio Manager:** Manages investment strategy for property funds and large owners.
+*   **Leasing Agent:** Focuses on finding tenants and executing rental agreements.
+
+### 24. Retail, FMCG & Wholesale (Corporate)
+*Head-office roles that manage retail networks, consumer goods, and merchandising.*
+*   **Retail Buyer / Purchasing Agent:** Selects and purchases goods for resale.
+*   **Merchandiser:** Plans product ranges, inventory levels, and visual displays.
+*   **E-commerce Manager:** Manages online store operations, digital merchandising, and conversion.
+*   **Supply Chain Analyst (FMCG):** Optimizes the flow of fast-moving consumer goods to retail outlets.
+
+### 25. Travel, Tourism & Hospitality (Corporate)
+*Office-based roles managing travel operations, bookings, and hospitality networks.*
+*   **Travel Agent / Corporate Travel Manager:** Books and manages travel logistics for clients or employees.
+*   **Tour Operator / Itinerary Planner:** Designs and packages travel experiences and tours.
+*   **Revenue Manager (Hospitality):** Optimizes pricing and availability for hotels or airlines.
+*   **Guest Relations / Hospitality Coordinator:** Manages VIP bookings, feedback, and customer experience programs.
+
