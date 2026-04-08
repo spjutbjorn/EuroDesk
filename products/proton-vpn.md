@@ -15,15 +15,15 @@ Proton VPN is a no-log VPN service from the makers of Proton Mail. Based in Gene
 |---|---|
 | **Proton managed** | Managed VPN service operated from Switzerland |
 
-## Plans
+## Plans (Business)
 
-| Plan | Price | Devices | Servers |
-|---|---|---|---|
-| **Free** | Free | 1 | Limited EU/US servers |
-| **VPN Plus** | 6.99 €/mo (annual) | 10 | All servers |
-| **Proton Unlimited** | 9.99 €/mo (annual) | 10 | All + all Proton apps |
-| **Proton Business** | 7.99 €/user/mo | 10/user | All servers |
-| **Proton Enterprise** | Custom | Custom | Custom |
+| Plan | Price (User/Mo) | Key Features |
+|---|---|---|
+| **VPN Essentials** | $6.99 | 10 devices, 10 Gbps, NetShield |
+| **VPN Professional** | $9.99 | Everything in Essentials + SSO/SCIM |
+| **VPN + Pass Pro** | $10.99 | Professional VPN + Proton Pass Professional |
+
+> **Note:** Business plans typically require a minimum of 2 users.
 
 ## For Teams
 

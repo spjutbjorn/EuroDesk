@@ -14,9 +14,19 @@ Jitsi Meet is a fully open-source, browser-based video conferencing platform. No
 | Option | Description |
 |---|---|
 | **Self-hosted** | Deploy on any EU VPS — full control |
-| **8x8.vc (Jitsi as a Service)** | Managed, check data residency before use |
-| **Infomaniak kMeet** | Swiss-hosted, based on Jitsi |
-| **Framatalk** | French-hosted free instance (framatalk.org) |
+| **meet.jit.si** | Free public instance (no account) |
+| **8x8 JaaS (managed)** | Jitsi as a Service, MAU-based pricing |
+
+## Jitsi as a Service (JaaS) Pricing
+
+| Plan | MAU | Price (USD) |
+|---|---|---|
+| **Dev** | 25 | Free |
+| **Basic** | 300 | $99 / mo |
+| **Standard** | 1,500 | $499 / mo |
+| **Business** | 3,000 | $999 / mo |
+
+> **MAU:** Monthly Active User who attends at least one meeting.
 
 ## Setup (Self-hosted)
 

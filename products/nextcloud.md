@@ -16,7 +16,17 @@ Nextcloud is the most widely deployed self-hosted file sync and collaboration pl
 | **Self-hosted** | Any EU VPS (Hetzner, OVHcloud, Scaleway, Exoscale) |
 | **Nextcloud GmbH Hosted** | Managed by Nextcloud, EU data centers |
 | **IONOS Nextcloud** | Managed, German data centers |
-| **Hetzner Storage Share** | Hetzner-managed Nextcloud, German/Finnish data centers |
+| **Hetzner Storage Share** | Managed Nextcloud, German/Finnish data centers |
+
+### Hetzner Storage Share Pricing (As of April 2026)
+
+| Plan | Storage | Price (Max/Month) |
+|---|---|---|
+| **NX11** | 1 TB | €5.59 |
+| **NX21** | 5 TB | €18.49 |
+| **NX31** | 10 TB | €35.69 |
+
+> **Note:** Prices reflect the across-the-board infrastructure adjustment effective April 1, 2026.
 
 ## Setup (Self-hosted with Docker)
 

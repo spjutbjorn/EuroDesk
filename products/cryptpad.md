@@ -19,14 +19,22 @@ CryptPad is a zero-knowledge, end-to-end encrypted collaborative office suite. I
 
 ## Plans (cryptpad.fr managed)
 
-| Plan | Price | Storage |
+| Plan | Price | Storage | Notes |
+|---|---|---|---|
+| **Guest** | Free | N/A | Non-persistent (90 days) |
+| **Registered** | Free | 1 GB | Persistent storage |
+| **Premium** | €5-€15/mo | 5-50 GB | Priority support, supports OSS |
+
+## Enterprise Cloud Hosting
+
+| Plan | Price (Year) | Limits |
 |---|---|---|
-| **Guest** | Free | 50 MB (non-persistent) |
-| **Registered (free)** | Free | 1 GB |
-| **Individual** | 5 €/mo | 10 GB |
-| **Micro** | 10 €/mo | 25 GB |
-| **Standard** | 15 €/mo | 100 GB |
-| **Crystal** | 30 €/mo | 1 TB |
+| **Mini** | €3,000 | 50 users, 100 GB |
+| **Small** | €6,000 | 250 users, 200 GB |
+| **Medium** | €12,500 | 500 users, 500 GB |
+| **Large** | €25,000 | 1,000 users, 1 TB |
+
+> **Note:** Non-profits and educational institutions receive a **50% discount** on Enterprise Cloud.
 
 ## Self-Hosted Setup
 

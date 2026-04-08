@@ -9,13 +9,17 @@
 
 Mattermost is an open-source team messaging platform, often described as a self-hosted Slack alternative. It offers channels, direct messages, threads, file sharing, integrations, and a plugin ecosystem.
 
-## EU Hosting Options
+## Editions (2026)
 
-| Option | Description |
-|---|---|
-| **Self-hosted** | Run on any EU VPS or Kubernetes cluster |
-| **Mattermost Cloud (EU)** | Managed cloud with EU data residency |
-| **Hetzner / OVHcloud / Scaleway** | Popular EU VPS providers for self-hosting |
+| Edition | Price (User/Mo) | Best For |
+|---|---|---|
+| **Team Edition** | Free | Self-hosted, core messaging |
+| **Entry** | Free | High-security (10k msg history limit) |
+| **Professional** | ~$10 | SSO (SAML/OIDC), guest accounts |
+| **Enterprise** | Custom | Compliance exports, High Availability |
+| **Enterprise Adv.** | Custom | Air-gapped, Zero Trust, Private AI |
+
+> **Note:** Version 11 (2026) includes deep AI integration for channel summaries and retrospective reports in the Enterprise tiers.
 
 ## Setup (Self-hosted with Docker)
 

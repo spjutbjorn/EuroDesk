@@ -7,7 +7,7 @@ This document maps the EuroDesk sovereign office stack to the most common white-
 *   **Email & Productivity:** [Proton Mail](products/proton-mail.md), [Tuta](products/tuta.md), or [Mailbox.org](products/mailbox-org.md).
 *   **Chat & Collaboration:** [Element](products/element-matrix.md), [Mattermost](products/mattermost.md), and [Jitsi Meet](products/jitsi-meet.md).
 *   **File Storage & Editing:** [Nextcloud](products/nextcloud.md) with [ONLYOFFICE](products/onlyoffice.md) or [Collabora Online](products/collabora.md).
-*   **Security & Browsing:** [Passbolt](products/passbolt.md), [Mullvad VPN](products/mullvad.md), and [Mullvad Browser](products/mullvad-browser.md).
+*   **Security & Browsing:** [Passbolt](products/passbolt.md), [Cryptomator](products/cryptomator.md), [VeraCrypt](products/veracrypt.md), [Mullvad VPN](products/mullvad.md), and [Mullvad Browser](products/mullvad-browser.md).
 *   **AI Assistant:** [Mistral AI](products/mistral.md) (Managed or Self-hosted assistant).
 *   **Search:** [Startpage](products/startpage.md) or [Qwant](products/qwant.md).
 *   **Digital Archiving & OCR:** [Paperless-ngx](products/paperless-ngx.md) (Automated records management).

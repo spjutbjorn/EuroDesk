@@ -19,9 +19,11 @@ Mullvad is a privacy-focused VPN provider based in Gothenburg, Sweden. It is wid
 
 | Plan | Price |
 |---|---|
-| **Standard** | 5 €/month (same for all) |
+| **Flat Rate** | 5 €/month (same for all) |
 
-No tiered pricing, no upsells. One flat rate per device license.
+- **No bulk discounts:** 1 month or 10 years, it is always 5 €/mo.
+- **Crypto Discount:** Payments with Bitcoin, Bitcoin Cash, or Monero receive a **10% discount**.
+- **No Accounts:** No email or password; access is tied to a 16-digit account number.
 
 ## For Teams
 

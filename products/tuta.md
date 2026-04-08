@@ -15,15 +15,13 @@ Tuta is an encrypted email and calendar service based in Hannover, Germany. All 
 |---|---|
 | **Tuta managed** | Managed service hosted in Germany |
 
-## Plans
+## Plans (Business)
 
-| Plan | Price | Users | Storage |
+| Plan | Price (Yearly) | Storage | Domains |
 |---|---|---|---|
-| **Free** | Free | 1 | 1 GB |
-| **Revolutionary** | 3 €/mo | 1 | 20 GB |
-| **Legend** | 8 €/mo | 1 | 500 GB |
-| **Essential (Teams)** | 6 €/user/mo | Min 1 | 10 GB/user |
-| **Premier (Teams)** | 14 €/user/mo | Min 1 | 20 GB/user |
+| **Essential** | €6 /user/mo | 50 GB | 3 |
+| **Advanced** | €8 /user/mo | 500 GB | 10 |
+| **Unlimited** | €12 /user/mo | 1 TB | Unlimited |
 
 ## Setup for a Team
 

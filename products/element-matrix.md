@@ -9,13 +9,14 @@
 
 Matrix is an open, decentralized communication protocol. Element is the most popular Matrix client. Together they provide Slack-like team messaging, direct messages, voice/video calls, and file sharing — with full federation and end-to-end encryption.
 
-## EU Hosting Options
+## Plans (Element Managed Cloud)
 
-| Option | Description |
-|---|---|
-| **Self-hosted (Synapse/Dendrite)** | Run your own Matrix homeserver on any EU VPS (Hetzner, Scaleway, OVHcloud) |
-| **Element Cloud (EU region)** | Managed hosting with data in the EU |
-| **Unify (element.io enterprise)** | Enterprise managed service, EU data residency available |
+| Plan | Price (User/Mo) | Key Features |
+|---|---|---|
+| **Free (FOSS)** | $0 | Self-hosted (Synapse), no support |
+| **Business** | ~$5.00 | Managed cloud, E2EE, standard admin |
+| **Enterprise** | ~$10.00 | SSO (SAML), SLAs, 24/7 support |
+| **Sovereign** | Custom | Air-gapped, high-security, full control |
 
 ## Setup (Self-hosted with Synapse)
 

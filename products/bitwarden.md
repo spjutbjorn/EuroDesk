@@ -162,11 +162,11 @@ Schedule this with a cron job:
 
 ## Compliance Notes
 
-- Self-hosted: all data stays on your EU server
-- Zero-knowledge encryption: server stores only ciphertext
-- Vaultwarden is open source (AGPL-3.0)
-- No telemetry when self-hosted
-- Regular security audits of Bitwarden (official audits apply to the Bitwarden protocol, which Vaultwarden implements)
+- **Sovereignty:** Bitwarden Inc. is a US company. While they offer an EU cloud region, it remains subject to the **US CLOUD Act**.
+- **Self-hosting Advantage:** When self-hosted (Official or Vaultwarden) on your own EU infrastructure, Bitwarden Inc. has no access to your database or encryption keys. This effectively nullifies the reach of the CLOUD Act for your vault data.
+- **Zero-knowledge:** Even in the cloud, all data is end-to-end encrypted. Bitwarden cannot decrypt your vault.
+- **No Telemetry:** Self-hosted instances do not send vault metadata to US servers.
+- **Audit:** Regular security audits of the Bitwarden protocol apply to both official and third-party implementations like Vaultwarden.
 
 ## Alternatives Considered
 

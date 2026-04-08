@@ -20,21 +20,31 @@ Mistral AI is Europe's leading LLM provider, based in Paris. Le Chat is the cons
 
 ## Key Features
 
-- Chat, web search, document analysis, code generation, image generation
-- Canvas for collaborative document and code editing
-- Multilingual support with strong European language coverage
-- Up to 500 memories per user
-- Enterprise: SSO, admin controls, audit logging, on-prem deployment
+- **Le Chat:** Web-based assistant with chat, search, document analysis, and image generation.
+- **Mistral Vibe:** Integrated development environment and CLI for real-time coding.
+- **Deep Research:** Advanced high-reasoning mode for complex technical reports.
+- **Canvas:** Collaborative editing for code and documents.
+- **Enterprise Features:** SSO (SAML), admin console, audit logs, and on-prem/private cloud deployment.
 
-## Pricing
+## Pricing (Le Chat)
 
-| Plan | Price |
-|---|---|
-| **Free** | Basic access |
-| **Pro** | ~$14.99/user/month |
-| **Student** | ~$7.04/user/month |
-| **Enterprise** | Custom pricing |
-| **API** | From $0.20/M tokens (Small) to $2/M tokens (Large) |
+| Plan | Price (User/Mo) | Key Limits |
+|---|---|---|
+| **Free** | $0 | Access to Large; limited messages & storage |
+| **Pro** | $14.99 | ~150 msgs/day; No Telemetry Mode |
+| **Team** | $24.99 ($19.99 ann.) | 200 Flash Answers; Google/SP connectors |
+| **Enterprise** | Custom | Unlimited; Private Cloud options |
+
+## API Rates (La Plateforme)
+
+| Model | Input (per 1M) | Output (per 1M) |
+|---|---|---|
+| **Mistral Large 3** | $0.50 | $1.50 |
+| **Mistral Medium 3** | $0.40 | $2.00 |
+| **Mistral Small 3.1** | $0.03 | $0.11 |
+| **Codestral** | $0.20 | $0.60 |
+
+> **Caching:** Cached inputs are billed at a 90% discount.
 
 ## Compliance Notes
 

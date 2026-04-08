@@ -1,7 +1,7 @@
 # EuroDesk Product Verification Report
 
 **Date:** Wednesday, April 8, 2026
-**Scope:** Verification of all 69 tools in the `products/` directory for consistency with the product documents currently stored in `products/`.  
+**Scope:** Verification of all 76 tools in the `products/` directory for consistency with the product documents currently stored in `products/`.  
 **Verification level:** This report mirrors the current product metadata (`title`, `category`, `jurisdiction`, `type`) in the local product files. In this audit pass, selected higher-risk and newer entries — especially AI products and recently added tools — were additionally checked against official vendor or project sources. It still does not independently re-verify every pricing table or every installation command in every product guide.
 
 ## Summary Verification Table
@@ -19,17 +19,20 @@
 | **Brevo** | Marketing & Newsletters | EU (France) | SaaS |
 | **Cal.com** | Scheduling & Booking | US (Open Source / Self-Hosted Exception) | Self-hosted (Exception) / SaaS |
 | **Collabora Online** | Office Suite | Germany / United Kingdom (adequacy-approved) | Self-hosted or managed |
+| **Cryptomator** | Encryption / Data Protection | Germany (EU) | Local Software |
 | **CryptPad** | Collaborative Documents (End-to-End Encrypted) | France (EU, GDPR) — flagship instance hosted by XWiki SAS, Paris | Self-hosted or managed |
 | **DeepL** | Translation | Germany (EU) | Managed SaaS / API |
 | **Documenso** | E-signing | Germany (EU) | Self-hosted or managed |
 | **Easy!Appointments** | Scheduling / Booking | EU-hostable when self-hosted | Self-hosted |
 | **Element / Matrix** | Team Communication | EU-hostable (servers in your chosen EU data center) | Self-hosted or managed |
+| **Eramba** | Governance, Risk & Compliance (GRC) | Global (Open Source / Self-Hosted Exception) | Self-hosted |
 | **EU Hosting Providers** | Cloud Infrastructure, GPU Hosting, AI Inference | EU-ägda bolag, data stannar i EU | IaaS / PaaS |
 | **EULLM** | AI Infrastructure, LLM Platform | EU-hostable | Self-hosted (open source) |
 | **eustella** | AI Assistant | Austria (EU) | Managed SaaS (mobile-first) |
 | **Excalidraw** | Whiteboarding & Collaboration | US/Global (Open Source / Self-Hosted Exception) | Self-hosted (Exception) / SaaS |
 | **Forgejo** | Git Hosting, Code Review, Package Registry, CI/CD | EU-hostable; community-governed open source (no single corporate owner) | Self-hosted |
 | **Framadate** | Scheduling & Booking | EU (France) | Self-hosted / Managed |
+| **GlobaLeaks** | Whistleblowing & Compliance | EU (Italy) | Self-hosted |
 | **GLPI** | Asset Management / CMDB | France (EU) via Teclib | Self-hosted or managed |
 | **Grafana + Loki + Prometheus** | Logging, Monitoring & Alerting | EU-hostable; Grafana Labs is US-based but the software is open source and fully self-hostable | Self-hosted |
 | **Jitsi Meet** | Video Conferencing | EU-hostable | Self-hosted or managed |
@@ -42,6 +45,7 @@
 | **Matomo** | Web Analytics | EU compliant (InnoCraft) | Self-hosted / SaaS |
 | **Mattermost** | Team Messaging | EU-hostable | Self-hosted or managed (EU region) |
 | **Mistral AI / Le Chat** | AI Assistant, LLM | France (EU) | Managed SaaS / Self-hosted / API |
+| **Mixpost** | Social Media Management | EU (Czech Republic) | Self-hosted / SaaS |
 | **Mullvad Browser** | Web Browser | EU (Sweden) | Local Software |
 | **Mullvad VPN** | VPN | Sweden (EU, GDPR) | Managed SaaS |
 | **n8n** | Automation / Workflows | Germany (EU) | Self-hosted or managed |
@@ -59,6 +63,7 @@
 | **Passbolt** | Team Password Manager | Luxembourg (EU, GDPR) — Passbolt SA, Luxembourg | Self-hosted or managed |
 | **Penpot** | Design & Prototyping | Spain (EU) | Self-hosted or managed |
 | **Personio** | HR & Recruitment | EU (Germany) | SaaS |
+| **Pimcore** | Digital Asset Management (DAM) & Master Data | EU (Austria) | Self-hosted / PaaS |
 | **Planka** | Kanban Board | EU-hostable (open source, no vendor lock-in) | Self-hosted |
 | **Plausible Analytics** | Web Analytics | Estonia (EU) | Self-hosted or managed |
 | **PrestaShop** | E-commerce | EU (France) | Self-hosted / Managed |
@@ -69,10 +74,12 @@
 | **Sentry (Self-hosted)** | Error Tracking & Application Monitoring | EU-hostable when self-hosted; sentry.io managed is US-hosted | Self-hosted |
 | **Shopware** | E-commerce | EU (Germany) | Self-hosted / SaaS |
 | **Startpage** | Search Engine | Netherlands (EU, GDPR) | Managed SaaS |
+| **Strapi** | Content Management System (Headless CMS) | EU (France) | Self-hosted / SaaS |
 | **SwissTransfer** | File Transfer | Switzerland (Adequacy-Approved) | SaaS |
 | **Tally** | Form Builder | Belgium (EU) | Managed SaaS |
 | **Tresorit** | File Transfer & Storage | Switzerland (Adequacy-Approved) | SaaS |
 | **Tuta (formerly Tutanota)** | Email | Germany (EU, GDPR) | Managed SaaS |
+| **TYPO3** | Enterprise Content Management System (CMS) | EU (Switzerland/Germany) | Self-hosted |
 | **Wazuh** | Security Monitoring / Endpoint Security | Spain (EU) | Self-hosted or managed |
 | **Weblate** | Translation Management / Localization | Czech Republic (EU) | Self-hosted or managed |
 | **Zammad** | Helpdesk / Ticketing | Germany (EU) | Self-hosted or managed |

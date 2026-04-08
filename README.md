@@ -114,6 +114,12 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Passbolt](products/passbolt.md) | Team password manager | `products/passbolt.md` |
 | [Bitwarden (self-hosted)](products/bitwarden.md) | Password manager | `products/bitwarden.md` |
 
+### Encryption / Data Protection
+| Tool | Type | File |
+|---|---|---|
+| [Cryptomator](products/cryptomator.md) | Client-side file encryption | `products/cryptomator.md` |
+| [VeraCrypt](products/veracrypt.md) | Encrypted containers and volumes | `products/veracrypt.md` |
+
 ### Identity / SSO
 | Tool | Type | File |
 |---|---|---|
@@ -158,6 +164,22 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 |---|---|---|
 | [Brevo](products/brevo.md) | Email marketing & automation | `products/brevo.md` |
 | [MailerLite](products/mailerlite.md) | Email marketing | `products/mailerlite.md` |
+
+### Social Media Management
+| Tool | Type | File |
+|---|---|---|
+| [Mixpost](products/mixpost.md) | Social media scheduling and dashboard | `products/mixpost.md` |
+
+### Content Management Systems (CMS)
+| Tool | Type | File |
+|---|---|---|
+| [Strapi](products/strapi.md) | Headless CMS | `products/strapi.md` |
+| [TYPO3](products/typo3.md) | Enterprise CMS | `products/typo3.md` |
+
+### Digital Asset Management (DAM) & Master Data
+| Tool | Type | File |
+|---|---|---|
+| [Pimcore](products/pimcore.md) | DAM, MDM, and product catalog | `products/pimcore.md` |
 
 ### Product Information Management (PIM)
 | Tool | Type | File |
@@ -219,6 +241,12 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | Tool | Type | File |
 |---|---|---|
 | [Zammad](products/zammad.md) | Helpdesk and support ticketing | `products/zammad.md` |
+
+### Governance, Risk & Compliance (GRC)
+| Tool | Type | File |
+|---|---|---|
+| [Eramba](products/eramba.md) | GRC and audit management | `products/eramba.md` |
+| [GlobaLeaks](products/globaleaks.md) | Anonymous whistleblowing | `products/globaleaks.md` |
 
 ### Security Monitoring / Endpoint Security
 | Tool | Type | File |

@@ -15,15 +15,13 @@ Proton Mail is an end-to-end encrypted email service headquartered in Geneva, Sw
 |---|---|
 | **Proton managed** | Managed service operated from Switzerland |
 
-## Plans
+## Plans (Business)
 
-| Plan | Price | Mailboxes | Storage |
+| Plan | Price (Annually) | Storage | Key Features |
 |---|---|---|---|
-| **Proton Free** | Free | 1 | 1 GB |
-| **Proton Mail Plus** | ~4 €/mo | 1 | 15 GB |
-| **Proton for Business (Essentials)** | 6.99 €/user/mo | 1 per user | 15 GB/user |
-| **Proton for Business (Professional)** | 10.99 €/user/mo | 10 per user | 100 GB/user |
-| **Proton Enterprise** | Custom | Unlimited | Custom |
+| **Mail Essentials** | $6.99 /user/mo | 15 GB | 3 domains, basic Proton Meet |
+| **Workspace Standard** | $12.99 /user/mo | 1 TB | 15 domains, VPN & Pass included |
+| **Workspace Premium** | $19.99 /user/mo | 3 TB | Lumo AI, Proton Scribe, Advanced Compliance |
 
 ## Setup for a Team
 
