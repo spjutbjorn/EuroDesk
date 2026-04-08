@@ -26,6 +26,16 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Jitsi Meet](products/jitsi-meet.md) | Video conferencing | `products/jitsi-meet.md` |
 | [Mattermost](products/mattermost.md) | Team messaging | `products/mattermost.md` |
 
+### Webinars & E-Learning
+| Tool | Type | File |
+|---|---|---|
+| [BigBlueButton](products/bigbluebutton.md) | Web conferencing & training | `products/bigbluebutton.md` |
+
+### Learning Management System (LMS)
+| Tool | Type | File |
+|---|---|---|
+| [OpenOlat](products/openolat.md) | Courses, assessments, and training delivery | `products/openolat.md` |
+
 ### Email
 | Tool | Type | File |
 |---|---|---|
@@ -41,6 +51,12 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [ONLYOFFICE](products/onlyoffice.md) | Office suite | `products/onlyoffice.md` |
 | [Collabora Online](products/collabora.md) | Office suite | `products/collabora.md` |
 
+### Document Management & Archiving
+| Tool | Type | File |
+|---|---|---|
+| [Paperless-ngx](products/paperless-ngx.md) | Document archiving & OCR | `products/paperless-ngx.md` |
+| [OpenKM](products/openkm.md) | Document workflow and records management | `products/openkm.md` |
+
 ### File Transfer
 | Tool | Type | File |
 |---|---|---|
@@ -51,6 +67,11 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | Tool | Type | File |
 |---|---|---|
 | [Penpot](products/penpot.md) | Design & Prototyping | `products/penpot.md` |
+
+### Whiteboarding & Collaboration
+| Tool | Type | File |
+|---|---|---|
+| [Excalidraw](products/excalidraw.md) | Virtual whiteboard | `products/excalidraw.md` |
 
 ### Project Management
 | Tool | Type | File |
@@ -138,6 +159,11 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Brevo](products/brevo.md) | Email marketing & automation | `products/brevo.md` |
 | [MailerLite](products/mailerlite.md) | Email marketing | `products/mailerlite.md` |
 
+### Product Information Management (PIM)
+| Tool | Type | File |
+|---|---|---|
+| [Akeneo PIM](products/akeneo.md) | Product catalog management | `products/akeneo.md` |
+
 ### E-commerce
 | Tool | Type | File |
 |---|---|---|
@@ -148,6 +174,12 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | Tool | Type | File |
 |---|---|---|
 | [DeepL](products/deepl.md) | AI translation | `products/deepl.md` |
+| [Weblate](products/weblate.md) | Translation management and localization | `products/weblate.md` |
+
+### Routing / Fleet Planning
+| Tool | Type | File |
+|---|---|---|
+| [openrouteservice](products/openrouteservice.md) | Route planning and spatial optimization | `products/openrouteservice.md` |
 
 ### Web Browser
 | Tool | Type | File |
