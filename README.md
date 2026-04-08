@@ -16,10 +16,13 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 - **[Common EU Roles](roles.md)**: Typical white-collar roles served by this stack.
 - **[Core Mapping](core.md)**: Minimum product requirements per role.
 - **[Verification Report](verification_report.md)**: Compliance audit of all included tools.
+- **[Audit Status](audit_status.md)**: Ongoing tracking of tool verifications.
+- **[Full Product List](products.md)**: Categorized overview of all 76 tools.
 
 ## Tool Categories
 
 ### Communication
+
 | Tool | Type | File |
 |---|---|---|
 | [Element / Matrix](products/element-matrix.md) | Team chat & messaging | `products/element-matrix.md` |
@@ -27,16 +30,19 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Mattermost](products/mattermost.md) | Team messaging | `products/mattermost.md` |
 
 ### Webinars & E-Learning
+
 | Tool | Type | File |
 |---|---|---|
 | [BigBlueButton](products/bigbluebutton.md) | Web conferencing & training | `products/bigbluebutton.md` |
 
 ### Learning Management System (LMS)
+
 | Tool | Type | File |
 |---|---|---|
 | [OpenOlat](products/openolat.md) | Courses, assessments, and training delivery | `products/openolat.md` |
 
 ### Email
+
 | Tool | Type | File |
 |---|---|---|
 | [Proton Mail](products/proton-mail.md) | Encrypted email | `products/proton-mail.md` |
@@ -44,6 +50,7 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Mailbox.org](products/mailbox-org.md) | Business email | `products/mailbox-org.md` |
 
 ### File Storage & Documents
+
 | Tool | Type | File |
 |---|---|---|
 | [Nextcloud](products/nextcloud.md) | File sync, calendar, contacts | `products/nextcloud.md` |
@@ -52,45 +59,53 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Collabora Online](products/collabora.md) | Office suite | `products/collabora.md` |
 
 ### Document Management & Archiving
+
 | Tool | Type | File |
 |---|---|---|
 | [Paperless-ngx](products/paperless-ngx.md) | Document archiving & OCR | `products/paperless-ngx.md` |
 | [OpenKM](products/openkm.md) | Document workflow and records management | `products/openkm.md` |
 
 ### File Transfer
+
 | Tool | Type | File |
 |---|---|---|
 | [SwissTransfer](products/swisstransfer.md) | Secure large file transfer | `products/swisstransfer.md` |
 | [Tresorit](products/tresorit.md) | E2E encrypted file transfer | `products/tresorit.md` |
 
 ### Design & Prototyping
+
 | Tool | Type | File |
 |---|---|---|
 | [Penpot](products/penpot.md) | Design & Prototyping | `products/penpot.md` |
 
 ### Whiteboarding & Collaboration
+
 | Tool | Type | File |
 |---|---|---|
 | [Excalidraw](products/excalidraw.md) | Virtual whiteboard | `products/excalidraw.md` |
 
 ### Project Management
+
 | Tool | Type | File |
 |---|---|---|
 | [OpenProject](products/openproject.md) | Project & task management | `products/openproject.md` |
 | [Planka](products/planka.md) | Kanban board | `products/planka.md` |
 
 ### CRM & ERP
+
 | Tool | Type | File |
 |---|---|---|
 | [Odoo](products/odoo.md) | CRM, ERP & Business apps | `products/odoo.md` |
 
 ### Accounting / Invoicing / Time Tracking
+
 | Tool | Type | File |
 |---|---|---|
 | [Odoo](products/odoo.md) | Invoicing, accounting, and finance workflows | `products/odoo.md` |
 | [Kimai](products/kimai.md) | Time tracking & invoicing | `products/kimai.md` |
 
 ### HR / People Operations
+
 | Tool | Type | File |
 |---|---|---|
 | [Odoo](products/odoo.md) | Employee records, leave, and HR workflows | `products/odoo.md` |
@@ -98,61 +113,72 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Recruitee](products/recruitee.md) | Collaborative hiring | `products/recruitee.md` |
 
 ### Procurement
+
 | Tool | Type | File |
 |---|---|---|
 | [Odoo](products/odoo.md) | Purchasing, vendors, and procurement workflows | `products/odoo.md` |
 
 ### Note-taking & Workspaces
+
 | Tool | Type | File |
 |---|---|---|
 | [AppFlowy](products/appflowy.md) | Notion alternative | `products/appflowy.md` |
 | [Logseq](products/logseq.md) | Local-first knowledge base | `products/logseq.md` |
 
 ### Password Management
+
 | Tool | Type | File |
 |---|---|---|
 | [Passbolt](products/passbolt.md) | Team password manager | `products/passbolt.md` |
 | [Bitwarden (self-hosted)](products/bitwarden.md) | Password manager | `products/bitwarden.md` |
 
 ### Encryption / Data Protection
+
 | Tool | Type | File |
 |---|---|---|
 | [Cryptomator](products/cryptomator.md) | Client-side file encryption | `products/cryptomator.md` |
 | [VeraCrypt](products/veracrypt.md) | Encrypted containers and volumes | `products/veracrypt.md` |
 
 ### Identity / SSO
+
 | Tool | Type | File |
 |---|---|---|
 | [ZITADEL](products/zitadel.md) | Identity, SSO, MFA, passkeys | `products/zitadel.md` |
 
 ### Backup / Disaster Recovery
+
 | Tool | Type | File |
 |---|---|---|
 | [Bareos](products/bareos.md) | Central backups and restore workflows | `products/bareos.md` |
 
 ### Endpoint Management / MDM
+
 | Tool | Type | File |
 |---|---|---|
 | [opsi](products/opsi.md) | Software deployment and endpoint management | `products/opsi.md` |
 
 ### Asset Management / CMDB
+
 | Tool | Type | File |
 |---|---|---|
 | [GLPI](products/glpi.md) | Asset inventory, CMDB, contracts, and suppliers | `products/glpi.md` |
 
 ### VPN
+
 | Tool | Type | File |
 |---|---|---|
 | [Mullvad](products/mullvad.md) | VPN | `products/mullvad.md` |
 | [Proton VPN](products/proton-vpn.md) | VPN | `products/proton-vpn.md` |
 
 ### Search
+
 | Tool | Type | File |
 |---|---|---|
 | [Startpage](products/startpage.md) | Private search engine | `products/startpage.md` |
 | [Qwant](products/qwant.md) | Private search engine | `products/qwant.md` |
 
 ### Scheduling / Booking
+
 | Tool | Type | File |
 |---|---|---|
 | [Easy!Appointments](products/easyappointments.md) | Appointment and booking system | `products/easyappointments.md` |
@@ -160,45 +186,53 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Framadate](products/framadate.md) | Simple appointment planning | `products/framadate.md` |
 
 ### Marketing & Newsletters
+
 | Tool | Type | File |
 |---|---|---|
 | [Brevo](products/brevo.md) | Email marketing & automation | `products/brevo.md` |
 | [MailerLite](products/mailerlite.md) | Email marketing | `products/mailerlite.md` |
 
 ### Social Media Management
+
 | Tool | Type | File |
 |---|---|---|
 | [Mixpost](products/mixpost.md) | Social media scheduling and dashboard | `products/mixpost.md` |
 
 ### Content Management Systems (CMS)
+
 | Tool | Type | File |
 |---|---|---|
 | [Strapi](products/strapi.md) | Headless CMS | `products/strapi.md` |
 | [TYPO3](products/typo3.md) | Enterprise CMS | `products/typo3.md` |
 
 ### Digital Asset Management (DAM) & Master Data
+
 | Tool | Type | File |
 |---|---|---|
 | [Pimcore](products/pimcore.md) | DAM, MDM, and product catalog | `products/pimcore.md` |
 
 ### Product Information Management (PIM)
+
 | Tool | Type | File |
 |---|---|---|
 | [Akeneo PIM](products/akeneo.md) | Product catalog management | `products/akeneo.md` |
 
 ### E-commerce
+
 | Tool | Type | File |
 |---|---|---|
 | [PrestaShop](products/prestashop.md) | Open-source e-commerce | `products/prestashop.md` |
 | [Shopware](products/shopware.md) | Open-source e-commerce | `products/shopware.md` |
 
 ### Translation
+
 | Tool | Type | File |
 |---|---|---|
 | [DeepL](products/deepl.md) | AI translation | `products/deepl.md` |
 | [Weblate](products/weblate.md) | Translation management and localization | `products/weblate.md` |
 
 ### Sovereign AI Stack
+
 | Tool | Type | File |
 |---|---|---|
 | [Mistral AI](products/mistral.md) | EU-native LLM assistant & API | `products/mistral.md` |
@@ -210,22 +244,26 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [EULLM](products/eullm.md) | Sovereign LLM runtime and registry | `products/eullm.md` |
 
 ### Web Browser
+
 | Tool | Type | File |
 |---|---|---|
 | [Mullvad Browser](products/mullvad-browser.md) | Privacy-focused browser | `products/mullvad-browser.md` |
 
 ### Web Analytics
+
 | Tool | Type | File |
 |---|---|---|
 | [Plausible Analytics](products/plausible.md) | Privacy-first analytics | `products/plausible.md` |
 | [Matomo](products/matomo.md) | Full-featured analytics | `products/matomo.md` |
 
 ### BI / Dashboards
+
 | Tool | Type | File |
 |---|---|---|
 | [Apache Superset](products/apache-superset.md) | Business intelligence and dashboards | `products/apache-superset.md` |
 
 ### Forms / Surveys / E-signing
+
 | Tool | Type | File |
 |---|---|---|
 | [LimeSurvey](products/limesurvey.md) | Forms and surveys | `products/limesurvey.md` |
@@ -233,27 +271,32 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Documenso](products/documenso.md) | Electronic signatures | `products/documenso.md` |
 
 ### Automation / Workflows
+
 | Tool | Type | File |
 |---|---|---|
 | [n8n](products/n8n.md) | Internal automation and workflow orchestration | `products/n8n.md` |
 
 ### Helpdesk / Ticketing
+
 | Tool | Type | File |
 |---|---|---|
 | [Zammad](products/zammad.md) | Helpdesk and support ticketing | `products/zammad.md` |
 
 ### Governance, Risk & Compliance (GRC)
+
 | Tool | Type | File |
 |---|---|---|
 | [Eramba](products/eramba.md) | GRC and audit management | `products/eramba.md` |
 | [GlobaLeaks](products/globaleaks.md) | Anonymous whistleblowing | `products/globaleaks.md` |
 
 ### Security Monitoring / Endpoint Security
+
 | Tool | Type | File |
 |---|---|---|
 | [Wazuh](products/wazuh.md) | Endpoint monitoring, vulnerability detection, and alerting | `products/wazuh.md` |
 
 ### Developer Tools
+
 | Tool | Type | File |
 |---|---|---|
 | [Forgejo](products/forgejo.md) | Git hosting, CI/CD, package registry | `products/forgejo.md` |
@@ -262,11 +305,13 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Outline](products/outline.md) | Team wiki & knowledge base | `products/outline.md` |
 
 ### Routing / Fleet Planning
+
 | Tool | Type | File |
 |---|---|---|
 | [openrouteservice](products/openrouteservice.md) | Route planning and spatial optimization | `products/openrouteservice.md` |
 
 ### Cloud Infrastructure & Hosting
+
 | Tool | Type | File |
 |---|---|---|
 | [EU Hosting Providers](products/hosting.md) | IaaS, PaaS, GPU Hosting | `products/hosting.md` |

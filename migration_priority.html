@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroDesk Migration Priority Matrix</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 40px; background-color: #f8f9fa; color: #333; }
+        h1 { color: #0056b3; }
+        h2 { color: #0056b3; margin-top: 30px; }
+        p { margin-bottom: 20px; color: #555; line-height: 1.5; max-width: 1000px; }
+        .controls { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 30px; max-width: 1000px; }
+        .controls h3 { margin-top: 0; color: #0056b3; }
+        .weight-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
+        .weight-item { display: flex; flex-direction: column; gap: 4px; }
+        .weight-item label { font-size: 0.85em; font-weight: 600; color: #444; }
+        .weight-item .hint { font-size: 0.75em; color: #888; }
+        .weight-item input[type="range"] { width: 100%; }
+        .weight-value { font-size: 0.85em; color: #0056b3; font-weight: bold; text-align: center; }
+        table { width: 100%; max-width: 1400px; border-collapse: collapse; margin-bottom: 40px; background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        th, td { padding: 10px 12px; border: 1px solid #dee2e6; text-align: center; }
+        th { background-color: #0056b3; color: white; font-weight: 500; position: sticky; top: 0; font-size: 0.85em; }
+        td:first-child { text-align: left; font-weight: 600; }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        select { width: 100%; padding: 4px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.85em; }
+        .score-cell { font-weight: bold; font-size: 1.05em; }
+        .priority-critical { background-color: #f8d7da; color: #721c24; }
+        .priority-high { background-color: #fff3cd; color: #856404; }
+        .priority-medium { background-color: #d4edda; color: #155724; }
+        .priority-low { background-color: #e2e3e5; color: #383d41; }
+        .rank-cell { font-weight: bold; font-size: 1.1em; color: #0056b3; }
+        .legend { display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap; }
+        .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.85em; }
+        .legend-color { width: 16px; height: 16px; border-radius: 3px; }
+        #sort-btn { background: #0056b3; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 0.95em; margin-bottom: 20px; }
+        #sort-btn:hover { background: #004494; }
+        .summary { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 1000px; margin-bottom: 30px; }
+        .summary h3 { margin-top: 0; color: #0056b3; }
+        .summary-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; text-align: center; }
+        .stat-box { padding: 15px; border-radius: 6px; }
+        .stat-box .number { font-size: 1.8em; font-weight: bold; }
+        .stat-box .label { font-size: 0.8em; color: #666; }
+    </style>
+</head>
+<body>
+
+    <h1>EuroDesk Migration Priority Matrix</h1>
+    <p>
+        Score each product across five dimensions to determine migration priority. Adjust the dimension weights below to reflect your organization's priorities (e.g., a regulated company might weight "Regulatory Risk" higher). Products are ranked by weighted total score.
+    </p>
+
+    <div class="controls">
+        <h3>Dimension Weights</h3>
+        <p style="font-size: 0.85em; margin-bottom: 15px;">Drag sliders to emphasize what matters most for your organization. Higher weight = more influence on the final priority score.</p>
+        <div class="weight-grid">
+            <div class="weight-item">
+                <label>Data Sensitivity</label>
+                <span class="hint">How sensitive is the data this tool handles?</span>
+                <input type="range" min="1" max="5" value="5" id="w-data" oninput="recalcAll()">
+                <span class="weight-value" id="wv-data">5</span>
+            </div>
+            <div class="weight-item">
+                <label>Regulatory Risk</label>
+                <span class="hint">GDPR/CLOUD Act exposure of staying on current tool</span>
+                <input type="range" min="1" max="5" value="4" id="w-regulatory" oninput="recalcAll()">
+                <span class="weight-value" id="wv-regulatory">4</span>
+            </div>
+            <div class="weight-item">
+                <label>EU Alternative Maturity</label>
+                <span class="hint">How production-ready is the EU replacement?</span>
+                <input type="range" min="1" max="5" value="3" id="w-maturity" oninput="recalcAll()">
+                <span class="weight-value" id="wv-maturity">3</span>
+            </div>
+            <div class="weight-item">
+                <label>User Impact</label>
+                <span class="hint">How many users depend on this daily?</span>
+                <input type="range" min="1" max="5" value="3" id="w-impact" oninput="recalcAll()">
+                <span class="weight-value" id="wv-impact">3</span>
+            </div>
+            <div class="weight-item">
+                <label>Migration Ease</label>
+                <span class="hint">How easy is it to switch? (high = easy = migrate sooner)</span>
+                <input type="range" min="1" max="5" value="2" id="w-ease" oninput="recalcAll()">
+                <span class="weight-value" id="wv-ease">2</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="summary" id="summary">
+        <h3>Migration Summary</h3>
+        <div class="summary-stats">
+            <div class="stat-box priority-critical"><div class="number" id="count-critical">0</div><div class="label">Critical</div></div>
+            <div class="stat-box priority-high"><div class="number" id="count-high">0</div><div class="label">High</div></div>
+            <div class="stat-box priority-medium"><div class="number" id="count-medium">0</div><div class="label">Medium</div></div>
+            <div class="stat-box priority-low"><div class="number" id="count-low">0</div><div class="label">Low</div></div>
+        </div>
+    </div>
+
+    <div class="legend">
+        <div class="legend-item"><div class="legend-color priority-critical"></div> Critical (80-100%)</div>
+        <div class="legend-item"><div class="legend-color priority-high"></div> High (60-79%)</div>
+        <div class="legend-item"><div class="legend-color priority-medium"></div> Medium (40-59%)</div>
+        <div class="legend-item"><div class="legend-color priority-low"></div> Low (0-39%)</div>
+    </div>
+
+    <button id="sort-btn" onclick="sortTable()">Sort by Priority Score</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 40px;">#</th>
+                <th style="min-width: 160px;">Product</th>
+                <th>Replaces</th>
+                <th style="min-width: 110px;">Data Sensitivity<br><span style="font-weight:normal;font-size:0.8em;">1=low 5=critical</span></th>
+                <th style="min-width: 110px;">Regulatory Risk<br><span style="font-weight:normal;font-size:0.8em;">1=low 5=urgent</span></th>
+                <th style="min-width: 110px;">EU Alt. Maturity<br><span style="font-weight:normal;font-size:0.8em;">1=early 5=proven</span></th>
+                <th style="min-width: 110px;">User Impact<br><span style="font-weight:normal;font-size:0.8em;">1=few 5=everyone</span></th>
+                <th style="min-width: 110px;">Migration Ease<br><span style="font-weight:normal;font-size:0.8em;">1=hard 5=easy</span></th>
+                <th style="width: 80px;">Score</th>
+                <th style="width: 90px;">Priority</th>
+            </tr>
+        </thead>
+        <tbody id="matrix-body"></tbody>
+    </table>
+
+    <script>
+    const products = [
+        { name: "Proton Mail", replaces: "Google Workspace / M365", data: 5, reg: 5, mat: 5, impact: 5, ease: 3 },
+        { name: "Tuta", replaces: "Google Workspace / M365", data: 5, reg: 5, mat: 4, impact: 5, ease: 3 },
+        { name: "Mailbox.org", replaces: "Google Workspace / M365", data: 5, reg: 5, mat: 4, impact: 5, ease: 3 },
+        { name: "Nextcloud", replaces: "Google Drive / OneDrive", data: 5, reg: 4, mat: 5, impact: 5, ease: 3 },
+        { name: "CryptPad", replaces: "Google Docs", data: 4, reg: 4, mat: 3, impact: 3, ease: 4 },
+        { name: "ONLYOFFICE", replaces: "MS Office Online", data: 4, reg: 3, mat: 4, impact: 4, ease: 3 },
+        { name: "Collabora Online", replaces: "MS Office Online", data: 4, reg: 3, mat: 4, impact: 4, ease: 3 },
+        { name: "Element / Matrix", replaces: "Slack / MS Teams", data: 4, reg: 4, mat: 4, impact: 5, ease: 2 },
+        { name: "Mattermost", replaces: "Slack / MS Teams", data: 4, reg: 4, mat: 5, impact: 5, ease: 3 },
+        { name: "Jitsi Meet", replaces: "Zoom / MS Teams", data: 3, reg: 3, mat: 4, impact: 5, ease: 4 },
+        { name: "BigBlueButton", replaces: "Zoom / MS Teams", data: 3, reg: 3, mat: 4, impact: 3, ease: 3 },
+        { name: "Passbolt", replaces: "LastPass / 1Password", data: 5, reg: 5, mat: 4, impact: 5, ease: 3 },
+        { name: "Bitwarden (Self-hosted)", replaces: "LastPass / 1Password", data: 5, reg: 5, mat: 5, impact: 5, ease: 3 },
+        { name: "ZITADEL", replaces: "Okta / Auth0 / Azure AD", data: 5, reg: 5, mat: 4, impact: 5, ease: 2 },
+        { name: "Mullvad VPN", replaces: "Cisco AnyConnect / NordVPN", data: 4, reg: 3, mat: 5, impact: 4, ease: 5 },
+        { name: "Proton VPN", replaces: "Cisco AnyConnect / NordVPN", data: 4, reg: 3, mat: 5, impact: 4, ease: 5 },
+        { name: "Mullvad Browser", replaces: "Chrome / Edge", data: 3, reg: 2, mat: 3, impact: 5, ease: 4 },
+        { name: "Startpage", replaces: "Google Search", data: 3, reg: 3, mat: 4, impact: 5, ease: 5 },
+        { name: "Qwant", replaces: "Google Search", data: 3, reg: 3, mat: 3, impact: 5, ease: 5 },
+        { name: "Mistral AI / Le Chat", replaces: "ChatGPT / OpenAI", data: 4, reg: 4, mat: 4, impact: 4, ease: 4 },
+        { name: "Aleph Alpha", replaces: "ChatGPT / OpenAI", data: 4, reg: 4, mat: 3, impact: 3, ease: 3 },
+        { name: "Open WebUI", replaces: "ChatGPT / OpenAI", data: 4, reg: 4, mat: 3, impact: 3, ease: 3 },
+        { name: "AnythingLLM", replaces: "ChatGPT / OpenAI", data: 4, reg: 4, mat: 3, impact: 2, ease: 3 },
+        { name: "EULLM", replaces: "Ollama / OpenAI API", data: 3, reg: 3, mat: 2, impact: 2, ease: 3 },
+        { name: "eustella", replaces: "ChatGPT / OpenAI", data: 4, reg: 4, mat: 1, impact: 3, ease: 4 },
+        { name: "Langdock", replaces: "ChatGPT Enterprise", data: 4, reg: 4, mat: 4, impact: 4, ease: 4 },
+        { name: "Odoo", replaces: "Salesforce / SAP / Dynamics", data: 5, reg: 4, mat: 4, impact: 4, ease: 1 },
+        { name: "Personio", replaces: "Workday / BambooHR", data: 5, reg: 5, mat: 4, impact: 3, ease: 2 },
+        { name: "Recruitee", replaces: "Greenhouse / Lever", data: 4, reg: 4, mat: 4, impact: 2, ease: 3 },
+        { name: "Kimai", replaces: "Harvest / Toggl", data: 2, reg: 2, mat: 4, impact: 3, ease: 4 },
+        { name: "OpenProject", replaces: "Jira / Asana", data: 3, reg: 2, mat: 4, impact: 4, ease: 3 },
+        { name: "Planka", replaces: "Trello", data: 2, reg: 2, mat: 3, impact: 3, ease: 4 },
+        { name: "Forgejo", replaces: "GitHub / GitLab SaaS", data: 4, reg: 3, mat: 4, impact: 3, ease: 2 },
+        { name: "Sentry (Self-hosted)", replaces: "Sentry.io / Datadog", data: 3, reg: 2, mat: 4, impact: 2, ease: 3 },
+        { name: "Grafana + Loki", replaces: "Datadog / Splunk", data: 3, reg: 2, mat: 5, impact: 2, ease: 2 },
+        { name: "Outline", replaces: "Notion / Confluence", data: 3, reg: 2, mat: 4, impact: 3, ease: 3 },
+        { name: "Wazuh", replaces: "CrowdStrike / Sentinel", data: 4, reg: 3, mat: 4, impact: 2, ease: 2 },
+        { name: "opsi", replaces: "SCCM / Intune", data: 3, reg: 2, mat: 3, impact: 2, ease: 2 },
+        { name: "GLPI", replaces: "ServiceNow / ManageEngine", data: 3, reg: 2, mat: 4, impact: 2, ease: 3 },
+        { name: "Bareos", replaces: "Veeam / Commvault", data: 4, reg: 3, mat: 4, impact: 2, ease: 2 },
+        { name: "Zammad", replaces: "Zendesk / Freshdesk", data: 4, reg: 3, mat: 4, impact: 3, ease: 3 },
+        { name: "n8n", replaces: "Zapier / Power Automate", data: 3, reg: 2, mat: 4, impact: 2, ease: 3 },
+        { name: "Penpot", replaces: "Figma", data: 2, reg: 1, mat: 3, impact: 2, ease: 3 },
+        { name: "Excalidraw", replaces: "Miro / Figma", data: 2, reg: 1, mat: 4, impact: 3, ease: 5 },
+        { name: "Paperless-ngx", replaces: "DocuWare / SharePoint", data: 4, reg: 3, mat: 4, impact: 2, ease: 3 },
+        { name: "OpenKM", replaces: "SharePoint / Box", data: 4, reg: 3, mat: 3, impact: 2, ease: 2 },
+        { name: "SwissTransfer", replaces: "WeTransfer / Dropbox Transfer", data: 3, reg: 2, mat: 4, impact: 3, ease: 5 },
+        { name: "Tresorit", replaces: "Dropbox / Box", data: 4, reg: 3, mat: 5, impact: 3, ease: 4 },
+        { name: "Documenso", replaces: "DocuSign / Adobe Sign", data: 5, reg: 4, mat: 3, impact: 3, ease: 3 },
+        { name: "LimeSurvey", replaces: "Google Forms / SurveyMonkey", data: 3, reg: 2, mat: 5, impact: 2, ease: 4 },
+        { name: "Tally", replaces: "Google Forms / Typeform", data: 3, reg: 2, mat: 4, impact: 2, ease: 5 },
+        { name: "Brevo", replaces: "Mailchimp / HubSpot", data: 4, reg: 3, mat: 4, impact: 2, ease: 3 },
+        { name: "MailerLite", replaces: "Mailchimp / HubSpot", data: 4, reg: 3, mat: 4, impact: 2, ease: 3 },
+        { name: "DeepL", replaces: "Google Translate", data: 3, reg: 2, mat: 5, impact: 4, ease: 5 },
+        { name: "Weblate", replaces: "Crowdin / Transifex", data: 2, reg: 1, mat: 4, impact: 2, ease: 3 },
+        { name: "Matomo", replaces: "Google Analytics", data: 4, reg: 4, mat: 5, impact: 2, ease: 3 },
+        { name: "Plausible Analytics", replaces: "Google Analytics", data: 4, reg: 4, mat: 5, impact: 2, ease: 5 },
+        { name: "Apache Superset", replaces: "Tableau / Power BI", data: 4, reg: 3, mat: 4, impact: 2, ease: 2 },
+        { name: "AppFlowy", replaces: "Notion", data: 2, reg: 1, mat: 3, impact: 2, ease: 4 },
+        { name: "Logseq", replaces: "Notion / Obsidian", data: 2, reg: 1, mat: 3, impact: 1, ease: 5 },
+        { name: "Easy!Appointments", replaces: "Calendly", data: 3, reg: 2, mat: 3, impact: 2, ease: 4 },
+        { name: "Cal.com", replaces: "Calendly", data: 3, reg: 2, mat: 4, impact: 2, ease: 4 },
+        { name: "Framadate", replaces: "Doodle", data: 2, reg: 1, mat: 4, impact: 3, ease: 5 },
+        { name: "Akeneo PIM", replaces: "Salsify / inRiver", data: 2, reg: 1, mat: 4, impact: 1, ease: 2 },
+        { name: "PrestaShop", replaces: "Shopify", data: 4, reg: 3, mat: 4, impact: 2, ease: 2 },
+        { name: "Shopware", replaces: "Shopify", data: 4, reg: 3, mat: 4, impact: 2, ease: 2 },
+        { name: "OpenOlat", replaces: "Canvas / Moodle SaaS", data: 3, reg: 2, mat: 4, impact: 2, ease: 2 },
+        { name: "openrouteservice", replaces: "Google Maps API", data: 2, reg: 1, mat: 4, impact: 1, ease: 3 },
+        { name: "EU Hosting Providers", replaces: "AWS / Azure / GCP", data: 5, reg: 5, mat: 4, impact: 5, ease: 1 },
+        { name: "Eramba", replaces: "ServiceNow GRC", data: 4, reg: 3, mat: 3, impact: 1, ease: 2 },
+        { name: "GlobaLeaks", replaces: "Commercial platforms", data: 5, reg: 4, mat: 4, impact: 1, ease: 3 },
+        { name: "Mixpost", replaces: "Hootsuite / Buffer", data: 2, reg: 1, mat: 3, impact: 1, ease: 4 },
+        { name: "Strapi", replaces: "Contentful / WordPress.com", data: 3, reg: 2, mat: 4, impact: 2, ease: 3 },
+        { name: "TYPO3", replaces: "WordPress / Drupal SaaS", data: 3, reg: 2, mat: 5, impact: 2, ease: 2 },
+        { name: "Pimcore", replaces: "Adobe DAM / Bynder", data: 3, reg: 2, mat: 3, impact: 1, ease: 2 },
+        { name: "VeraCrypt", replaces: "BitLocker", data: 4, reg: 2, mat: 5, impact: 3, ease: 3 },
+        { name: "Cryptomator", replaces: "BitLocker / native encryption", data: 4, reg: 2, mat: 4, impact: 3, ease: 4 },
+    ];
+
+    function getWeights() {
+        return {
+            data: parseInt(document.getElementById('w-data').value),
+            reg: parseInt(document.getElementById('w-regulatory').value),
+            mat: parseInt(document.getElementById('w-maturity').value),
+            impact: parseInt(document.getElementById('w-impact').value),
+            ease: parseInt(document.getElementById('w-ease').value),
+        };
+    }
+
+    function calcScore(p, w) {
+        const raw = (p.data * w.data) + (p.reg * w.reg) + (p.mat * w.mat) + (p.impact * w.impact) + (p.ease * w.ease);
+        const max = 5 * (w.data + w.reg + w.mat + w.impact + w.ease);
+        return Math.round((raw / max) * 100);
+    }
+
+    function getPriority(score) {
+        if (score >= 80) return { label: "Critical", cls: "priority-critical" };
+        if (score >= 60) return { label: "High", cls: "priority-high" };
+        if (score >= 40) return { label: "Medium", cls: "priority-medium" };
+        return { label: "Low", cls: "priority-low" };
+    }
+
+    function makeSelect(value, dim, idx) {
+        let html = `<select onchange="updateProduct(${idx}, '${dim}', this.value)">`;
+        for (let i = 1; i <= 5; i++) {
+            html += `<option value="${i}" ${i === value ? 'selected' : ''}>${i}</option>`;
+        }
+        html += '</select>';
+        return html;
+    }
+
+    function renderTable() {
+        const w = getWeights();
+        const tbody = document.getElementById('matrix-body');
+
+        // Update weight display
+        document.getElementById('wv-data').textContent = w.data;
+        document.getElementById('wv-regulatory').textContent = w.reg;
+        document.getElementById('wv-maturity').textContent = w.mat;
+        document.getElementById('wv-impact').textContent = w.impact;
+        document.getElementById('wv-ease').textContent = w.ease;
+
+        // Calculate scores
+        const scored = products.map((p, i) => ({ ...p, idx: i, score: calcScore(p, w) }));
+
+        let html = '';
+        scored.forEach((p, rank) => {
+            const pri = getPriority(p.score);
+            html += `<tr>
+                <td class="rank-cell">${rank + 1}</td>
+                <td>${p.name}</td>
+                <td style="font-size:0.85em;color:#666;">${p.replaces}</td>
+                <td>${makeSelect(p.data, 'data', p.idx)}</td>
+                <td>${makeSelect(p.reg, 'reg', p.idx)}</td>
+                <td>${makeSelect(p.mat, 'mat', p.idx)}</td>
+                <td>${makeSelect(p.impact, 'impact', p.idx)}</td>
+                <td>${makeSelect(p.ease, 'ease', p.idx)}</td>
+                <td class="score-cell">${p.score}%</td>
+                <td class="${pri.cls}">${pri.label}</td>
+            </tr>`;
+        });
+        tbody.innerHTML = html;
+
+        // Update summary counts
+        let counts = { critical: 0, high: 0, medium: 0, low: 0 };
+        scored.forEach(p => {
+            const pri = getPriority(p.score);
+            if (pri.label === "Critical") counts.critical++;
+            else if (pri.label === "High") counts.high++;
+            else if (pri.label === "Medium") counts.medium++;
+            else counts.low++;
+        });
+        document.getElementById('count-critical').textContent = counts.critical;
+        document.getElementById('count-high').textContent = counts.high;
+        document.getElementById('count-medium').textContent = counts.medium;
+        document.getElementById('count-low').textContent = counts.low;
+    }
+
+    function updateProduct(idx, dim, val) {
+        products[idx][dim] = parseInt(val);
+        recalcAll();
+    }
+
+    function recalcAll() {
+        renderTable();
+    }
+
+    function sortTable() {
+        const w = getWeights();
+        products.sort((a, b) => calcScore(b, w) - calcScore(a, w));
+        renderTable();
+    }
+
+    // Initial render
+    sortTable();
+    </script>
+</body>
+</html>
