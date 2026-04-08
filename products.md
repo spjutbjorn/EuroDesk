@@ -43,7 +43,7 @@ This file groups EuroDesk tools by their function to make it easier to find the 
 *Keep track of team work and timelines.*
 
 | Product | Description | Data Residency |
-| :--- | :--- | : :--- |
+| :--- | :--- | :--- |
 | [**OpenProject**](products/openproject.md) | Project management supporting Gantt charts, Agile, and time tracking. | Your chosen EU server (Self-hosted) |
 | [**Planka**](products/planka.md) | Simple and efficient Kanban tool for team task management. | Your chosen EU server (Self-hosted) |
 | [**Kimai**](products/kimai.md) | Time tracking and invoicing foundation for teams and consultants. | Your chosen EU server (Self-hosted) |
