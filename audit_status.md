@@ -23,9 +23,50 @@ Denna fil spårar verifieringen av produktdata mot officiella källor inför en 
 | **Mattermost** | ✅ Verifierad | 2026-04-08 | Uppdaterat utgåvor (Team, Entry, Prof, Ent) och lagt till Version 11-detaljer. |
 | **Jitsi Meet** | ✅ Verifierad | 2026-04-08 | Lagt till priser för 8x8 JaaS (MAU-baserat). |
 | **CryptPad** | ✅ Verifierad | 2026-04-08 | Uppdaterat CryptPad.fr och Enterprise Cloud-priser. |
-| ... | ⚪ Ej startad | - | 58 kvarstående produkter. |
+| **Odoo** | ✅ Verifierad | 2026-04-08 | Uppdaterat Enterprise-priser (Standard/Custom) och One App Free. |
+| **OpenProject** | ✅ Verifierad | 2026-04-08 | Uppdaterat Cloud-planer och användargränser för Pro/Premium. |
+| **Zammad** | ✅ Verifierad | 2026-04-08 | Uppdaterat SaaS-nivåer (Starter/Prof/Plus) och lagt till AI-tillägg. |
+| **Passbolt** | ✅ Verifierad | 2026-04-08 | Uppdaterat priser för Pro och Cloud samt användargränser. |
+| **ONLYOFFICE** | ✅ Verifierad | 2026-04-08 | Dokumenterat Docs Enterprise, Workspace och nya DocSpace-modellen. |
+| **Collabora Online** | ✅ Verifierad | 2026-04-08 | Lagt till priser för Business/Enterprise-support och CODE-info. |
+| ... | ⚪ Ej startad | - | 52 kvarstående produkter. |
 
 ## Detaljerade Loggar
+...
+### Mullvad (2026-04-08)
+- ✅ Bekräftat oförändrad prismodell (5€/mån).
+- ✅ Dokumenterat 10% rabatt för krypto-betalningar.
+- ✅ Verifierat 5-enhetsgräns per konto.
+
+### Odoo (2026-04-08)
+- ✅ Verifierat "One App Free"-planen för obegränsade användare.
+- ✅ Uppdaterat Enterprise Standard (~31€) och Custom (~61€) priser.
+- ✅ Bekräftat belgisk jurisdiktion och Odoo.sh EU-regioner.
+
+### OpenProject (2026-04-08)
+- ✅ Uppdaterat Cloud-nivåer: Basic (€5.95), Professional (€10.95), Premium (€15.95).
+- ✅ Dokumenterat krav på minsta antal användare (5/25/100).
+- ✅ Förtydligat skillnader mellan Community och Enterprise-tillägg.
+
+### Zammad (2026-04-08)
+- ✅ Uppdaterat Hosted-planer: Starter (€7), Professional (€16), Plus (€25).
+- ✅ Lagt till info om valbart AI-tillägg (€0.03/anrop).
+- ✅ Bekräftat lagringsnivåer per plan.
+
+### Passbolt (2026-04-08)
+- ✅ Uppdaterat priser: Pro (~€4.50), Cloud (~€5.40).
+- ✅ Dokumenterat krav på minst 10 användare för betalplaner.
+- ✅ Förtydligat EU-värdskap för Cloud-tjänsten.
+
+### ONLYOFFICE (2026-04-08)
+- ✅ Dokumenterat priser för Docs Enterprise Cloud ($8) och On-Prem (~$1200).
+- ✅ Lagt till Workspace Cloud Business ($20) och nya DocSpace-rummodellen.
+- ✅ Bekräftat latvisk jurisdiktion (Ascensio System SIA).
+
+### Collabora Online (2026-04-08)
+- ✅ Lagt till supportpriser: Business (~$23/år), Enterprise (~$18/år).
+- ✅ Förtydligat att CODE-versionen är lämplig för hem/test men saknar SLA.
+- ✅ Bekräftat EU-rötter (UK/Tyskland).
 
 ### Nextcloud (2026-04-08)
 - ✅ Verifierat priser för Hetzner Storage Share (NX11: 5.59€, NX21: 18.49€, NX31: 35.69€).

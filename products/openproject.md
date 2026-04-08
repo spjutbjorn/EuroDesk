@@ -17,15 +17,16 @@ OpenProject is the leading open-source project management software. It supports 
 | **OpenProject Enterprise Cloud (EU)** | Managed, hosted in Germany |
 | **OpenProject on-premises** | Enterprise features + your own server |
 
-## Plans
+## Plans (Cloud 2026)
 
-| Plan | Type | Price |
-|---|---|---|
-| **Community** | Self-hosted | Free |
-| **Basic Cloud** | Managed SaaS | 7.25 €/user/mo |
-| **Professional Cloud** | Managed SaaS | 13.50 €/user/mo |
-| **Premium Cloud** | Managed SaaS | Custom |
-| **Enterprise on-premises** | Self-hosted + enterprise features | Custom |
+| Plan | Price (User/Mo) | Min. Users | Key Features |
+|---|---|---|---|
+| **Basic** | €5.95 | 5 | Enterprise add-ons, basic support |
+| **Professional** | €10.95 | 25 | SSO (SAML/OIDC), training |
+| **Premium** | €15.95 | 100 | Premier support, remote hands |
+| **Corporate** | Custom | High Vol | Custom plugins, dedicated engineer |
+
+> **Community Edition:** Free for self-hosting. Includes core project management but lacks Enterprise add-ons (SSO, Two-Factor Auth, Branding).
 
 ## Setup (Self-hosted with Docker)
 

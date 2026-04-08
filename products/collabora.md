@@ -16,7 +16,18 @@ Collabora Online is a LibreOffice-based office suite for collaborative editing i
 | **Self-hosted** | Run Collabora Online on your own EU-owned infrastructure |
 | **Managed by EU provider** | Use a deployment operated by an EU or adequacy-country provider |
 
-## Why It Fits EuroDesk
+## Plans (Support 2026)
+
+| Plan | Price (User/Year) | Key Features |
+|---|---|---|
+| **CODE (Dev Edition)** | Free | For home use and testing; no SLA |
+| **Business** | ~$23.18 | Up to 99 users, LTS, SLA, security updates |
+| **Enterprise** | ~$18.82 | 100+ users, roadmap input, integration help |
+
+> **Collabora Online Development Edition (CODE)** is the free version for home users and small technical teams who do not require a professional SLA or signed security updates.
+
+## Why it fits EuroDesk
+
 
 - **Data sovereignty:** Documents can stay on infrastructure you control.
 - **Privacy:** Works well with EU-hosted storage platforms like Nextcloud.

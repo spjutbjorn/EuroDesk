@@ -13,10 +13,21 @@ Zammad is an open-source helpdesk and ticketing platform for support inboxes, in
 
 | Option | Description |
 |---|---|
-| **Zammad Cloud** | Managed service from a German vendor |
-| **Self-hosted** | Run on your own EU server |
+| **Zammad Cloud** | Managed service in ISO27001 German data centers |
+| **Self-hosted** | Run on your own EU server (Community or Enterprise support) |
 
-## Good Fit For
+## Plans (Zammad Hosted 2026)
+
+| Plan | Price (Agent/Mo) | Agent Limit | Key Features |
+|---|---|---|---|
+| **Starter** | €7 (ann.) | 5 | Text modules, Macros, Branding |
+| **Professional** | €16 (ann.) | 35 | SLAs, Single Knowledge Base |
+| **Plus** | €25 (ann.) | Unlimited | Multilingual Knowledge Base, GitHub/Lab |
+
+> **AI Add-on:** Optional AI features (summarization, auto-replies) are available on Professional and Plus plans for approx. €0.03 per AI call.
+
+## Setup (Self-hosted)
+
 
 - Internal IT helpdesk
 - Customer support teams

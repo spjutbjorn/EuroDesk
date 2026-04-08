@@ -13,8 +13,19 @@ Odoo is a modular business platform that covers CRM, invoicing, accounting, HR, 
 
 | Option | Description |
 |---|---|
-| **Self-hosted** | Run Odoo Community or Enterprise on your own EU infrastructure |
-| **Odoo-managed** | Use managed hosting from the Belgian vendor |
+| **Odoo Online (SaaS)** | Managed hosting by Odoo S.A., EU data centers available |
+| **Odoo.sh (PaaS)** | Managed platform for custom Odoo projects, EU regions |
+| **Self-hosted** | Run Odoo Community or Enterprise on your own EU VPS |
+
+## Plans (Enterprise 2026)
+
+| Plan | Price (User/Mo) | Key Features |
+|---|---|---|
+| **One App Free** | $0 | Unlimited users for **one single app** (e.g. CRM) |
+| **Standard** | ~$31.10 (ann.) | All Odoo apps, Odoo Online hosting |
+| **Custom** | ~$61.00 (ann.) | Multi-company, External API, Odoo Studio, Odoo.sh |
+
+> **Note:** Odoo Community remains free and open-source but lacks some advanced accounting, mobile, and studio features.
 
 ## Good Fit For
 

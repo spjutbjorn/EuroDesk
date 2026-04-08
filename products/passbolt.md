@@ -17,14 +17,15 @@ Passbolt is an open-source, end-to-end encrypted password manager designed for t
 | **Passbolt Cloud (EU)** | Managed, EU data centers |
 | **Passbolt Pro (self-hosted)** | Paid features + self-hosted |
 
-## Plans
+## Plans (2026)
 
-| Plan | Type | Price |
-|---|---|---|
-| **Community** | Self-hosted | Free |
-| **Pro (self-hosted)** | Self-hosted | 48 €/user/year |
-| **Cloud** | Managed SaaS | 48 €/user/year |
-| **Business** | Managed SaaS | Custom |
+| Plan | Price (User/Mo) | Min. Users | Key Features |
+|---|---|---|---|
+| **Community** | €0 | None | Core password management, Mobile app |
+| **Pro (Self-host)** | ~€4.50 | 10 | LDAP/AD, SSO, Account Recovery |
+| **Cloud (Managed)**| ~€5.40 | 10 | All Pro features, Automatic updates |
+
+> **Note:** Passbolt Cloud is hosted on European servers (typically Belgium or Germany). For maximum sovereignty, the **Self-hosted Pro** version is recommended.
 
 ## Setup (Self-hosted with Docker)
 

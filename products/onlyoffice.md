@@ -17,14 +17,16 @@ ONLYOFFICE is a fully Microsoft Office-compatible open-source office suite. It s
 | **ONLYOFFICE Cloud** | Managed SaaS, EU-region available |
 | **Nextcloud + ONLYOFFICE** | Integrated into your Nextcloud instance |
 
-## Plans (ONLYOFFICE Docs)
+## Plans (2026 Estimates)
 
-| Plan | Type | Price |
-|---|---|---|
-| **Community Edition** | Self-hosted, up to 20 connections | Free |
-| **Enterprise Edition** | Self-hosted, unlimited | ~1200 €/year |
-| **Cloud Startup** | Managed | 15 $/mo (10 users) |
-| **Cloud Business** | Managed | 30 $/mo (30 users) |
+| Product | Plan | Deployment | Pricing |
+|---|---|---|---|
+| **ONLYOFFICE Docs** | **Enterprise Cloud** | Cloud | ~$8.00 /user/mo |
+| **ONLYOFFICE Docs** | **Enterprise Edition** | On-Prem | ~$1,200 (lifetime) |
+| **ONLYOFFICE Workspace**| **Cloud Business** | Cloud | ~$20.00 /admin/mo |
+| **ONLYOFFICE DocSpace** | **Business** | Cloud | ~$20.00 /admin/mo |
+
+> **Note:** On-premises licenses are typically "Lifetime" for the version purchased, with one year of updates included. Workspace includes Mail, CRM, and Projects, while Docs focuses on the editing suite.
 
 ## Setup (Self-hosted Document Server with Docker)
 
