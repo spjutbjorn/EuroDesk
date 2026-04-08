@@ -10,6 +10,12 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 - **Office-ready** — covers the full working day
 - **Developer-ready** — Git, CI/CD, logging, error tracking, and docs included
 
+## Project Documentation
+
+- **[Rules](rules.md)**: Inclusion criteria for tools in the EuroDesk stack.
+- **[Common EU Roles](roles.md)**: Typical white-collar roles served by this stack.
+- **[Verification Report](verification_report.md)**: Compliance audit of all included tools.
+
 ## Tool Categories
 
 ### Communication
@@ -32,17 +38,38 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Nextcloud](products/nextcloud.md) | File sync, calendar, contacts | `products/nextcloud.md` |
 | [Cryptpad](products/cryptpad.md) | Collaborative docs (E2E encrypted) | `products/cryptpad.md` |
 | [ONLYOFFICE](products/onlyoffice.md) | Office suite | `products/onlyoffice.md` |
+| [Collabora Online](products/collabora.md) | Office suite | `products/collabora.md` |
 
-### Hosting / Infrastructure
+### Design & Prototyping
 | Tool | Type | File |
 |---|---|---|
-| [EU Hosting Providers](products/hosting.md) | EU cloud, VPS, and sovereign hosting options | `products/hosting.md` |
+| [Penpot](products/penpot.md) | Design & Prototyping | `products/penpot.md` |
 
 ### Project Management
 | Tool | Type | File |
 |---|---|---|
 | [OpenProject](products/openproject.md) | Project & task management | `products/openproject.md` |
 | [Planka](products/planka.md) | Kanban board | `products/planka.md` |
+
+### CRM & ERP
+| Tool | Type | File |
+|---|---|---|
+| [Odoo](products/odoo.md) | CRM, ERP & Business apps | `products/odoo.md` |
+
+### Accounting / Invoicing
+| Tool | Type | File |
+|---|---|---|
+| [Odoo](products/odoo.md) | Invoicing, accounting, and finance workflows | `products/odoo.md` |
+
+### HR / People Operations
+| Tool | Type | File |
+|---|---|---|
+| [Odoo](products/odoo.md) | Employee records, leave, and HR workflows | `products/odoo.md` |
+
+### Procurement
+| Tool | Type | File |
+|---|---|---|
+| [Odoo](products/odoo.md) | Purchasing, vendors, and procurement workflows | `products/odoo.md` |
 
 ### Password Management
 | Tool | Type | File |
@@ -55,21 +82,6 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 |---|---|---|
 | [ZITADEL](products/zitadel.md) | Identity, SSO, MFA, passkeys | `products/zitadel.md` |
 
-### CRM
-| Tool | Type | File |
-|---|---|---|
-| [Odoo](products/odoo.md) | CRM and business workflows | `products/odoo.md` |
-
-### Accounting / Invoicing
-| Tool | Type | File |
-|---|---|---|
-| [Odoo](products/odoo.md) | Invoicing and accounting workflows | `products/odoo.md` |
-
-### HR / People Operations
-| Tool | Type | File |
-|---|---|---|
-| [Odoo](products/odoo.md) | Employee records and HR workflows | `products/odoo.md` |
-
 ### Backup / Disaster Recovery
 | Tool | Type | File |
 |---|---|---|
@@ -79,6 +91,11 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | Tool | Type | File |
 |---|---|---|
 | [opsi](products/opsi.md) | Software deployment and endpoint management | `products/opsi.md` |
+
+### Asset Management / CMDB
+| Tool | Type | File |
+|---|---|---|
+| [GLPI](products/glpi.md) | Asset inventory, CMDB, contracts, and suppliers | `products/glpi.md` |
 
 ### VPN
 | Tool | Type | File |
@@ -97,18 +114,32 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 |---|---|---|
 | [Easy!Appointments](products/easyappointments.md) | Appointment and booking system | `products/easyappointments.md` |
 
-### Developer Tools
+### Translation
 | Tool | Type | File |
 |---|---|---|
-| [Forgejo](products/forgejo.md) | Git hosting, CI/CD, package registry | `products/forgejo.md` |
-| [Sentry (self-hosted)](products/sentry.md) | Error tracking & crash reporting | `products/sentry.md` |
-| [Grafana + Loki](products/grafana-loki.md) | Logging, metrics & alerting | `products/grafana-loki.md` |
-| [Outline](products/outline.md) | Team wiki & knowledge base | `products/outline.md` |
+| [DeepL](products/deepl.md) | AI translation | `products/deepl.md` |
+
+### Web Browser
+| Tool | Type | File |
+|---|---|---|
+| [Mullvad Browser](products/mullvad-browser.md) | Privacy-focused browser | `products/mullvad-browser.md` |
+
+### Web Analytics
+| Tool | Type | File |
+|---|---|---|
+| [Plausible Analytics](products/plausible.md) | Privacy-first analytics | `products/plausible.md` |
+| [Matomo](products/matomo.md) | Full-featured analytics | `products/matomo.md` |
+
+### BI / Dashboards
+| Tool | Type | File |
+|---|---|---|
+| [Apache Superset](products/apache-superset.md) | Business intelligence and dashboards | `products/apache-superset.md` |
 
 ### Forms / Surveys / E-signing
 | Tool | Type | File |
 |---|---|---|
 | [LimeSurvey](products/limesurvey.md) | Forms and surveys | `products/limesurvey.md` |
+| [Tally](products/tally.md) | Form builder | `products/tally.md` |
 | [Documenso](products/documenso.md) | Electronic signatures | `products/documenso.md` |
 
 ### Automation / Workflows
@@ -120,6 +151,24 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | Tool | Type | File |
 |---|---|---|
 | [Zammad](products/zammad.md) | Helpdesk and support ticketing | `products/zammad.md` |
+
+### Security Monitoring / Endpoint Security
+| Tool | Type | File |
+|---|---|---|
+| [Wazuh](products/wazuh.md) | Endpoint monitoring, vulnerability detection, and alerting | `products/wazuh.md` |
+
+### Developer Tools
+| Tool | Type | File |
+|---|---|---|
+| [Forgejo](products/forgejo.md) | Git hosting, CI/CD, package registry | `products/forgejo.md` |
+| [Sentry (self-hosted)](products/sentry.md) | Error tracking & crash reporting | `products/sentry.md` |
+| [Grafana + Loki](products/grafana-loki.md) | Logging, metrics & alerting | `products/grafana-loki.md` |
+| [Outline](products/outline.md) | Team wiki & knowledge base | `products/outline.md` |
+
+### Cloud Infrastructure & Hosting
+| Tool | Type | File |
+|---|---|---|
+| [EU Hosting Providers](products/hosting.md) | IaaS, PaaS, GPU Hosting | `products/hosting.md` |
 
 ## Quick Start
 
