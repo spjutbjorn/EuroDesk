@@ -33,6 +33,11 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Cryptpad](products/cryptpad.md) | Collaborative docs (E2E encrypted) | `products/cryptpad.md` |
 | [ONLYOFFICE](products/onlyoffice.md) | Office suite | `products/onlyoffice.md` |
 
+### Hosting / Infrastructure
+| Tool | Type | File |
+|---|---|---|
+| [EU Hosting Providers](products/hosting.md) | EU cloud, VPS, and sovereign hosting options | `products/hosting.md` |
+
 ### Project Management
 | Tool | Type | File |
 |---|---|---|
@@ -49,6 +54,21 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | Tool | Type | File |
 |---|---|---|
 | [ZITADEL](products/zitadel.md) | Identity, SSO, MFA, passkeys | `products/zitadel.md` |
+
+### CRM
+| Tool | Type | File |
+|---|---|---|
+| [Odoo](products/odoo.md) | CRM and business workflows | `products/odoo.md` |
+
+### Accounting / Invoicing
+| Tool | Type | File |
+|---|---|---|
+| [Odoo](products/odoo.md) | Invoicing and accounting workflows | `products/odoo.md` |
+
+### HR / People Operations
+| Tool | Type | File |
+|---|---|---|
+| [Odoo](products/odoo.md) | Employee records and HR workflows | `products/odoo.md` |
 
 ### Backup / Disaster Recovery
 | Tool | Type | File |
@@ -72,6 +92,11 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Startpage](products/startpage.md) | Private search engine | `products/startpage.md` |
 | [Qwant](products/qwant.md) | Private search engine | `products/qwant.md` |
 
+### Scheduling / Booking
+| Tool | Type | File |
+|---|---|---|
+| [Easy!Appointments](products/easyappointments.md) | Appointment and booking system | `products/easyappointments.md` |
+
 ### Developer Tools
 | Tool | Type | File |
 |---|---|---|
@@ -85,6 +110,11 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 |---|---|---|
 | [LimeSurvey](products/limesurvey.md) | Forms and surveys | `products/limesurvey.md` |
 | [Documenso](products/documenso.md) | Electronic signatures | `products/documenso.md` |
+
+### Automation / Workflows
+| Tool | Type | File |
+|---|---|---|
+| [n8n](products/n8n.md) | Internal automation and workflow orchestration | `products/n8n.md` |
 
 ### Helpdesk / Ticketing
 | Tool | Type | File |
