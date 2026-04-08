@@ -2,7 +2,7 @@
 
 **Category:** Cloud Infrastructure, GPU Hosting, AI Inference
 **Type:** IaaS / PaaS
-**Jurisdiction:** EU-ägda bolag, data stannar i EU
+**Jurisdiction:** EU-owned companies, data stays in the EU
 **Website:** [hetzner.com](https://www.hetzner.com)
 
 ## Hosting Options
@@ -11,46 +11,46 @@
 |---|---|
 | **EU-owned infrastructure providers** | Run the rest of the EuroDesk stack on EU- or adequacy-country-owned hosting |
 
-## Generell molninfrastruktur
+## General Cloud Infrastructure
 
-| Leverantör | Land | Styrka |
+| Provider | Country | Strength |
 |---|---|---|
-| **Hetzner** | Tyskland/Finland | Billigt, pålitligt, populärt för dev |
-| **OVHcloud** | Frankrike | 30+ datacenter, stor EU-aktör |
-| **Scaleway** | Frankrike | Tekniskt kapabelt, Paris/Amsterdam/Warszawa |
-| **IONOS** | Tyskland | Enterprise, backar Euro-Office |
-| **UpCloud** | Finland | ISO 27001, nordisk |
-| **Exoscale** | Schweiz | Datalokalisering per region |
-| **STACKIT** | Tyskland | Schwarz Group (Lidl-ägarna), enterprise |
-| **Open Telekom Cloud** | Tyskland | T-Systems/Deutsche Telekom |
+| **Hetzner** | Germany/Finland | Affordable, reliable, popular for development |
+| **OVHcloud** | France | 30+ data centers, major EU player |
+| **Scaleway** | France | Technically capable, Paris/Amsterdam/Warsaw |
+| **IONOS** | Germany | Enterprise focus, backs Euro-Office initiatives |
+| **UpCloud** | Finland | ISO 27001, Nordic roots |
+| **Exoscale** | Switzerland | Data localization per region |
+| **STACKIT** | Germany | Schwarz Group (Lidl owners), enterprise-grade |
+| **Open Telekom Cloud** | Germany | T-Systems/Deutsche Telekom |
 
-## GPU / AI-hosting
+## GPU / AI Hosting
 
-| Leverantör | Land | GPU:er |
+| Provider | Country | GPUs |
 |---|---|---|
-| **Genesis Cloud** | Europa | H100, H200, B200 — GPU-first |
-| **Verda** (f.d. DataCrunch) | Norden | 100% förnybar energi, GDPR |
-| **Exoscale** | Schweiz | A30, V100, A40 m.fl. |
-| **OVHcloud** | Frankrike | H100, L40S, V100S |
-| **Nebius** | Europa | Stora GPU-kluster, InfiniBand |
+| **Genesis Cloud** | Europe | H100, H200, B200 — GPU-first |
+| **Verda** (formerly DataCrunch) | Nordics | 100% renewable energy, GDPR focus |
+| **Exoscale** | Switzerland | A30, V100, A40, etc. |
+| **OVHcloud** | France | H100, L40S, V100S |
+| **Nebius** | Europe | Large GPU clusters, InfiniBand |
 
-## Marketplace-modell (EU-noder)
+## Marketplace Model (EU Nodes)
 
-| Leverantör | Beskrivning |
+| Provider | Description |
 |---|---|
-| **Vast.ai** | Många EU-hostar (DE, NL, FI, SE, FR), ofta 10-20% billigare |
-| **RunPod** | Amsterdam-region |
+| **Vast.ai** | Many EU hosts (DE, NL, FI, SE, FR), often 10-20% cheaper |
+| **RunPod** | Amsterdam region available |
 
-## Viktigt: GDPR vs suveränitet
+## Important: GDPR vs. Sovereignty
 
-GDPR-compliance ≠ suveränitet. För verklig suveränitet krävs att leverantörens juridiska enhet är EU-ägd — annars kan US CLOUD Act tvinga fram dataåtkomst även om servrarna står i EU.
+GDPR compliance ≠ sovereignty. For true sovereignty, the provider's legal entity must be EU-owned — otherwise, the US CLOUD Act can compel data access even if servers are physically in the EU.
 
-**Fullt suveräna:** Hetzner, OVHcloud, Scaleway, IONOS, STACKIT, UpCloud, Exoscale, Open Telekom Cloud
+**Fully Sovereign:** Hetzner, OVHcloud, Scaleway, IONOS, STACKIT, UpCloud, Exoscale, Open Telekom Cloud
 
-**Ej suveräna (US-ägda med EU-regioner):** AWS, Azure, GCP — data kan nås via CLOUD Act oavsett serverplacering.
+**Non-Sovereign (US-owned with EU regions):** AWS, Azure, GCP — data can be accessed via the CLOUD Act regardless of server location.
 
 ## Compliance Notes
 
-- För managed drift bör leverantören vara EU-ägd eller ligga i ett adequacy-godkänt land.
-- Undvik US-ägda hyperscalers för känsliga arbetslaster även om regionen ligger i EU.
-- Dokumentera datalagring, underbiträden och backup-lokalisering för varje vald hostingleverantör.
+- For managed operations, the provider should be EU-owned or based in an adequacy-approved country.
+- Avoid US-owned hyperscalers for sensitive workloads even if the region is in the EU.
+- Document data storage, subprocessors, and backup localization for each chosen hosting provider.

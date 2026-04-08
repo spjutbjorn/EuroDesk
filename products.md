@@ -1,137 +1,137 @@
-# EuroDesk Produkter efter Användningsområde
+# EuroDesk Products by Usage Area
 
-Denna fil grupperar EuroDesk-verktygen efter deras funktion för att göra det enklare att hitta rätt lösning för dina behov. Klicka på produktens namn för att läsa den fullständiga guiden.
+This file groups EuroDesk tools by their function to make it easier to find the right solution for your needs. Click on a product name to read the detailed guide.
 
-## 1. Kommunikation & Samarbete
-*Verktyg för teamchatt, videomöten och realtidsinteraktion.*
+## 1. Communication & Collaboration
+*Tools for team chat, video meetings, and real-time interaction.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**Element / Matrix**](products/element-matrix.md) | Decentraliserad och krypterad teamchatt för säker kommunikation. | Din valda EU-server (Self-hosted) |
-| [**Mattermost**](products/mattermost.md) | Teammeddelanden och samarbete (öppen källkods-alternativ till Slack). | Din valda EU-server (Self-hosted) |
-| [**Jitsi Meet**](products/jitsi-meet.md) | Videokonferenser direkt i webbläsaren utan krav på konto eller installation. | Din valda EU-server (Self-hosted) |
-| [**BigBlueButton**](products/bigbluebutton.md) | Webbinarie- och e-lärandeplattform med fokus på pedagogiska verktyg. | Din valda EU-server (Self-hosted) |
-| [**Excalidraw**](products/excalidraw.md) | Virtuell whiteboard för snabba skisser och kollaborativ diagramritning. | Din valda EU-server (Self-hosted) |
+| [**Element / Matrix**](products/element-matrix.md) | Decentralized and encrypted team chat for secure communication. | Your chosen EU server (Self-hosted) |
+| [**Mattermost**](products/mattermost.md) | Team messaging and collaboration (open-source alternative to Slack). | Your chosen EU server (Self-hosted) |
+| [**Jitsi Meet**](products/jitsi-meet.md) | Video conferencing directly in the browser with no account required. | Your chosen EU server (Self-hosted) |
+| [**BigBlueButton**](products/bigbluebutton.md) | Webinar and e-learning platform focused on pedagogical tools. | Your chosen EU server (Self-hosted) |
+| [**Excalidraw**](products/excalidraw.md) | Virtual whiteboard for quick sketches and collaborative diagramming. | Your chosen EU server (Self-hosted) |
 
-## 2. E-post & Kalender
-*Säker e-post och personlig planering med europeiskt dataskydd.*
+## 2. Email & Calendar
+*Secure email and personal planning with European data protection.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**Proton Mail**](products/proton-mail.md) | Krypterad e-posttjänst med bas i Schweiz (EU-ekvivalent skydd). | Schweiz (Adequacy) |
-| [**Tuta**](products/tuta.md) | Krypterad e-post och kalender med tyskt dataskydd. | Tyskland (EU) |
-| [**Mailbox.org**](products/mailbox-org.md) | Säker e-post och groupware för företag med fokus på integritet. | Tyskland (EU) |
-| [**Easy!Appointments**](products/easyappointments.md) | System för tidsbokning och kundmöten. | Din valda EU-server (Self-hosted) |
-| [**Cal.com**](products/cal-com.md) | Schemaläggningsverktyg och mötesbokning (öppen källkod). | Din valda EU-server (Self-hosted) |
-| [**Framadate**](products/framadate.md) | Enkelt verktyg för att planera möten eller fatta gemensamma beslut. | Din valda EU-server (Self-hosted) |
+| [**Proton Mail**](products/proton-mail.md) | Encrypted email service based in Switzerland (EU-equivalent protection). | Switzerland (Adequacy) |
+| [**Tuta**](products/tuta.md) | Encrypted email and calendar with German data protection. | Germany (EU) |
+| [**Mailbox.org**](products/mailbox-org.md) | Secure email and groupware for business with a focus on privacy. | Germany (EU) |
+| [**Easy!Appointments**](products/easyappointments.md) | System for appointment scheduling and customer meetings. | Your chosen EU server (Self-hosted) |
+| [**Cal.com**](products/cal-com.md) | Scheduling tool and meeting booking (open source). | Your chosen EU server (Self-hosted) |
+| [**Framadate**](products/framadate.md) | Simple tool to plan meetings or make collective decisions. | Your chosen EU server (Self-hosted) |
 
-## 3. Dokument & Kontor
-*Svivter för dokumenthantering, lagring och säkra överföringar.*
+## 3. Documents & Office
+*Suites for document management, storage, and secure transfers.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**Nextcloud**](products/nextcloud.md) | Plattform för filsynk, kalender, kontakter och samarbete. | Din valda EU-server (Self-hosted) |
-| [**ONLYOFFICE**](products/onlyoffice.md) | Fullt Microsoft Office-kompatibel kontorssvit för webb och desktop. | Din valda EU-server (Self-hosted) |
-| [**Collabora Online**](products/collabora.md) | Webbaserad kontorssvit för kollaborativ redigering. | Din valda EU-server (Self-hosted) |
-| [**CryptPad**](products/cryptpad.md) | E2EE-krypterad kontorssvit för samarbete utan att servern ser innehållet. | Din valda EU-server (Self-hosted) |
-| [**OpenKM**](products/openkm.md) | Dokumenthanteringssystem (DMS) för arbetsflöden och arkivering. | Din valda EU-server (Self-hosted) |
-| [**Paperless-ngx**](products/paperless-ngx.md) | Automatiserat arkiv som gör fysiska dokument sökbara via OCR. | Din valda EU-server (Self-hosted) |
-| [**SwissTransfer**](products/swisstransfer.md) | Kostnadsfri tjänst för att skicka filer upp till 50 GB säkert. | Schweiz (Adequacy) |
-| [**Tresorit**](products/tresorit.md) | E2EE-krypterad fildelning och molnlagring för högkänslig data. | Schweiz (Adequacy) |
+| [**Nextcloud**](products/nextcloud.md) | Platform for file sync, calendar, contacts, and collaboration. | Your chosen EU server (Self-hosted) |
+| [**ONLYOFFICE**](products/onlyoffice.md) | Fully Microsoft Office-compatible office suite for web and desktop. | Your chosen EU server (Self-hosted) |
+| [**Collabora Online**](products/collabora.md) | Web-based office suite for collaborative editing. | Your chosen EU server (Self-hosted) |
+| [**CryptPad**](products/cryptpad.md) | E2EE-encrypted office suite for collaboration without the server seeing content. | Your chosen EU server (Self-hosted) |
+| [**OpenKM**](products/openkm.md) | Document Management System (DMS) for workflows and archiving. | Your chosen EU server (Self-hosted) |
+| [**Paperless-ngx**](products/paperless-ngx.md) | Automated archive that makes physical documents searchable via OCR. | Your chosen EU server (Self-hosted) |
+| [**SwissTransfer**](products/swisstransfer.md) | Free service to send files up to 50 GB securely. | Switzerland (Adequacy) |
+| [**Tresorit**](products/tresorit.md) | E2EE-encrypted file sharing and cloud storage for sensitive data. | Switzerland (Adequacy) |
 
-## 4. Projekt- & Uppgiftshantering
-*Håll ordning på teamets arbete och tidsplaner.*
+## 4. Project & Task Management
+*Keep track of team work and timelines.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
+| :--- | :--- | : :--- |
+| [**OpenProject**](products/openproject.md) | Project management supporting Gantt charts, Agile, and time tracking. | Your chosen EU server (Self-hosted) |
+| [**Planka**](products/planka.md) | Simple and efficient Kanban tool for team task management. | Your chosen EU server (Self-hosted) |
+| [**Kimai**](products/kimai.md) | Time tracking and invoicing foundation for teams and consultants. | Your chosen EU server (Self-hosted) |
+| [**Outline**](products/outline.md) | Fast team wiki for internal documentation and knowledge sharing. | Your chosen EU server (Self-hosted) |
+| [**AppFlowy**](products/appflowy.md) | Open-source alternative to Notion for notes and tasks. | Your chosen EU server (Self-hosted) |
+| [**Logseq**](products/logseq.md) | Privacy-focused knowledge base with local text files. | Local on your device |
+
+## 5. Sovereign AI Stack
+*European and self-hosted alternatives for generative AI and LLMs.*
+
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**OpenProject**](products/openproject.md) | Projektledning med stöd för Gantt-scheman, Agile och tidrapportering. | Din valda EU-server (Self-hosted) |
-| [**Planka**](products/planka.md) | Enkelt och effektivt Kanban-verktyg för uppgiftshantering i team. | Din valda EU-server (Self-hosted) |
-| [**Kimai**](products/kimai.md) | Tidsredovisning och faktureringsunderlag för team och konsulter. | Din valda EU-server (Self-hosted) |
-| [**Outline**](products/outline.md) | Snabb team-wiki för intern dokumentation och kunskapsdelning. | Din valda EU-server (Self-hosted) |
-| [**AppFlowy**](products/appflowy.md) | Öppen källkods-alternativ till Notion för anteckningar och uppgifter. | Din valda EU-server (Self-hosted) |
-| [**Logseq**](products/logseq.md) | Integritetsfokuserad kunskapsbas med lokala textfiler. | Lokalt på din enhet |
+| [**Mistral AI / Le Chat**](products/mistral.md) | Leading European AI assistant and language models from Paris. | France (EU) |
+| [**Aleph Alpha**](products/aleph-alpha.md) | German sovereign AI for industry and government. | Germany (EU) |
+| [**EULLM**](products/eullm.md) | European infrastructure to run sovereign language models (LLM). | Your chosen EU server (Self-hosted) |
+| [**Open WebUI**](products/open-webui.md) | Interface to interact with locally hosted AI models. | Your chosen EU server (Self-hosted) |
+| [**AnythingLLM**](products/anything-llm.md) | Create a private knowledge base of documents to chat with. | Your chosen EU server (Self-hosted) |
+| [**Langdock**](products/langdock.md) | Platform to use multiple AI models securely within the enterprise. | Germany (EU) |
+| [**eustella**](products/eustella.md) | Austrian AI assistant based on European models. | Austria (EU) |
 
-## 5. Suverän AI-Stack
-*Europeiska och självhostade alternativ för generativ AI och språkmodeller.*
+## 6. Business Systems (ERP, CRM & HR)
+*Tools for core business processes.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**Mistral AI / Le Chat**](products/mistral.md) | Ledande europeisk AI-assistent och språkmodeller från Paris. | Frankrike (EU) |
-| [**Aleph Alpha**](products/aleph-alpha.md) | Tysk suverän AI för industri och myndigheter. | Tyskland (EU) |
-| [**EULLM**](products/eullm.md) | Europeisk infrastruktur för att köra suveräna språkmodeller (LLM). | Din valda EU-server (Self-hosted) |
-| [**Open WebUI**](products/open-webui.md) | Gränssnitt för att interagera med lokalt hostade AI-modeller. | Din valda EU-server (Self-hosted) |
-| [**AnythingLLM**](products/anything-llm.md) | Skapa en privat kunskapsbas av dokument som du kan chatta med. | Din valda EU-server (Self-hosted) |
-| [**Langdock**](products/langdock.md) | Plattform för att använda flera AI-modeller säkert inom företaget. | Tyskland (EU) |
-| [**eustella**](products/eustella.md) | Österrikisk AI-assistent baserad på europeiska modeller. | Österrike (EU) |
+| [**Odoo**](products/odoo.md) | Modular business system (ERP) covering everything from CRM to accounting. | Your chosen EU server (Self-hosted) |
+| [**Personio**](products/personio.md) | Complete solution for HR processes and personnel administration. | Germany (EU) |
+| [**Recruitee**](products/recruitee.md) | Collaboration tool for recruitment and candidate pipeline management. | Netherlands (EU) |
+| [**Akeneo PIM**](products/akeneo.md) | Centralizes product information for marketing and sales. | Your chosen EU server (Self-hosted) |
+| [**Pimcore**](products/pimcore.md) | Platform for DAM and PIM for large product catalogs. | Your chosen EU server (Self-hosted) |
 
-## 6. Affärssystem (ERP, CRM & HR)
-*Verktyg för företagets kärnprocesser.*
+## 7. Security, Privacy & Identity
+*Protect your access, devices, and identity.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**Odoo**](products/odoo.md) | Modulärt affärssystem (ERP) som täcker allt från CRM till bokföring. | Din valda EU-server (Self-hosted) |
-| [**Personio**](products/personio.md) | Helhetslösning för HR-processer och personaladministration. | Tyskland (EU) |
-| [**Recruitee**](products/recruitee.md) | Samarbetsverktyg för rekrytering och kandidathantering. | Nederländerna (EU) |
-| [**Akeneo PIM**](products/akeneo.md) | Centraliserar produktinformation för marknadsföring och försäljning. | Din valda EU-server (Self-hosted) |
-| [**Pimcore**](products/pimcore.md) | Plattform för DAM och PIM för stora produktkataloger. | Din valda EU-server (Self-hosted) |
+| [**ZITADEL**](products/zitadel.md) | Identity management and Single Sign-On (SSO) for modern apps. | Your chosen EU server (Self-hosted) |
+| [**Passbolt**](products/passbolt.md) | E2EE-encrypted password manager built for teams. | Your chosen EU server (Self-hosted) |
+| [**Bitwarden (Self-hosted)**](products/bitwarden.md) | Password manager for teams and individuals (Vaultwarden). | Your chosen EU server (Self-hosted) |
+| [**Mullvad VPN**](products/mullvad.md) | Strictly privacy-focused VPN service based in Gothenburg. | Sweden (EU) |
+| [**Proton VPN**](products/proton-vpn.md) | Secure VPN service from the makers of Proton Mail. | Switzerland (Adequacy) |
+| [**Mullvad Browser**](products/mullvad-browser.md) | Web browser optimized to minimize tracking. | Local on your device |
+| [**Cryptomator**](products/cryptomator.md) | Tool to encrypt files locally before upload. | Local on your device |
+| [**VeraCrypt**](products/veracrypt.md) | Tool to create encrypted disks and containers. | Local on your device |
+| [**Documenso**](products/documenso.md) | European alternative for digital signatures. | Your chosen EU server (Self-hosted) |
 
-## 7. Säkerhet, Integritet & Identitet
-*Skydda din åtkomst, dina enheter och din identitet.*
+## 8. Marketing & Analytics
+*Reach customers and understand web content without compromising privacy.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**ZITADEL**](products/zitadel.md) | Identitetshantering och Single Sign-On (SSO) för moderna appar. | Din valda EU-server (Self-hosted) |
-| [**Passbolt**](products/passbolt.md) | E2EE-krypterad lösenordshanterare byggd för team. | Din valda EU-server (Self-hosted) |
-| [**Bitwarden (Self-hosted)**](products/bitwarden.md) | Lösenordshanterare för team och individer (Vaultwarden). | Din valda EU-server (Self-hosted) |
-| [**Mullvad VPN**](products/mullvad.md) | Strikt integritetsfokuserad VPN-tjänst med bas i Göteborg. | Sverige (EU) |
-| [**Proton VPN**](products/proton-vpn.md) | Säker VPN-tjänst från skaparna av Proton Mail. | Schweiz (Adequacy) |
-| [**Mullvad Browser**](products/mullvad-browser.md) | Webbläsare optimerad för att minimera spårning. | Lokalt på din enhet |
-| [**Cryptomator**](products/cryptomator.md) | Verktyg för att kryptera filer lokalt före uppladdning. | Lokalt på din enhet |
-| [**VeraCrypt**](products/veracrypt.md) | Verktyg för att skapa krypterade diskar och containrar. | Lokalt på din enhet |
-| [**Documenso**](products/documenso.md) | Europeiskt alternativ för digitala signaturer. | Din valda EU-server (Self-hosted) |
+| [**Brevo**](products/brevo.md) | Email marketing and marketing automation. | France (EU) |
+| [**MailerLite**](products/mailerlite.md) | Platform for newsletters and email automation. | Ireland/Lithuania (EU) |
+| [**Mixpost**](products/mixpost.md) | Social media management and scheduling. | Your chosen EU server (Self-hosted) |
+| [**Matomo**](products/matomo.md) | Web analytics giving you 100% ownership of data. | Your chosen EU server (Self-hosted) |
+| [**Plausible Analytics**](products/plausible.md) | Lightweight and cookie-free web analytics. | Your chosen EU server (Self-hosted) |
+| [**Apache Superset**](products/apache-superset.md) | Business intelligence (BI) and visualization. | Your chosen EU server (Self-hosted) |
+| [**LimeSurvey**](products/limesurvey.md) | Tool for surveys and market research. | Your chosen EU server (Self-hosted) |
+| [**Tally**](products/tally.md) | Smooth form tool with a modern interface. | Belgium (EU) |
 
-## 8. Marknadsföring & Analys
-*Nå ut till kunder och förstå ditt webbinnehåll utan att kompromissa med integritet.*
+## 9. IT Operations, Support & Development
+*Tools for system administrators, support, and developers.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**Brevo**](products/brevo.md) | E-postmarknadsföring och marketing automation. | Frankrike (EU) |
-| [**MailerLite**](products/mailerlite.md) | Plattform för nyhetsbrev och e-postautomatisering. | Irland/Litauen (EU) |
-| [**Mixpost**](products/mixpost.md) | Hantering av sociala medier och schemaläggning. | Din valda EU-server (Self-hosted) |
-| [**Matomo**](products/matomo.md) | Webbanalys som ger dig 100% ägandeskap över datan. | Din valda EU-server (Self-hosted) |
-| [**Plausible Analytics**](products/plausible.md) | Lättviktig och cookie-fri webbanalys. | Din valda EU-server (Self-hosted) |
-| [**Apache Superset**](products/apache-superset.md) | Business intelligence (BI) och visualisering. | Din valda EU-server (Self-hosted) |
-| [**LimeSurvey**](products/limesurvey.md) | Verktyg för enkäter och marknadsundersökningar. | Din valda EU-server (Self-hosted) |
-| [**Tally**](products/tally.md) | Smidigt formulärverktyg med modernt gränssnitt. | Belgien (EU) |
+| [**Zammad**](products/zammad.md) | Customer service platform and ticketing system for support. | Your chosen EU server (Self-hosted) |
+| [**GLPI**](products/glpi.md) | IT Asset Management and CMDB. | Your chosen EU server (Self-hosted) |
+| [**opsi**](products/opsi.md) | Centralized management, patching, and software rollout to clients. | Your chosen EU server (Self-hosted) |
+| [**Wazuh**](products/wazuh.md) | Security monitoring and incident management. | Your chosen EU server (Self-hosted) |
+| [**Grafana + Loki + Prometheus**](products/grafana-loki.md) | Monitoring stack for infrastructure dashboards. | Your chosen EU server (Self-hosted) |
+| [**Bareos**](products/bareos.md) | Professional backup solution for enterprises. | Your chosen EU server (Self-hosted) |
+| [**Forgejo**](products/forgejo.md) | Self-hosted Git platform for code management. | Your chosen EU server (Self-hosted) |
+| [**Sentry (Self-hosted)**](products/sentry.md) | Real-time error reporting and performance monitoring. | Your chosen EU server (Self-hosted) |
+| [**n8n**](products/n8n.md) | Automate workflows between different apps. | Your chosen EU server (Self-hosted) |
+| [**Weblate**](products/weblate.md) | Management of translations and localization. | Your chosen EU server (Self-hosted) |
+| [**Eramba**](products/eramba.md) | Platform for risk management and compliance (GRC). | Your chosen EU server (Self-hosted) |
+| [**GlobaLeaks**](products/globaleaks.md) | Platform for secure whistleblowing. | Your chosen EU server (Self-hosted) |
 
-## 9. IT-drift, Support & Utveckling
-*Verktyg för systemadministratörer, support och utvecklare.*
+## 10. Specialized Tools
+*E-commerce, education, and geospatial services.*
 
-| Produkt | Beskrivning | Datalokalisering |
+| Product | Description | Data Residency |
 | :--- | :--- | :--- |
-| [**Zammad**](products/zammad.md) | Kundtjänstplattform och biljettsystem för support. | Din valda EU-server (Self-hosted) |
-| [**GLPI**](products/glpi.md) | Hantering av IT-tillgångar (Asset Management) och CMDB. | Din valda EU-server (Self-hosted) |
-| [**opsi**](products/opsi.md) | Centraliserad hantering och mjukvaruutrullning till klienter. | Din valda EU-server (Self-hosted) |
-| [**Wazuh**](products/wazuh.md) | Säkerhetsövervakning och incidenthantering. | Din valda EU-server (Self-hosted) |
-| [**Grafana + Loki + Prometheus**](products/grafana-loki.md) | Stack för monitorering och dashboarding av infrastruktur. | Din valda EU-server (Self-hosted) |
-| [**Bareos**](products/bareos.md) | Professionell backup-lösning för företag. | Din valda EU-server (Self-hosted) |
-| [**Forgejo**](products/forgejo.md) | Självhostad Git-plattform för kodhantering. | Din valda EU-server (Self-hosted) |
-| [**Sentry (Self-hosted)**](products/sentry.md) | Felrapportering och monitorering i realtid. | Din valda EU-server (Self-hosted) |
-| [**n8n**](products/n8n.md) | Automatisera arbetsflöden mellan olika appar. | Din valda EU-server (Self-hosted) |
-| [**Weblate**](products/weblate.md) | Hantering av översättningar och lokalisering. | Din valda EU-server (Self-hosted) |
-| [**Eramba**](products/eramba.md) | Plattform för riskhantering och regelefterlevnad (GRC). | Din valda EU-server (Self-hosted) |
-| [**GlobaLeaks**](products/globaleaks.md) | Plattform för säker visselblåsning. | Din valda EU-server (Self-hosted) |
-
-## 10. Specialiserade Verktyg
-*E-handel, utbildning och geospatiala tjänster.*
-
-| Produkt | Beskrivning | Datalokalisering |
-| :--- | :--- | :--- |
-| [**PrestaShop**](products/prestashop.md) | Flexibel e-handelsplattform för webbutiker. | Din valda EU-server (Self-hosted) |
-| [**Shopware**](products/shopware.md) | Modern e-handelsplattform med fokus på API:er. | Din valda EU-server (Self-hosted) |
-| [**OpenOlat**](products/openolat.md) | Lärplattform (LMS) för kurser och utbildning. | Din valda EU-server (Self-hosted) |
-| [**openrouteservice**](products/openrouteservice.md) | Ruttplanering och spatial analys. | Din valda EU-server (Self-hosted) |
-| [**TYPO3**](products/typo3.md) | Enterprise CMS för komplexa webbplatser. | Din valda EU-server (Self-hosted) |
-| [**Strapi**](products/strapi.md) | Headless CMS för att hantera innehåll via API:er. | Din valda EU-server (Self-hosted) |
-| [**Qwant**](products/qwant.md) | Fransk sökmotor som inte spårar sina användare. | Frankrike (EU) |
-| [**Startpage**](products/startpage.md) | Anonym sökning via Google-proxy. | Nederländerna (EU) |
+| [**PrestaShop**](products/prestashop.md) | Flexible e-commerce platform for web stores. | Your chosen EU server (Self-hosted) |
+| [**Shopware**](products/shopware.md) | Modern e-commerce platform with a focus on APIs. | Your chosen EU server (Self-hosted) |
+| [**OpenOlat**](products/openolat.md) | Learning Management System (LMS) for courses and education. | Your chosen EU server (Self-hosted) |
+| [**openrouteservice**](products/openrouteservice.md) | Route planning and spatial analysis. | Your chosen EU server (Self-hosted) |
+| [**TYPO3**](products/typo3.md) | Enterprise CMS for complex websites. | Your chosen EU server (Self-hosted) |
+| [**Strapi**](products/strapi.md) | Headless CMS to manage content via APIs. | Your chosen EU server (Self-hosted) |
+| [**Qwant**](products/qwant.md) | French search engine that does not track its users. | France (EU) |
+| [**Startpage**](products/startpage.md) | Anonymous search via Google proxy. | Netherlands (EU) |
