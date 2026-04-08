@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroDesk Conversion & Cost Calculator</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 40px; background-color: #f8f9fa; color: #333; }
+        h1 { color: #0056b3; }
+        p { margin-bottom: 20px; color: #555; line-height: 1.5; max-width: 1000px;}
+        table { width: 100%; max-width: 1200px; border-collapse: collapse; margin-bottom: 40px; background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        th, td { padding: 12px 15px; border: 1px solid #dee2e6; text-align: left; }
+        th { background-color: #0056b3; color: white; font-weight: 500; position: sticky; top: 0; }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        input[type="number"] { width: 80px; padding: 6px; border: 1px solid #ccc; border-radius: 4px; }
+        .total-row { font-weight: bold; background-color: #e9ecef; }
+        .grand-total { font-size: 1.2em; color: #d9534f; font-weight: bold; }
+        .hint { font-size: 0.85em; color: #666; }
+    </style>
+</head>
+<body>
+
+    <h1>EuroDesk Conversion & Cost Calculator</h1>
+    <p>
+        Calculate the total estimated time and monthly cost required to migrate your organization to the EuroDesk sovereign stack. <br>
+        <strong>Defaults:</strong> Each product is pre-filled with an estimated conversion time (training + migration per user) from its typical US counterpart, alongside an estimated monthly cost per employee (SaaS license or self-hosted infrastructure share). Enter the number of employees for each tool to see the totals.
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Typical Previous Tool</th>
+                <th>Employees</th>
+                <th>Est. Time/Emp (Hours)</th>
+                <th>Total Hours</th>
+                <th>Est. Cost/Emp/Mo (€)</th>
+                <th>Total Cost/Mo (€)</th>
+            </tr>
+        </thead>
+        <tbody id="calc-body">
+            <tr>
+                <td><strong>Akeneo PIM</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Aleph Alpha</strong></td>
+                <td class="hint">ChatGPT / OpenAI</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="20" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>AnythingLLM</strong></td>
+                <td class="hint">ChatGPT / OpenAI</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="10" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Apache Superset</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>AppFlowy</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Bareos</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>BigBlueButton</strong></td>
+                <td class="hint">Zoom / MS Teams</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="1" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="1" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Bitwarden (Self-hosted)</strong></td>
+                <td class="hint">LastPass / 1Password</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="1" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Brevo</strong></td>
+                <td class="hint">Mailchimp / Hubspot</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="8" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="15" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Cal.com</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Collabora Online</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Cryptomator</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>CryptPad</strong></td>
+                <td class="hint">Google Drive / OneDrive / SharePoint</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="3" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>DeepL</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Documenso</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Easy!Appointments</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Element / Matrix</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Eramba</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>EU Hosting Providers</strong></td>
+                <td class="hint">ChatGPT / OpenAI</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="20" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>EULLM</strong></td>
+                <td class="hint">ChatGPT / OpenAI</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="10" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>eustella</strong></td>
+                <td class="hint">ChatGPT / OpenAI</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="20" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Excalidraw</strong></td>
+                <td class="hint">Figma / Miro</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="12" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Forgejo</strong></td>
+                <td class="hint">GitHub / GitLab SaaS</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="8" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="3" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Framadate</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>GlobaLeaks</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>GLPI</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Grafana + Loki + Prometheus</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Jitsi Meet</strong></td>
+                <td class="hint">Zoom / MS Teams</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="1" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="1" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Kimai</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Langdock</strong></td>
+                <td class="hint">Salesforce / Dynamics / SAP</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="16" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="25" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>LimeSurvey</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Logseq</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Mailbox.org</strong></td>
+                <td class="hint">Google Workspace / M365 (Email)</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="6" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>MailerLite</strong></td>
+                <td class="hint">Mailchimp / Hubspot</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="8" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="15" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Matomo</strong></td>
+                <td class="hint">Google Analytics</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="4" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Mattermost</strong></td>
+                <td class="hint">Slack / MS Teams</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="1" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Mistral AI / Le Chat</strong></td>
+                <td class="hint">ChatGPT / OpenAI</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="20" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Mixpost</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Mullvad Browser</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Mullvad VPN</strong></td>
+                <td class="hint">Cisco AnyConnect / NordVPN</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="1" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>n8n</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Nextcloud</strong></td>
+                <td class="hint">Google Drive / OneDrive / SharePoint</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="3" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Odoo</strong></td>
+                <td class="hint">Salesforce / Dynamics / SAP</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="16" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="12" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>ONLYOFFICE</strong></td>
+                <td class="hint">Google Drive / OneDrive / SharePoint</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="3" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Open WebUI</strong></td>
+                <td class="hint">ChatGPT / OpenAI</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="10" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>OpenKM</strong></td>
+                <td class="hint">Google Drive / OneDrive / SharePoint</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="3" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>OpenOlat</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>OpenProject</strong></td>
+                <td class="hint">Jira / Trello / Asana</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="6" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="4" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>openrouteservice</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>opsi</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Outline</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Paperless-ngx</strong></td>
+                <td class="hint">Google Drive / OneDrive / SharePoint</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="3" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Passbolt</strong></td>
+                <td class="hint">LastPass / 1Password</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="1" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Penpot</strong></td>
+                <td class="hint">Figma / Miro</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="6" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Personio</strong></td>
+                <td class="hint">Workday / Greenhouse</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="10" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="10" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Pimcore</strong></td>
+                <td class="hint">GitHub / GitLab SaaS</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="8" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="3" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Planka</strong></td>
+                <td class="hint">Jira / Trello / Asana</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="6" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="4" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Plausible Analytics</strong></td>
+                <td class="hint">Google Analytics</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>PrestaShop</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Proton Mail</strong></td>
+                <td class="hint">Google Workspace / M365 (Email)</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="6" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Proton VPN</strong></td>
+                <td class="hint">Cisco AnyConnect / NordVPN</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="1" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Qwant</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Recruitee</strong></td>
+                <td class="hint">Workday / Greenhouse</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="10" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="10" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Sentry (Self-hosted)</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Shopware</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Startpage</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Strapi</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>SwissTransfer</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Tally</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Tresorit</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Tuta (formerly Tutanota)</strong></td>
+                <td class="hint">Google Workspace / M365 (Email)</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="2" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="6" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>TYPO3</strong></td>
+                <td class="hint">Salesforce / Dynamics / SAP</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="16" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="12" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>VeraCrypt</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="5" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Wazuh</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Weblate</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>Zammad</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+            <tr>
+                <td><strong>ZITADEL</strong></td>
+                <td class="hint">Legacy System</td>
+                <td><input type="number" min="0" value="0" class="employees" oninput="calculate()"></td>
+                <td><input type="number" min="0" value="4" class="hours" oninput="calculate()"></td>
+                <td class="row-hours-total">0</td>
+                <td><input type="number" min="0" value="2" class="cost" oninput="calculate()"></td>
+                <td class="row-cost-total">0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total-row">
+                <td colspan="4" style="text-align: right;">Grand Totals:</td>
+                <td id="grand-total-hours" class="grand-total">0 h</td>
+                <td></td>
+                <td id="grand-total-cost" class="grand-total">€0</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script>
+        function calculate() {
+            let grandTotalHours = 0;
+            let grandTotalCost = 0;
+            const rows = document.querySelectorAll('#calc-body tr');
+            
+            rows.forEach(row => {
+                const employees = parseFloat(row.querySelector('.employees').value) || 0;
+                const hours = parseFloat(row.querySelector('.hours').value) || 0;
+                const cost = parseFloat(row.querySelector('.cost').value) || 0;
+                
+                const totalHours = employees * hours;
+                const totalCost = employees * cost;
+                
+                row.querySelector('.row-hours-total').textContent = totalHours;
+                row.querySelector('.row-cost-total').textContent = '€' + totalCost;
+                
+                grandTotalHours += totalHours;
+                grandTotalCost += totalCost;
+            });
+            
+            document.getElementById('grand-total-hours').textContent = grandTotalHours + ' h';
+            document.getElementById('grand-total-cost').textContent = '€' + grandTotalCost;
+        }
+        
+        // Initial calculation to set zeroes
+        calculate();
+    </script>
+</body>
+</html>
