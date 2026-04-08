@@ -34,10 +34,15 @@ OpenOlat is an open-source learning management system for online courses, traini
 ### Install
 
 ```bash
-wget https://www.openolat.com/releases/openolat-latest.war
-sudo mv openolat-latest.war /var/lib/tomcat10/webapps/openolat.war
+# Download the current OpenOlat release package from the official downloads page
+# https://www.openolat.com/downloads.html
+
+# Deploy the supplied .war package to your Tomcat webapps directory
+sudo cp openolat.war /var/lib/tomcat10/webapps/
 sudo systemctl restart tomcat10
 ```
+
+Follow the official OpenOlat documentation for the exact release package, database configuration, and upgrade path for your version.
 
 ### Database
 

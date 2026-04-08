@@ -72,6 +72,8 @@
 | **Weblate** | Translation Mgmt | Czech Republic (EU) | Self-hosted or managed |
 | **ZITADEL** | Identity / SSO | Switzerland (Adequacy) | Self-hosted or managed |
 | **Zammad** | Helpdesk | Germany (EU) | Self-hosted or managed |
+| **eustella** | AI Assistant | Austria (EU) | Managed SaaS |
+| **langdock** | AI Assistant / Platform | Germany (EU) | Managed SaaS (Note: Azure Germany) |
 | **n8n** | Automation | Germany (EU) | Self-hosted or managed |
 | **openrouteservice** | Routing / Fleet | Germany (EU) | Self-hosted or managed |
 | **opsi** | Endpoint Management | Germany (EU) | Self-hosted |

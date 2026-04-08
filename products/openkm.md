@@ -34,10 +34,13 @@ OpenKM is a document management and records workflow platform for versioning, me
 ### Install
 
 ```bash
-wget https://www.openkm.com/download/openkm-latest-community.war
-sudo mv openkm-latest-community.war /var/lib/tomcat10/webapps/OpenKM.war
-sudo systemctl restart tomcat10
+# Download the current Community installer from the official OpenKM download page
+# https://www.openkm.com/en/download.html
+
+java -jar OKMInstaller.jar
 ```
+
+The official Community download currently ships as `OKMInstaller.jar`, which guides the installation. Follow the OpenKM documentation for database selection, Tomcat integration, and upgrade steps.
 
 ## Key Features
 
