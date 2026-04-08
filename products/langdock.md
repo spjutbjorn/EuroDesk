@@ -1,7 +1,7 @@
 # Langdock
 
 **Category:** AI Assistant, Enterprise AI Platform
-**Type:** Managed SaaS
+**Type:** Managed SaaS / Own Cloud / On-Prem
 **Jurisdiction:** Germany (EU)
 **Website:** [langdock.com](https://langdock.com)
 
@@ -13,7 +13,10 @@ Langdock is a Berlin-based enterprise AI platform that consolidates AI chat, wor
 
 | Option | Description |
 |---|---|
-| **Managed SaaS** | EU-hosted via Azure Germany, GDPR-compliant |
+| **Multi-tenant SaaS** | Hosted in Europe |
+| **Single-tenant / Dedicated** | Managed dedicated deployment for larger customers |
+| **Own Cloud** | Dedicated deployment in your own cloud |
+| **On-Prem** | Kubernetes-based on-premise deployment for large enterprises |
 
 ## Key Features
 
@@ -27,13 +30,12 @@ Langdock is a Berlin-based enterprise AI platform that consolidates AI chat, wor
 
 | Plan | Price |
 |---|---|
-| **Per user** | ~EUR 20/user/month |
-| **Token markup** | 10% on top of model provider prices |
+| **Business** | ~EUR 20/user/month |
 | **Workflows** | From EUR 539/month |
 
 ## Compliance Notes
 
 - GDPR-compliant, ISO 27001 certified, SOC 2 Type II audited
-- Data hosted in EU (Azure Germany)
-- 100K+ monthly active users, 4000+ customers as of 2026
-- Note: uses Azure Germany for hosting — Microsoft is US-owned, so not fully sovereign in the strictest sense
+- Hosted in Europe for SaaS deployments
+- Own-cloud and on-prem deployment options are available for stricter sovereignty requirements
+- Multi-tenant SaaS may still rely on US-owned cloud infrastructure, so strict sovereignty requirements may require own-cloud or on-prem deployment

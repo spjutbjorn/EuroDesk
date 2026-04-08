@@ -7,7 +7,7 @@
 
 ## What It Is
 
-Aleph Alpha is a German AI research and development company that builds the **Luminous** model family. It is specifically designed for industrial, governmental, and high-security use cases where explainability, transparency, and European data sovereignty are critical.
+Aleph Alpha is a German sovereign AI company building enterprise and government AI systems with a strong focus on explainability, compliance, and European data sovereignty. Its current platform positioning centers on **PhariaAI**, an end-to-end stack for production AI systems; the earlier **Luminous** model family remains part of its historical development.
 
 ## Good Fit For
 
@@ -20,13 +20,13 @@ Aleph Alpha is a German AI research and development company that builds the **Lu
 
 | Option | Description |
 |---|---|
-| **Managed Cloud** | Hosted in German data centers (EU) |
-| **Private Cloud** | Deploy on your chosen EU infrastructure (e.g., STACKIT, Open Telekom Cloud) |
+| **Managed Cloud / AI-as-a-Service** | Hosted through sovereign European deployment options |
+| **Private Cloud** | Deploy on your chosen EU infrastructure |
 | **On-Premises** | For maximum security and data control |
 
 ## Key Features
 
-- **Luminous Model Family:** Models optimized for performance and reliability.
+- **Enterprise AI Stack:** Focus on sovereign enterprise and government deployments.
 - **Explainability:** Built-in tools to understand why the AI generated a specific response.
 - **Data Sovereignty:** 100% German jurisdiction, no US CLOUD Act exposure.
 - **Multi-modal:** Supports text and image processing.
@@ -36,7 +36,7 @@ Aleph Alpha is a German AI research and development company that builds the **Lu
 
 - **Jurisdiction:** Headquartered in Heidelberg, Germany.
 - **GDPR:** Fully compliant with German and EU data protection laws.
-- **Sovereignty:** Preferred partner for European public sector AI projects.
+- **Sovereignty:** Positioned for enterprises and public-sector deployments that require control and auditability.
 - **Transparency:** Focuses on "verifiable AI" rather than black-box models.
 
 ## EuroDesk Verdict

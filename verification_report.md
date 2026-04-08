@@ -1,8 +1,8 @@
 # EuroDesk Product Verification Report
 
-**Date:** Wednesday, April 8, 2026  
+**Date:** Wednesday, April 8, 2026
 **Scope:** Verification of all 69 tools in the `products/` directory for consistency with the product documents currently stored in `products/`.  
-**Verification level:** This report is a consistency audit against the local product files. It mirrors the current product metadata (`title`, `category`, `jurisdiction`, `type`) and does not independently re-verify every pricing table or installation command against external sources.
+**Verification level:** This report mirrors the current product metadata (`title`, `category`, `jurisdiction`, `type`) in the local product files. In this audit pass, selected higher-risk and newer entries — especially AI products and recently added tools — were additionally checked against official vendor or project sources. It still does not independently re-verify every pricing table or every installation command in every product guide.
 
 ## Summary Verification Table
 
@@ -24,6 +24,7 @@
 | **Documenso** | E-signing | Germany (EU) | Self-hosted or managed |
 | **Easy!Appointments** | Scheduling / Booking | EU-hostable when self-hosted | Self-hosted |
 | **Element / Matrix** | Team Communication | EU-hostable (servers in your chosen EU data center) | Self-hosted or managed |
+| **EU Hosting Providers** | Cloud Infrastructure, GPU Hosting, AI Inference | EU-ägda bolag, data stannar i EU | IaaS / PaaS |
 | **EULLM** | AI Infrastructure, LLM Platform | EU-hostable | Self-hosted (open source) |
 | **eustella** | AI Assistant | Austria (EU) | Managed SaaS (mobile-first) |
 | **Excalidraw** | Whiteboarding & Collaboration | US/Global (Open Source / Self-Hosted Exception) | Self-hosted (Exception) / SaaS |
@@ -31,10 +32,9 @@
 | **Framadate** | Scheduling & Booking | EU (France) | Self-hosted / Managed |
 | **GLPI** | Asset Management / CMDB | France (EU) via Teclib | Self-hosted or managed |
 | **Grafana + Loki + Prometheus** | Logging, Monitoring & Alerting | EU-hostable; Grafana Labs is US-based but the software is open source and fully self-hostable | Self-hosted |
-| **EU Hosting Providers** | Cloud Infrastructure, GPU Hosting, AI Inference | EU-ägda bolag, data stannar i EU | IaaS / PaaS |
 | **Jitsi Meet** | Video Conferencing | EU-hostable | Self-hosted or managed |
 | **Kimai** | Time Tracking & Invoicing | EU (Germany) | Self-hosted / SaaS |
-| **Langdock** | AI Assistant, Enterprise AI Platform | Germany (EU) | Managed SaaS |
+| **Langdock** | AI Assistant, Enterprise AI Platform | Germany (EU) | Managed SaaS / Own Cloud / On-Prem |
 | **LimeSurvey** | Forms / Surveys | Germany (EU) via LimeSurvey GmbH | Self-hosted or managed |
 | **Logseq** | Note-taking & Workspaces | Global (Open Source / Self-Hosted Exception) | Local-first Software |
 | **Mailbox.org** | Email & Groupware | Germany (EU, GDPR) | Managed SaaS |
@@ -107,3 +107,13 @@ Some product documents may still require future source refreshes for:
 - legal wording on jurisdiction or compliance
 
 Those checks should be done against official vendor or project documentation as a separate verification pass.
+
+### 4. External corrections made in this audit pass
+During this pass, clear source-based corrections were applied to:
+
+- `products/openolat.md`
+- `products/openkm.md`
+- `products/aleph-alpha.md`
+- `products/langdock.md`
+
+These corrections addressed packaging / installation wording, hosting model precision, and outdated product positioning.
