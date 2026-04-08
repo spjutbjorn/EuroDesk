@@ -42,6 +42,14 @@ java -jar OKMInstaller.jar
 
 The official Community download currently ships as `OKMInstaller.jar`, which guides the installation. Follow the OpenKM documentation for database selection, Tomcat integration, and upgrade steps.
 
+## Plans (2026 Estimates)
+
+| Plan | Price (Month) | Key Features |
+|---|---|---|
+| **Community** | $0 | Basic DMS, open-source |
+| **Professional**| ~$100 | Cloud or On-prem, full support |
+| **Enterprise** | Custom | High volume, advanced workflows |
+
 ## Key Features
 
 - Document versioning and metadata

@@ -16,6 +16,15 @@ Matomo (formerly Piwik) is a powerful, open-source Google Analytics alternative 
 | **Self-hosted** | Run Matomo on your own EU infrastructure |
 | **Matomo Cloud** | Use a managed service if it meets your sovereignty requirements |
 
+## Plans (2026)
+
+| Plan | Price | Key Features |
+|---|---|---|
+| **On-Premise** | Free | 100% data ownership, full source access |
+| **Cloud Essential**| ~€9-€24 /mo | Starts at 50k hits, managed |
+| **Cloud Business** | ~€22+ /mo | 30 websites, full feature set |
+| **On-Prem Bundles**| ~$579+ /yr | Paid extensions for self-hosted instances |
+
 ## Why it fits EuroDesk
 
 - **Data Ownership:** You own 100% of your data when self-hosted on your own EU infrastructure.

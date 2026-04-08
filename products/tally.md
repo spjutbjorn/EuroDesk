@@ -15,7 +15,18 @@ Tally is a lightweight form builder with a document-like editing experience. It 
 |---|---|
 | **Tally Cloud** | Managed form builder from an EU vendor |
 
-## Why It Fits EuroDesk
+## Plans (2026)
+
+| Plan | Price (Month) | Key Features |
+|---|---|---|
+| **Free** | $0 | Unlimited forms & responses |
+| **Pro** | $29 | Custom domains, team collab |
+| **Business** | $89 | Enterprise security, data retention |
+
+> **Note:** Tally is highly privacy-conscious and stores data on EU servers (Frankfurt) by default.
+
+## Why it fits EuroDesk
+
 
 - **Jurisdiction:** Belgian company with EU-focused operations.
 - **Usability:** Very fast to deploy for everyday business forms.

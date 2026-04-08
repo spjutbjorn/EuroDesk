@@ -28,6 +28,15 @@ Penpot is an open-source design and prototyping platform for design, product, an
 - Store uploaded assets and exports on EU-controlled infrastructure.
 - Limit public sharing links and use SSO where possible.
 
+## Plans (2026)
+
+| Plan | Price (Month) | Key Features |
+|---|---|---|
+| **Core** | $0 | Unlimited teams/files/users |
+| **Enterprise** | ~$950 (flat) | SAML SSO, air-gapped support |
+
+> **Note:** Penpot is one of the most generous open-source tools, keeping all core features free and charging primarily for high-level institution support.
+
 ## Alternatives Considered
 
 | Alternative | Why not |

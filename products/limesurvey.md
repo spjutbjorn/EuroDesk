@@ -16,6 +16,17 @@ LimeSurvey is an open-source survey and form platform for questionnaires, feedba
 | **LimeSurvey Cloud** | Managed service from an EU vendor |
 | **Self-hosted** | Deploy on your own EU server |
 
+## Plans (Cloud 2026)
+
+| Plan | Price (Month) | Limit (Responses) |
+|---|---|---|
+| **Free** | $0 | 25 /mo |
+| **Basic** | €34 | 1,000 /mo |
+| **Expert** | €29 (ann.) | 10,000 /yr |
+| **Business** | €74 (ann.) | 100,000 /yr |
+
+> **Note:** The self-hosted version of LimeSurvey is free and unlimited, provided you manage your own infrastructure and updates.
+
 ## Good Fit For
 
 - Customer or employee surveys

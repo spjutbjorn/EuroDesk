@@ -50,6 +50,14 @@ sudo systemctl enable --now wazuh-agent
 - Keep indexer and dashboard storage on EU-owned infrastructure.
 - Review agent policies to avoid collecting unnecessary user data.
 
+## Plans (Support & Cloud 2026)
+
+| Option | Price (Est.) | Key Features |
+|---|---|---|
+| **Community** | $0 | Full feature set, community support |
+| **Standard Support**| ~$15,000 /year | 8/5 expert support, technical assistance |
+| **Managed Cloud** | ~$571 /month | Up to 100 agents, hosted by Wazuh |
+
 ## Key Features
 
 - Endpoint monitoring and alerting

@@ -11,6 +11,21 @@ GlobaLeaks is an open-source, free whistleblowing software developed by the Herm
 ## Hosting Options
 Self-hosted on EU infrastructure. The software is designed to be easily installed on Debian or Ubuntu.
 
+## Plans (2026)
+
+| Option | Price (Month) | Key Features |
+|---|---|---|
+| **Open Source** | $0 | Full whistleblowing engine |
+| **Self-hosted** | Infrastructure cost | Complete data sovereignty |
+
+> **Note:** GlobaLeaks is a non-profit project. The software is 100% free. Organizations only pay for their own hosting and optional consulting.
+
+## Key Features
+- Anonymity by default (Tor support).
+- Secure file exchange and messaging.
+- Fully customizable reporting questionnaires.
+- Audit trails and case management.
+
 ## Compliance Notes
 - Crucial for compliance with the EU Whistleblower Protection Directive, which mandates secure and anonymous reporting channels for organizations with 50 or more employees.
 - Developed in Italy by a non-profit organization focused on digital rights and transparency.

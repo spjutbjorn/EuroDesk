@@ -3,7 +3,7 @@
 This document outlines the operational, legal, and technical risks associated with running a sovereign European office stack and the recommended mitigation strategies.
 
 ## 1. Operational Complexity (The Self-Hosting Burden)
-*   **Risk:** Many tools in this stack require self-hosting. Managing security patches, backups, and uptime for 30+ separate applications creates significant IT overhead.
+*   **Risk:** Many tools in this stack require self-hosting. Managing security patches, backups, and uptime for 70+ separate applications creates significant IT overhead.
 *   **Impact:** System downtime or unpatched vulnerabilities leading to data breaches.
 *   **Mitigation:** Standardize on Docker/Kubernetes; use centralized logging (Loki) and monitoring (Grafana/Wazuh); consider professional managed services from EU-owned vendors for mission-critical apps.
 

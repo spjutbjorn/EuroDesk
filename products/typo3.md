@@ -11,6 +11,20 @@ TYPO3 is a free and open-source enterprise content management system. It is the 
 ## Hosting Options
 Open-source and fully self-hosted on your own EU infrastructure. Supported natively by most major European hosting providers.
 
+## Plans (Support 2026)
+
+| Service | Price (Year) | Key Features |
+|---|---|---|
+| **Typo3 Core** | $0 | Full feature set, open-source |
+| **ELTS (v12)** | ~€3,200 | Extended Long-Term Support (Security) |
+| **Certification**| From €840 | Professional certification bundles |
+
+## Key Features
+- Multi-site and multi-lingual management out of the box.
+- Granular permission system for large teams.
+- Highly scalable and secure enterprise architecture.
+- Dedicated focus on accessibility and performance.
+
 ## Compliance Notes
 - Managed by the TYPO3 Association, based in Switzerland.
 - Deeply embedded within the European public sector and higher education, inherently meeting strict accessibility (WCAG) and data protection (GDPR) guidelines.

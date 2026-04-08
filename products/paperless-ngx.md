@@ -11,6 +11,21 @@ Paperless-ngx is an open-source document management system that transforms your 
 ## Hosting Options
 Fully self-hosted via Docker. It should be hosted on EU infrastructure to maintain strict control over sensitive legal, real estate, and administrative documents.
 
+## Plans (2026)
+
+| Option | Price (Month) | Key Features |
+|---|---|---|
+| **Self-hosted** | $0 | Full control, open-source |
+| **Managed** | ~$10 - $20 | Hosted by 3rd parties (e.g. Elestio) |
+
+> **Note:** Paperless-ngx is community-driven and does not charge for the software. Managed options are offered by independent EU-based hosting partners.
+
+## Key Features
+- Automated OCR and indexing of physical documents.
+- Advanced tagging and metadata extraction.
+- Full-text search across all archived content.
+- Multi-user support and permissions.
+
 ## Compliance Notes
 - Completely open-source and community-driven.
 - No vendor lock-in. Data is stored locally on your server.

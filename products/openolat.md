@@ -51,6 +51,16 @@ sudo -u postgres createuser openolat
 sudo -u postgres createdb openolat
 ```
 
+## Plans (Support 2026)
+
+| Plan | Price (Month) | Setup Fee | Key Features |
+|---|---|---|---|
+| **Community** | $0 | $0 | Full feature set, self-hosted |
+| **Basic** | ~CHF 249 | ~CHF 1,000 | Professional support, updates |
+| **Enterprise** | ~CHF 890 | ~CHF 25,000 | Institutional scale, custom SLA |
+
+> **Note:** OpenOlat is developed by **frentix** in Switzerland, offering high data protection standards and full GDPR compliance.
+
 ## Key Features
 
 - Course and curriculum management

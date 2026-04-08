@@ -18,6 +18,14 @@ Langdock is a Berlin-based enterprise AI platform that consolidates AI chat, wor
 | **Own Cloud** | Dedicated deployment in your own cloud |
 | **On-Prem** | Kubernetes-based on-premise deployment for large enterprises |
 
+## Plans (2026 Estimates)
+
+| Plan | Price | Key Features |
+|---|---|---|
+| **Business** | ~€20 /user/mo | Core AI chat, agents, search |
+| **Workflows** | + €449 /mo | Up to 40k automated runs |
+| **API** | Usage-based | Token-based model access |
+
 ## Key Features
 
 - Multi-model chat (switch between LLMs per task)

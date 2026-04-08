@@ -22,6 +22,15 @@ DeepL is an AI translation platform known for high-quality translations, especia
 - **Enterprise privacy:** DeepL Pro is designed for business use with stronger confidentiality expectations.
 - **Quality:** Often outperforms major US-based translation tools for European languages.
 
+## Plans (Pro 2026)
+
+| Plan | Price (User/Mo) | Key Features |
+|---|---|---|
+| **Starter** | ~$10.49 | Unlimited text, 5 file trans. |
+| **Advanced** | ~$34.49 | CAT tool integration, 20 files |
+| **Ultimate** | ~$68.99 | Max security, 100 file trans. |
+| **API** | ~$5.49 base | Usage-based per character |
+
 ## Compliance Notes
 
 - Use `DeepL Pro` rather than free consumer usage for business-sensitive text.

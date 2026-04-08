@@ -95,6 +95,16 @@ server {
 }
 ```
 
+## Plans (2026)
+
+| Plan | Price (User/Mo) | Key Features |
+|---|---|---|
+| **Community** | $0 | Unlimited boards/users |
+| **Pro** | ~€9.20 | Recurring cards, calendar, roles |
+| **Installation**| €469 (one-time) | Professional server setup |
+
+> **Note:** Planka Pro was introduced in 2025 to support the long-term development of the open-source core.
+
 ## Key Features
 
 - Projects → Boards → Lists → Cards hierarchy

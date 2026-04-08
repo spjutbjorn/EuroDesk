@@ -22,6 +22,16 @@ Bareos is an open-source enterprise backup platform for servers, databases, VMs,
 - Restore testing and disaster recovery planning
 - Compliance-heavy environments that need auditability
 
+## Plans (2026)
+
+| Plan | Price | Minimum |
+|---|---|---|
+| **Subscription** | €48 /unit/year | 10 units (€480/yr) |
+| **Basic Support**| ~€2,850 /year | 8/5 support, up to 20 units |
+| **Standard/Premium**| Custom | Higher unit counts & 24/7 SLAs |
+
+> **Units:** Calculated based on either total source data (per TB) or total number of clients + plugin jobs.
+
 ## Core Components
 
 | Component | Purpose |

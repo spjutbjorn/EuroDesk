@@ -180,6 +180,17 @@ Use [Authentik](https://goauthentik.io) as your self-hosted OIDC provider for SS
 3. Set the redirect URL to `https://wiki.your-company.eu/auth/oidc.callback`
 4. Copy the client ID and secret into Outline's `.env`
 
+## Plans (2026)
+
+| Plan | Price (Month) | User Limit |
+|---|---|---|
+| **Open Source** | $0 | Unlimited (technical setup) |
+| **Business (1-10)**| ~$10 | Up to 10 users, easier SSO |
+| **Business (11-100)**| ~$79 | Up to 100 users, priority support |
+| **Enterprise** | ~$249 | Up to 200 users, custom SLA |
+
+> **Note:** For EuroDesk, the **Open Source** self-hosted version or the **Sovereign** on-premises tiers must be used to ensure EU data residency.
+
 ## Key Features
 
 - Rich text editor (Notion-like) with Markdown support

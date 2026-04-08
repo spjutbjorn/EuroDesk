@@ -78,6 +78,17 @@ docker compose up -d
 - Restrict public templates to approved admins
 - Retain signed documents in backups
 
+## Plans (2026)
+
+| Plan | Price (Month) | Limits |
+|---|---|---|
+| **Free** | $0 | 5 documents /mo |
+| **Individual** | $30 | Unlimited signing |
+| **Teams** | $40 | 5 users included |
+| **Self-Hosted** | Free | Unlimited, full control |
+
+> **Note:** The self-hosted version is available under the AGPL license, allowing for complete data sovereignty on your own EU infrastructure.
+
 ## Key Features
 
 - Request signatures from multiple parties

@@ -1,7 +1,7 @@
 # EuroDesk Product Verification Report
 
 **Date:** Wednesday, April 8, 2026
-**Scope:** Verification of all 76 tools in the `products/` directory for consistency with the product documents currently stored in `products/`.  
+**Scope:** Verification of all 77 tools in the `products/` directory for consistency with the product documents currently stored in `products/`.  
 **Verification level:** This report mirrors the current product metadata (`title`, `category`, `jurisdiction`, `type`) in the local product files. In this audit pass, selected higher-risk and newer entries — especially AI products and recently added tools — were additionally checked against official vendor or project sources. It still does not independently re-verify every pricing table or every installation command in every product guide.
 
 ## Summary Verification Table
@@ -80,6 +80,7 @@
 | **Tresorit** | File Transfer & Storage | Switzerland (Adequacy-Approved) | SaaS |
 | **Tuta (formerly Tutanota)** | Email | Germany (EU, GDPR) | Managed SaaS |
 | **TYPO3** | Enterprise Content Management System (CMS) | EU (Switzerland/Germany) | Self-hosted |
+| **VeraCrypt** | Encryption / Data Protection | France (EU) | Local Software |
 | **Wazuh** | Security Monitoring / Endpoint Security | Spain (EU) | Self-hosted or managed |
 | **Weblate** | Translation Management / Localization | Czech Republic (EU) | Self-hosted or managed |
 | **Zammad** | Helpdesk / Ticketing | Germany (EU) | Self-hosted or managed |

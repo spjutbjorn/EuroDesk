@@ -56,6 +56,16 @@ services:
 docker compose up -d
 ```
 
+## Plans (Cloud 2026)
+
+| Plan | Price (Month) | Key Features |
+|---|---|---|
+| **Basic** | ~€19 | Up to 1,000 strings |
+| **Standard** | ~€70 | Up to 10,000 strings |
+| **Plus** | ~€193 | Up to 50,000 strings |
+
+> **Note:** The self-hosted version of Weblate is free and open-source, providing full data ownership on your own EU infrastructure.
+
 ## Key Features
 
 - Collaborative translation and review

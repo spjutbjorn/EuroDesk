@@ -77,6 +77,16 @@ server {
 3. Account provisioning notifications
 4. Backup failure alerts to your helpdesk
 
+## Plans (Cloud 2026)
+
+| Plan | Price (Month) | Limit (Executions) |
+|---|---|---|
+| **Starter** | ~$20 | Up to 2,500 |
+| **Pro** | ~$50 | Up to 10,000 |
+| **Business** | ~$667 | Up to 40,000 |
+
+> **Note:** The self-hosted Community Edition of n8n is free and allows for unlimited executions on your own EU infrastructure.
+
 ## Key Features
 
 - Visual workflow builder

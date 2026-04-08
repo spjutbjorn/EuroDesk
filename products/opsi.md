@@ -22,6 +22,14 @@ opsi is an open-source client management platform for deploying software, patchi
 - Asset inventory and standardized workstation images
 - On-prem endpoint control for schools, businesses, and public sector teams
 
+## Plans (2026 Estimates)
+
+| Plan | Price (Device/Yr) | Key Features |
+|---|---|---|
+| **Core** | $0 | Basic deployment, Windows support |
+| **Professional** | ~$5.00 | Min. 100 devices, advanced modules |
+| **Enterprise** | ~$10.00 | macOS/Linux agents, high scalability |
+
 ## Core Capabilities
 
 - Software deployment

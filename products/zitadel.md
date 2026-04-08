@@ -89,6 +89,14 @@ server {
 }
 ```
 
+## Plans (2026)
+
+| Plan | Price | Key Features |
+|---|---|---|
+| **Community** | $0 | Unlimited users, core OIDC/SAML |
+| **Cloud (Managed)** | Usage-based | Pay per request/user, Swiss-hosted |
+| **Enterprise (S.H.)**| ~$5,000+ /year | SLA, SSO for admin console, support |
+
 ## Recommended First Integrations
 
 1. Protect your wiki and internal tools with SSO

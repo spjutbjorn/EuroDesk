@@ -11,6 +11,20 @@ Akeneo PIM is an open-source Product Information Management system designed to h
 ## Hosting Options
 Akeneo offers a free, open-source Community Edition that can be self-hosted on your own EU infrastructure. They also offer enterprise SaaS editions hosted in the EU.
 
+## Plans (2026 Estimates)
+
+| Plan | Price (Month) | Key Features |
+|---|---|---|
+| **Community** | $0 | Basic PIM, open-source |
+| **Growth** | Starts ~€25 | SaaS entry-level for small teams |
+| **Enterprise** | Custom | Advanced automation, asset mgmt |
+
+## Key Features
+- Centralized product catalog management.
+- Multi-channel data syndication.
+- Product data enrichment workflows.
+- Asset management and versioning.
+
 ## Compliance Notes
 - French company headquartered in Nantes.
 - Crucial for Retail, E-commerce, and Wholesale roles that need to manage massive product datasets securely without relying on US platforms.

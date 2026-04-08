@@ -56,6 +56,14 @@ FLUSH PRIVILEGES;
 - Keep contract, supplier, and inventory exports within EU-controlled storage.
 - Integrate with SSO and audit admin activity.
 
+## Plans (Support 2026)
+
+| Plan | Price (Year) | Key Features |
+|---|---|---|
+| **Basic** | €1,500 | Up to 10 agents / 500 assets |
+| **Standard** | €4,400 | Up to 50 agents, professional plugins |
+| **Advanced** | €14,550 | Unlimited assets, all plugins included |
+
 ## Key Features
 
 - Asset inventory and lifecycle tracking
