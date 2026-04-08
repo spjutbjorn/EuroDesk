@@ -14,6 +14,7 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 
 - **[Rules](rules.md)**: Inclusion criteria for tools in the EuroDesk stack.
 - **[Common EU Roles](roles.md)**: Typical white-collar roles served by this stack.
+- **[Core Mapping](core.md)**: Minimum product requirements per role.
 - **[Verification Report](verification_report.md)**: Compliance audit of all included tools.
 
 ## Tool Categories
@@ -40,6 +41,12 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [ONLYOFFICE](products/onlyoffice.md) | Office suite | `products/onlyoffice.md` |
 | [Collabora Online](products/collabora.md) | Office suite | `products/collabora.md` |
 
+### File Transfer
+| Tool | Type | File |
+|---|---|---|
+| [SwissTransfer](products/swisstransfer.md) | Secure large file transfer | `products/swisstransfer.md` |
+| [Tresorit](products/tresorit.md) | E2E encrypted file transfer | `products/tresorit.md` |
+
 ### Design & Prototyping
 | Tool | Type | File |
 |---|---|---|
@@ -56,20 +63,29 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 |---|---|---|
 | [Odoo](products/odoo.md) | CRM, ERP & Business apps | `products/odoo.md` |
 
-### Accounting / Invoicing
+### Accounting / Invoicing / Time Tracking
 | Tool | Type | File |
 |---|---|---|
 | [Odoo](products/odoo.md) | Invoicing, accounting, and finance workflows | `products/odoo.md` |
+| [Kimai](products/kimai.md) | Time tracking & invoicing | `products/kimai.md` |
 
 ### HR / People Operations
 | Tool | Type | File |
 |---|---|---|
 | [Odoo](products/odoo.md) | Employee records, leave, and HR workflows | `products/odoo.md` |
+| [Personio](products/personio.md) | HR management and recruiting | `products/personio.md` |
+| [Recruitee](products/recruitee.md) | Collaborative hiring | `products/recruitee.md` |
 
 ### Procurement
 | Tool | Type | File |
 |---|---|---|
 | [Odoo](products/odoo.md) | Purchasing, vendors, and procurement workflows | `products/odoo.md` |
+
+### Note-taking & Workspaces
+| Tool | Type | File |
+|---|---|---|
+| [AppFlowy](products/appflowy.md) | Notion alternative | `products/appflowy.md` |
+| [Logseq](products/logseq.md) | Local-first knowledge base | `products/logseq.md` |
 
 ### Password Management
 | Tool | Type | File |
@@ -113,6 +129,20 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | Tool | Type | File |
 |---|---|---|
 | [Easy!Appointments](products/easyappointments.md) | Appointment and booking system | `products/easyappointments.md` |
+| [Cal.com](products/cal-com.md) | Open-source scheduling | `products/cal-com.md` |
+| [Framadate](products/framadate.md) | Simple appointment planning | `products/framadate.md` |
+
+### Marketing & Newsletters
+| Tool | Type | File |
+|---|---|---|
+| [Brevo](products/brevo.md) | Email marketing & automation | `products/brevo.md` |
+| [MailerLite](products/mailerlite.md) | Email marketing | `products/mailerlite.md` |
+
+### E-commerce
+| Tool | Type | File |
+|---|---|---|
+| [PrestaShop](products/prestashop.md) | Open-source e-commerce | `products/prestashop.md` |
+| [Shopware](products/shopware.md) | Open-source e-commerce | `products/shopware.md` |
 
 ### Translation
 | Tool | Type | File |

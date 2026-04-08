@@ -10,6 +10,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Receptionist / Front Desk Coordinator:** Manages visitors, calls, meeting rooms, and front-office logistics.
 *   **Document Controller / Records Officer:** Maintains document versioning, archiving, and retention processes.
 *   **Board / Governance Coordinator:** Supports board meetings, minutes, resolutions, and executive governance workflows.
+*   **Bid / Proposal Coordinator:** Prepares tenders, RFP responses, and supporting business documents.
+*   **Travel / Mobility Coordinator:** Manages business travel, itineraries, and cross-border administrative logistics.
 
 ## 2. Management & Leadership
 *Responsible for strategy, project execution, and team performance.*
@@ -19,6 +21,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Program Manager:** Oversees multiple related projects and cross-functional delivery.
 *   **Portfolio Manager / PMO Lead:** Coordinates investment priorities, reporting, and governance across initiatives.
 *   **Chief of Staff:** Supports senior leadership with planning, communication, and organizational execution.
+*   **Transformation Manager:** Leads organizational change, operating model updates, and process redesign.
+*   **Service Manager:** Owns service performance, SLAs, and continuous improvement for internal or external services.
 
 ## 3. Business, Finance & Legal
 *Focuses on the "numbers" and regulatory compliance of the organization.*
@@ -32,6 +36,9 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Tax Advisor / VAT Specialist:** Handles corporate tax, cross-border VAT, and regulatory tax reporting.
 *   **Paralegal / Legal Operations Specialist:** Supports contracts, filings, due diligence, and legal workflows.
 *   **Data Protection Officer (DPO):** Oversees GDPR compliance, privacy risk, and data governance.
+*   **Corporate Secretary / Governance Officer:** Coordinates statutory filings, entity governance, and board documentation.
+*   **Contract Manager:** Owns contract lifecycle, renewals, obligations, and negotiation support.
+*   **Procurement Counsel / Public Tender Lawyer:** Supports procurement law, framework agreements, and tender compliance.
 
 ## 4. Sales, Marketing & Communication
 *The outward-facing roles responsible for growth and brand reputation.*
@@ -44,6 +51,9 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Communications Manager:** Coordinates internal and external communications, announcements, and messaging.
 *   **Event / Community Manager:** Runs trade shows, webinars, member communities, and partner events.
 *   **SEO / Content Marketing Specialist:** Improves discoverability and produces editorial content.
+*   **Sales Operations Specialist:** Maintains CRM hygiene, forecasts, territory data, and sales reporting.
+*   **Partnerships / Channel Manager:** Runs reseller, alliance, and referral partner relationships.
+*   **Bid Manager / Tender Specialist:** Coordinates commercial proposals and public-sector bid submissions.
 
 ## 5. Human Resources (HR)
 *Focuses on the lifecycle of the employee within the organization.*
@@ -55,6 +65,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **HR Business Partner:** Aligns workforce planning and people strategy with business needs.
 *   **Compensation & Benefits Specialist:** Manages salary bands, benefits, and reward structures.
 *   **Employer Branding Specialist:** Supports recruiting visibility, careers content, and talent marketing.
+*   **HRIS / People Systems Specialist:** Administers HR platforms, workflows, and employee data quality.
+*   **Employee Relations Specialist:** Handles workplace issues, investigations, and policy application.
 
 ## 6. Information Technology (IT) & Data
 *The technical experts who build and maintain the digital infrastructure.*
@@ -69,6 +81,9 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Database Administrator (DBA):** Maintains database performance, backups, and access control.
 *   **Enterprise Architect / Solution Architect:** Defines system landscape, integrations, and technology standards.
 *   **Information Security Officer / CISO:** Owns security governance, policy, and risk posture.
+*   **Business Intelligence (BI) Developer:** Builds semantic models, dashboards, and management reports.
+*   **QA / Test Manager:** Coordinates quality assurance, release testing, and defect workflows.
+*   **Application Support Analyst:** Owns business application support, permissions, and issue resolution.
 
 ## 7. Customer Success & Support
 *The direct link between the product/service and the end-user.*
@@ -78,6 +93,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Implementation / Onboarding Specialist:** Helps customers deploy and adopt the product.
 *   **Service Delivery Manager:** Coordinates contracted support, SLA performance, and customer reporting.
 *   **Customer Experience (CX) Manager:** Improves support journeys, feedback loops, and retention outcomes.
+*   **Knowledge Base / Support Content Manager:** Maintains help-center content, runbooks, and support documentation.
+*   **Escalation Manager:** Coordinates high-priority incidents, customer communications, and internal follow-through.
 
 ## 8. Creative & Design Services
 *Roles that translate ideas into visual and experiential products.*
@@ -88,6 +105,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Product Designer:** Combines UX, UI, and product thinking into end-to-end digital experiences.
 *   **Motion Designer / Multimedia Specialist:** Produces animations, presentations, and digital media assets.
 *   **Technical Writer:** Produces manuals, product documentation, and knowledge-base content.
+*   **Information Designer:** Structures complex information into clear visual and textual formats.
+*   **Localization Manager / Specialist:** Coordinates multilingual content, translation, and locale quality.
 
 ## 9. Specialized Professionals (Consulting & Engineering)
 *Roles that require specific certifications or technical expertise.*
@@ -97,6 +116,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Quality Manager / Quality Assurance Specialist:** Maintains quality systems, audits, and process controls.
 *   **Regulatory Affairs Specialist:** Manages compliance with sector-specific rules, standards, and filings.
 *   **HSE / EHS Manager:** Oversees health, safety, and environmental compliance in regulated workplaces.
+*   **Bid Engineer / Pre-Sales Engineer:** Translates technical requirements into proposals, demos, and solution designs.
+*   **Technical Consultant / Functional Consultant:** Implements systems, process improvements, and client-specific configurations.
 
 ## 10. Research, Development & Innovation (RDI)
 *Focuses on creating new knowledge and developing future technologies.*
@@ -106,6 +127,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Innovation Manager:** Identifies new business opportunities, pilots, and partnerships.
 *   **Grant / Funding Manager:** Coordinates public innovation grants, EU funding, and reporting obligations.
 *   **Clinical / Research Coordinator:** Organizes studies, documentation, and ethics-related workflows.
+*   **Technology Transfer Officer:** Moves research outputs into licensing, spinouts, or commercial partnerships.
+*   **Lab Operations / Scientific Program Manager:** Coordinates research administration, equipment planning, and reporting.
 
 ## 11. Public Administration & Government
 *Civil servants and policy experts working in local, national, or EU institutions.*
@@ -115,6 +138,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **EU Affairs / Public Affairs Specialist:** Tracks EU legislation, institutions, and stakeholder engagement.
 *   **Procurement Officer (Public Sector):** Runs compliant tenders and supplier selection under public rules.
 *   **Case Handler / Permit Officer:** Processes applications, permits, and citizen-facing administrative decisions.
+*   **Registry / Records Officer:** Maintains official documents, archives, and public-record workflows.
+*   **Grants Administration Officer:** Manages funding programs, disbursements, and compliance reporting.
 
 ## 12. Procurement & Supply Chain
 *Manages the acquisition of goods and the movement of products.*
@@ -124,6 +149,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Category Manager:** Owns sourcing strategy for specific spend categories.
 *   **Procurement Analyst:** Supports spend analysis, tender evaluation, and purchasing controls.
 *   **Demand Planner / Supply Planner:** Aligns supply with forecasted operational demand.
+*   **Inventory Planner:** Balances stock levels, reorder cycles, and availability targets.
+*   **Customs / Trade Compliance Specialist:** Handles import-export rules, documentation, and tariff compliance.
 
 ## 13. Education & Training
 *Focuses on formal education and professional instruction.*
@@ -133,6 +160,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **School / University Administrator:** Manages admissions, records, scheduling, and institutional operations.
 *   **Research Administrator:** Supports grants, academic reporting, and university compliance workflows.
 *   **Student Services Coordinator:** Supports learners with advising, enrollment, and welfare processes.
+*   **Admissions Officer:** Coordinates applicant pipelines, documentation, and enrollment decisions.
+*   **Examinations / Registry Officer:** Manages grades, transcripts, timetables, and formal academic records.
 
 ## 14. Non-Profit & NGO Operations
 *Administrative roles within mission-driven organizations.*
@@ -142,6 +171,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Grant Manager:** Oversees grant applications, donor reporting, and restricted-fund tracking.
 *   **Partnerships Manager:** Manages institutional, foundation, and public-sector partnerships.
 *   **Monitoring & Evaluation (M&E) Specialist:** Tracks program outcomes, indicators, and reporting quality.
+*   **Volunteer Coordinator:** Organizes volunteer onboarding, scheduling, and communications.
+*   **Safeguarding / Protection Officer:** Oversees compliance and incident handling in sensitive program settings.
 
 ## 15. Healthcare & Social Care (Administration)
 *The non-clinical roles that keep the health system running.*
@@ -151,6 +182,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Medical Secretary / Practice Manager:** Coordinates appointments, records, and administrative workflows in clinics.
 *   **Health Information Manager:** Oversees records governance, coding, and data protection in care environments.
 *   **Clinical Operations Manager:** Coordinates non-clinical support processes for healthcare delivery.
+*   **Patient Access / Admissions Coordinator:** Manages referrals, admissions, scheduling, and administrative intake.
+*   **Reimbursement / Billing Specialist:** Handles payer workflows, coding support, and claims administration.
 
 ## 16. Product, Strategy & Business Operations
 *Roles that shape products, processes, and strategic execution in modern organizations.*
@@ -159,6 +192,8 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Strategy Manager:** Supports executive decision-making, market analysis, and transformation programs.
 *   **Business Operations Manager:** Improves internal processes, reporting, and organizational efficiency.
 *   **Revenue Operations (RevOps) Specialist:** Aligns sales, marketing, and customer success systems and reporting.
+*   **Chief Operating Officer (COO) Staff / Strategy Associate:** Supports executive operating cadence, analytics, and planning.
+*   **Pricing / Commercial Operations Analyst:** Owns pricing governance, approval workflows, and margin reporting.
 
 ## 17. Banking, Insurance & Financial Services
 *White-collar roles common in regulated financial sectors across the EU.*
@@ -166,15 +201,36 @@ This document outlines the diverse roles in the European white-collar workforce.
 *   **Compliance Analyst (AML/KYC):** Handles anti-money laundering, sanctions screening, and customer due diligence.
 *   **Insurance Underwriter / Claims Specialist:** Assesses risk, policies, and claims documentation.
 *   **Treasury / Cash Manager:** Oversees liquidity, banking relationships, and payment flows.
+*   **Credit Analyst:** Assesses borrower risk, documentation, and lending decisions.
+*   **Loan / Mortgage Administrator:** Coordinates case files, approvals, and servicing workflows.
+*   **Financial Crime Investigator:** Reviews alerts, cases, and suspicious activity escalations.
 
 ## 18. Real Estate, Property & Facilities
 *Administrative and managerial roles that coordinate buildings, leases, and workplace services.*
 *   **Property Manager:** Oversees leases, tenants, maintenance coordination, and reporting.
 *   **Facilities Manager:** Manages workplace services, vendors, office access, and building operations.
 *   **Real Estate Analyst / Asset Manager:** Supports valuation, portfolio reporting, and investment analysis.
+*   **Lease Administrator:** Manages lease data, renewals, invoicing, and landlord-tenant documentation.
+*   **Workplace Experience Manager:** Coordinates employee-facing office services, events, and space planning.
 
 ## 19. Media, Publishing & Editorial
 *Knowledge and communication roles centered on publishing, review, and editorial workflows.*
 *   **Editor / Managing Editor:** Coordinates content quality, publishing schedules, and approvals.
 *   **Journalist / Research Reporter:** Produces researched content, interviews, and investigative documentation.
 *   **Publishing Coordinator:** Manages manuscripts, production schedules, rights, and contributor workflows.
+*   **Rights / Licensing Manager:** Handles intellectual property licensing, permissions, and usage agreements.
+*   **Audience Development Manager:** Grows readership, subscriptions, newsletters, and engagement analytics.
+
+## 20. Architecture, Planning & Built Environment
+*White-collar roles involved in planning, design coordination, and project administration for the built environment.*
+*   **Architect / Design Manager:** Coordinates building design, consultants, and documentation packages.
+*   **Urban Planner / Spatial Planner:** Works on land use, zoning, mobility, and public planning processes.
+*   **Construction Project Coordinator:** Manages schedules, permits, vendors, and site reporting.
+*   **BIM Coordinator / CAD Manager:** Maintains digital models, design standards, and multidisciplinary coordination.
+
+## 21. Pharmaceuticals, Life Sciences & Regulatory Operations
+*Office-based roles common in life sciences, biotech, and regulated product environments.*
+*   **Regulatory Submissions Specialist:** Prepares and tracks filings to authorities and notified bodies.
+*   **Pharmacovigilance / Safety Officer:** Manages safety case reporting, documentation, and escalation workflows.
+*   **Medical Affairs Coordinator:** Supports scientific communications, field teams, and compliance processes.
+*   **Quality Systems Specialist:** Maintains SOPs, CAPAs, audits, and controlled documentation.
