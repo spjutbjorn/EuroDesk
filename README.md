@@ -45,6 +45,21 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Passbolt](products/passbolt.md) | Team password manager | `products/passbolt.md` |
 | [Bitwarden (self-hosted)](products/bitwarden.md) | Password manager | `products/bitwarden.md` |
 
+### Identity / SSO
+| Tool | Type | File |
+|---|---|---|
+| [ZITADEL](products/zitadel.md) | Identity, SSO, MFA, passkeys | `products/zitadel.md` |
+
+### Backup / Disaster Recovery
+| Tool | Type | File |
+|---|---|---|
+| [Bareos](products/bareos.md) | Central backups and restore workflows | `products/bareos.md` |
+
+### Endpoint Management / MDM
+| Tool | Type | File |
+|---|---|---|
+| [opsi](products/opsi.md) | Software deployment and endpoint management | `products/opsi.md` |
+
 ### VPN
 | Tool | Type | File |
 |---|---|---|
@@ -64,6 +79,17 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Sentry (self-hosted)](products/sentry.md) | Error tracking & crash reporting | `products/sentry.md` |
 | [Grafana + Loki](products/grafana-loki.md) | Logging, metrics & alerting | `products/grafana-loki.md` |
 | [Outline](products/outline.md) | Team wiki & knowledge base | `products/outline.md` |
+
+### Forms / Surveys / E-signing
+| Tool | Type | File |
+|---|---|---|
+| [LimeSurvey](products/limesurvey.md) | Forms and surveys | `products/limesurvey.md` |
+| [Documenso](products/documenso.md) | Electronic signatures | `products/documenso.md` |
+
+### Helpdesk / Ticketing
+| Tool | Type | File |
+|---|---|---|
+| [Zammad](products/zammad.md) | Helpdesk and support ticketing | `products/zammad.md` |
 
 ## Quick Start
 
