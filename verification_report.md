@@ -1,13 +1,17 @@
 # EuroDesk Product Verification Report
 
 **Date:** Wednesday, April 8, 2026
-**Scope:** Verification of all 61 tools in the `products/` directory for compliance with the EuroDesk Inclusion Rules.
+**Scope:** Verification of all 68 tools in the `products/` directory for compliance with the EuroDesk Inclusion Rules.
+
+**Verification level:** Metadata and inclusion-rule audit based on official vendor or project sources. This report does not re-validate every pricing table or every setup command line in every guide.
 
 ## Summary Verification Table
 
 | Product | Category | Jurisdiction | Compliance Type |
 | :--- | :--- | :--- | :--- |
 | **Akeneo PIM** | Product Info Management | EU (France) | Self-hosted / SaaS |
+| **Aleph Alpha** | Industrial AI / LLM | Germany (EU) | Managed / Private Cloud |
+| **AnythingLLM** | Private AI / Knowledge Base | EU-hostable (OSS) | Self-hosted |
 | **Apache Superset** | BI / Dashboards | EU-hostable | Self-hosted |
 | **AppFlowy** | Note-taking | US/Global (Exception) | Self-hosted (Exception) |
 | **Bareos** | Backup / DR | Germany (EU) | Self-hosted |
@@ -19,6 +23,7 @@
 | **CryptPad** | Collaborative Docs (E2EE) | France (EU) | Self-hosted or managed |
 | **DeepL** | Translation | Germany (EU) | Managed SaaS / API |
 | **Documenso** | E-signing | Germany (EU) | Self-hosted or managed |
+| **EULLM** | AI Infrastructure / LLM Platform | EU-hostable (OSS) | Self-hosted |
 | **Easy!Appointments** | Scheduling | EU-hostable | Self-hosted |
 | **Element / Matrix** | Team Communication | EU-hostable | Self-hosted or managed |
 | **Excalidraw** | Whiteboarding | US/Global (Exception) | Self-hosted (Exception) |
@@ -34,6 +39,7 @@
 | **MailerLite** | Marketing | EU (Lithuania / IE) | SaaS |
 | **Matomo** | Web Analytics | EU (NZ Adequacy) | Self-hosted / SaaS |
 | **Mattermost** | Team Messaging | EU-hostable | Self-hosted or managed |
+| **Mistral AI** | AI Assistant / LLM | France (EU) | Managed / Self-hosted |
 | **Mullvad Browser** | Web Browser | EU (Sweden) | Local Software |
 | **Mullvad VPN** | VPN | Sweden (EU) | Managed SaaS |
 | **Nextcloud** | Storage & Collaboration | EU-hostable | Self-hosted or managed |
@@ -42,6 +48,7 @@
 | **OpenKM** | Document Workflow | Spain (EU) | Self-hosted or managed |
 | **OpenOlat** | LMS | Switzerland (Adequacy) | Self-hosted or managed |
 | **OpenProject** | Project Management | Germany (EU) | Self-hosted or managed |
+| **Open WebUI** | AI Interface / LLM Frontend | EU-hostable (OSS) | Self-hosted |
 | **Outline** | Team Wiki | EU-hostable | Self-hosted or managed |
 | **Paperless-ngx** | Document Archiving | EU (Open Source) | Self-hosted |
 | **Passbolt** | Password Manager | Luxembourg (EU) | Self-hosted or managed |
@@ -71,14 +78,14 @@
 
 ## Key Compliance Observations
 
-### 1. The Self-Hosting Exception (Rule 3)
-A significant number of specialized tools (**AppFlowy, Logseq, Cal.com, Excalidraw, BigBlueButton**) are developed outside the EU but are included under the "Self-Hosting Exception." These tools are open-source and verified to allow full data residency on EU infrastructure, ensuring zero exposure to the US CLOUD Act.
+### 1. Sovereign AI and LLMs
+The addition of **Mistral AI, Aleph Alpha, EULLM, and Open WebUI** provides a complete, sovereign AI stack. These tools range from EU-native managed APIs (Mistral, Aleph Alpha) to fully self-hosted infrastructures (EULLM) and frontends (Open WebUI), ensuring that "Generative AI" does not necessitate data export to non-EU jurisdictions.
 
-### 2. Education and Learning (LMS)
-The stack now includes formal e-learning and webinar tools (**OpenOlat, BigBlueButton**). These tools, originating from Switzerland and the global open-source community, provide a sovereign alternative for corporate training and academic institutions.
+### 2. The Self-Hosting Exception (Rule 3)
+A significant number of specialized tools (**AppFlowy, Logseq, Cal.com, Excalidraw, BigBlueButton, AnythingLLM, Open WebUI**) are developed outside the EU but are included under the "Self-Hosting Exception." These tools are open-source and verified to allow full data residency on EU infrastructure.
 
 ### 3. Localization and PIM
-The inclusion of **Weblate** and **Akeneo PIM** ensures that cross-border EU businesses can manage translations and product information within European legal boundaries, preventing sensitive commercial data from leaking to US-based SaaS competitors.
+The inclusion of **Weblate** and **Akeneo PIM** ensures that cross-border EU businesses can manage translations and product information within European legal boundaries.
 
 ### 4. Advanced Document Management
-With **OpenKM** and **Paperless-ngx**, the stack now covers professional document workflow and archiving. This is critical for sectors like Finance and Legal that require strict record-keeping under EU regulations.
+With **OpenKM** and **Paperless-ngx**, the stack covers professional document workflow and archiving, critical for regulatory compliance.

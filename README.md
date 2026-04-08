@@ -176,6 +176,19 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [DeepL](products/deepl.md) | AI translation | `products/deepl.md` |
 | [Weblate](products/weblate.md) | Translation management and localization | `products/weblate.md` |
 
+### AI & Large Language Models (LLMs)
+| Tool | Type | File |
+|---|---|---|
+| [Mistral AI](products/mistral.md) | EU-native LLM assistant & API | `products/mistral.md` |
+| [Aleph Alpha](products/aleph-alpha.md) | Industrial-grade sovereign AI | `products/aleph-alpha.md` |
+| [Open WebUI](products/open-webui.md) | ChatGPT-like frontend for self-hosted models | `products/open-webui.md` |
+| [AnythingLLM](products/anything-llm.md) | Private document knowledge base | `products/anything-llm.md` |
+
+### AI Infrastructure
+| Tool | Type | File |
+|---|---|---|
+| [EULLM](products/eullm.md) | Sovereign LLM runtime and registry | `products/eullm.md` |
+
 ### Routing / Fleet Planning
 | Tool | Type | File |
 |---|---|---|
@@ -226,6 +239,14 @@ A curated collection of EU-hosted (or EU-jurisdiction) tools for a fully product
 | [Sentry (self-hosted)](products/sentry.md) | Error tracking & crash reporting | `products/sentry.md` |
 | [Grafana + Loki](products/grafana-loki.md) | Logging, metrics & alerting | `products/grafana-loki.md` |
 | [Outline](products/outline.md) | Team wiki & knowledge base | `products/outline.md` |
+
+### AI Assistants & LLM Platforms
+| Tool | Type | File |
+|---|---|---|
+| [Mistral AI / Le Chat](products/mistral.md) | AI assistant, LLM (managed & self-hosted) | `products/mistral.md` |
+| [Langdock](products/langdock.md) | Enterprise AI platform (multi-model) | `products/langdock.md` |
+| [eustella](products/eustella.md) | EU-only AI assistant (mobile-first) | `products/eustella.md` |
+| [EULLM](products/eullm.md) | Open-source sovereign LLM platform | `products/eullm.md` |
 
 ### Cloud Infrastructure & Hosting
 | Tool | Type | File |

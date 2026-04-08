@@ -8,6 +8,7 @@ This document maps the EuroDesk sovereign office stack to the most common white-
 *   **Chat & Collaboration:** [Element](products/element-matrix.md), [Mattermost](products/mattermost.md), and [Jitsi Meet](products/jitsi-meet.md).
 *   **File Storage & Editing:** [Nextcloud](products/nextcloud.md) with [ONLYOFFICE](products/onlyoffice.md) or [Collabora Online](products/collabora.md).
 *   **Security & Browsing:** [Passbolt](products/passbolt.md), [Mullvad VPN](products/mullvad.md), and [Mullvad Browser](products/mullvad-browser.md).
+*   **AI Assistant:** [Mistral AI](products/mistral.md) (Managed or Self-hosted assistant).
 *   **Search:** [Startpage](products/startpage.md) or [Qwant](products/qwant.md).
 
 ---
@@ -19,18 +20,22 @@ This document maps the EuroDesk sovereign office stack to the most common white-
 *   [Documenso](products/documenso.md) (Electronic Signatures for approvals)
 *   [CryptPad](products/cryptpad.md) (Secure, end-to-end encrypted temporary documents)
 *   [Paperless-ngx](products/paperless-ngx.md) (Automated document archiving and OCR for physical mail)
+*   [Mistral AI](products/mistral.md) (Drafting emails and summarizing meeting notes)
 
 ### 📈 Management & Leadership
 *   [OpenProject](products/openproject.md) (Timelines, Gantt charts, and resource planning)
 *   [Planka](products/planka.md) (Team-level Kanban boards)
 *   [n8n](products/n8n.md) (Workflow automation between departments)
 *   [Excalidraw](products/excalidraw.md) (Collaborative whiteboarding for planning sessions)
+*   [Mistral AI](products/mistral.md) (Strategic analysis and reporting summaries)
 
 ### ⚖️ Business, Finance & Legal
 *   [Odoo](products/odoo.md) (Full accounting, VAT, and invoicing engine)
 *   [Documenso](products/documenso.md) (Contract signing and tracking)
 *   [SwissTransfer](products/swisstransfer.md) (Secure, large file transfers for sensitive documents)
 *   [Paperless-ngx](products/paperless-ngx.md) (Digital records management and audit-ready archiving)
+*   [Aleph Alpha](products/aleph-alpha.md) (Legal document analysis and verifiable AI reasoning)
+*   [AnythingLLM](products/anything-llm.md) (Private RAG across large contract and case law volumes)
 
 ### 📣 Sales, Marketing & Communication
 *   [Odoo](products/odoo.md) (CRM & Lead Management)
@@ -52,33 +57,41 @@ This document maps the EuroDesk sovereign office stack to the most common white-
 *   [Wazuh](products/wazuh.md) (Security monitoring and vulnerability detection)
 *   [opsi](products/opsi.md) (Automated software deployment for endpoints)
 *   [Excalidraw](products/excalidraw.md) (System architecture and flow diagramming)
+*   [Open WebUI](products/open-webui.md) (Sovereign frontend for technical AI tasks)
+*   [EULLM](products/eullm.md) (Self-hosted model serving and registry)
 
 ### 🛠️ Customer Success & Support
 *   [Zammad](products/zammad.md) (Helpdesk, ticket management, and service desk)
 *   [n8n](products/n8n.md) (Automating support-to-engineering escalations)
 *   [Akeneo PIM](products/akeneo.md) (Accurate product data for troubleshooting)
+*   [Mistral AI](products/mistral.md) (Automated response drafting and sentiment analysis)
 
 ### 🎨 Creative & Design Services
 *   [Penpot](products/penpot.md) (Design, prototyping, and SVG-based UI/UX)
 *   [Outline](products/outline.md) (Design system documentation and knowledge base)
 *   [Excalidraw](products/excalidraw.md) (Low-fidelity wireframing and sketching)
+*   [Mistral AI](products/mistral.md) (Creative brainstorming and copy drafting)
 
 ### 🏗️ Specialized (Consulting & Engineering)
 *   [GLPI](products/glpi.md) (IT asset and hardware management)
 *   [Bareos](products/bareos.md) (Disaster recovery and backup for technical projects)
 *   [DeepL](products/deepl.md) (High-accuracy translation for technical consulting)
 *   [Excalidraw](products/excalidraw.md) (Technical diagramming and brainstorming)
+*   [AnythingLLM](products/anything-llm.md) (Deep technical RAG for expert-level queries)
 
 ### 🔬 Research, Development & Innovation (RDI)
 *   [Logseq](products/logseq.md) or [AppFlowy](products/appflowy.md) (Personal/Team knowledge graphing)
 *   [Forgejo](products/forgejo.md) (IP/Code repository)
 *   [Excalidraw](products/excalidraw.md) (Visualizing research concepts and hypotheses)
+*   [EULLM](products/eullm.md) (Running experimental or domain-specific models locally)
+*   [AnythingLLM](products/anything-llm.md) (Corpus-based analysis of academic/technical literature)
 
 ### 🏛️ Public Administration & Government
 *   [LimeSurvey](products/limesurvey.md) (Formal citizen feedback and research surveys)
 *   [Documenso](products/documenso.md) (Official decision and permit signing)
 *   [OpenKM](products/openkm.md) (Structured records, approvals, and retention workflows)
 *   [Paperless-ngx](products/paperless-ngx.md) (Mass-digitization of public records)
+*   [Aleph Alpha](products/aleph-alpha.md) (Verifiable AI for policy analysis and administrative decisions)
 
 ### 📦 Procurement & Supply Chain
 *   [Odoo](products/odoo.md) (Inventory, warehouse, and purchasing management)
