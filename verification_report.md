@@ -1,93 +1,109 @@
 # EuroDesk Product Verification Report
 
-**Date:** Wednesday, April 8, 2026
-**Scope:** Verification of all 68 tools in the `products/` directory for compliance with the EuroDesk Inclusion Rules.
-
-**Verification level:** Metadata and inclusion-rule audit based on official vendor or project sources. This report does not re-validate every pricing table or every setup command line in every guide.
+**Date:** Wednesday, April 8, 2026  
+**Scope:** Verification of all 69 tools in the `products/` directory for consistency with the product documents currently stored in `products/`.  
+**Verification level:** This report is a consistency audit against the local product files. It mirrors the current product metadata (`title`, `category`, `jurisdiction`, `type`) and does not independently re-verify every pricing table or installation command against external sources.
 
 ## Summary Verification Table
 
 | Product | Category | Jurisdiction | Compliance Type |
 | :--- | :--- | :--- | :--- |
-| **Akeneo PIM** | Product Info Management | EU (France) | Self-hosted / SaaS |
-| **Aleph Alpha** | Industrial AI / LLM | Germany (EU) | Managed / Private Cloud |
-| **AnythingLLM** | Private AI / Knowledge Base | EU-hostable (OSS) | Self-hosted |
-| **Apache Superset** | BI / Dashboards | EU-hostable | Self-hosted |
-| **AppFlowy** | Note-taking | US/Global (Exception) | Self-hosted (Exception) |
-| **Bareos** | Backup / DR | Germany (EU) | Self-hosted |
-| **BigBlueButton** | Webinars / E-Learning | Global (Exception) | Self-hosted |
-| **Bitwarden (Self-hosted)** | Password Manager | EU-hostable | Self-hosted (Vaultwarden) |
-| **Brevo** | Marketing | EU (France) | SaaS |
-| **Cal.com** | Scheduling | US (Exception) | Self-hosted (Exception) |
-| **Collabora Online** | Office Suite | Germany / UK (Adequacy) | Self-hosted or managed |
-| **CryptPad** | Collaborative Docs (E2EE) | France (EU) | Self-hosted or managed |
+| **Akeneo PIM** | Product Information Management (PIM) | EU (France) | Self-hosted / SaaS |
+| **Aleph Alpha** | Industrial AI / LLM | Germany (EU) | Managed SaaS / API / Private Cloud |
+| **AnythingLLM** | Private AI / Knowledge Base | EU-hostable (Open Source) | Self-hosted / Desktop App |
+| **Apache Superset** | BI / Dashboards | EU-hostable when self-hosted | Self-hosted |
+| **AppFlowy** | Note-taking & Workspaces | US/Global (Open Source / Self-Hosted Exception) | Self-hosted (Exception) |
+| **Bareos** | Backup / Disaster Recovery | Germany (EU) via Bareos GmbH & Co. KG | Self-hosted |
+| **BigBlueButton** | Webinars & E-Learning | Global (Open Source / Self-Hosted Exception) | Self-hosted |
+| **Bitwarden (Self-hosted)** | Password Manager | EU-hostable when self-hosted | Self-hosted (Vaultwarden) |
+| **Brevo** | Marketing & Newsletters | EU (France) | SaaS |
+| **Cal.com** | Scheduling & Booking | US (Open Source / Self-Hosted Exception) | Self-hosted (Exception) / SaaS |
+| **Collabora Online** | Office Suite | Germany / United Kingdom (adequacy-approved) | Self-hosted or managed |
+| **CryptPad** | Collaborative Documents (End-to-End Encrypted) | France (EU, GDPR) — flagship instance hosted by XWiki SAS, Paris | Self-hosted or managed |
 | **DeepL** | Translation | Germany (EU) | Managed SaaS / API |
 | **Documenso** | E-signing | Germany (EU) | Self-hosted or managed |
-| **EULLM** | AI Infrastructure / LLM Platform | EU-hostable (OSS) | Self-hosted |
-| **Easy!Appointments** | Scheduling | EU-hostable | Self-hosted |
-| **Element / Matrix** | Team Communication | EU-hostable | Self-hosted or managed |
-| **Excalidraw** | Whiteboarding | US/Global (Exception) | Self-hosted (Exception) |
-| **Forgejo** | Git Hosting | EU-hostable | Self-hosted |
-| **Framadate** | Scheduling | EU (France) | Self-hosted / Managed |
-| **GLPI** | Asset Management | France (EU) | Self-hosted or managed |
-| **Grafana + Loki** | Logging / Monitoring | EU-hostable (US OSS) | Self-hosted |
+| **Easy!Appointments** | Scheduling / Booking | EU-hostable when self-hosted | Self-hosted |
+| **Element / Matrix** | Team Communication | EU-hostable (servers in your chosen EU data center) | Self-hosted or managed |
+| **EULLM** | AI Infrastructure, LLM Platform | EU-hostable | Self-hosted (open source) |
+| **eustella** | AI Assistant | Austria (EU) | Managed SaaS (mobile-first) |
+| **Excalidraw** | Whiteboarding & Collaboration | US/Global (Open Source / Self-Hosted Exception) | Self-hosted (Exception) / SaaS |
+| **Forgejo** | Git Hosting, Code Review, Package Registry, CI/CD | EU-hostable; community-governed open source (no single corporate owner) | Self-hosted |
+| **Framadate** | Scheduling & Booking | EU (France) | Self-hosted / Managed |
+| **GLPI** | Asset Management / CMDB | France (EU) via Teclib | Self-hosted or managed |
+| **Grafana + Loki + Prometheus** | Logging, Monitoring & Alerting | EU-hostable; Grafana Labs is US-based but the software is open source and fully self-hostable | Self-hosted |
+| **EU Hosting Providers** | Cloud Infrastructure, GPU Hosting, AI Inference | EU-ägda bolag, data stannar i EU | IaaS / PaaS |
 | **Jitsi Meet** | Video Conferencing | EU-hostable | Self-hosted or managed |
-| **Kimai** | Time Tracking | EU (Germany) | Self-hosted / SaaS |
-| **LimeSurvey** | Forms / Surveys | Germany (EU) | Self-hosted or managed |
-| **Logseq** | Note-taking | Global (Exception) | Local-first Software |
-| **Mailbox.org** | Email & Groupware | Germany (EU) | Managed SaaS |
-| **MailerLite** | Marketing | EU (Lithuania / IE) | SaaS |
-| **Matomo** | Web Analytics | EU (NZ Adequacy) | Self-hosted / SaaS |
-| **Mattermost** | Team Messaging | EU-hostable | Self-hosted or managed |
-| **Mistral AI** | AI Assistant / LLM | France (EU) | Managed / Self-hosted |
+| **Kimai** | Time Tracking & Invoicing | EU (Germany) | Self-hosted / SaaS |
+| **Langdock** | AI Assistant, Enterprise AI Platform | Germany (EU) | Managed SaaS |
+| **LimeSurvey** | Forms / Surveys | Germany (EU) via LimeSurvey GmbH | Self-hosted or managed |
+| **Logseq** | Note-taking & Workspaces | Global (Open Source / Self-Hosted Exception) | Local-first Software |
+| **Mailbox.org** | Email & Groupware | Germany (EU, GDPR) | Managed SaaS |
+| **MailerLite** | Marketing & Newsletters | EU (Lithuania / Ireland) | SaaS |
+| **Matomo** | Web Analytics | EU compliant (InnoCraft) | Self-hosted / SaaS |
+| **Mattermost** | Team Messaging | EU-hostable | Self-hosted or managed (EU region) |
+| **Mistral AI / Le Chat** | AI Assistant, LLM | France (EU) | Managed SaaS / Self-hosted / API |
 | **Mullvad Browser** | Web Browser | EU (Sweden) | Local Software |
-| **Mullvad VPN** | VPN | Sweden (EU) | Managed SaaS |
-| **Nextcloud** | Storage & Collaboration | EU-hostable | Self-hosted or managed |
-| **ONLYOFFICE** | Office Suite | EU-hostable (Latvia) | Self-hosted or managed |
-| **Odoo** | ERP / CRM | Belgium (EU) | Self-hosted or managed |
-| **OpenKM** | Document Workflow | Spain (EU) | Self-hosted or managed |
-| **OpenOlat** | LMS | Switzerland (Adequacy) | Self-hosted or managed |
-| **OpenProject** | Project Management | Germany (EU) | Self-hosted or managed |
-| **Open WebUI** | AI Interface / LLM Frontend | EU-hostable (OSS) | Self-hosted |
-| **Outline** | Team Wiki | EU-hostable | Self-hosted or managed |
-| **Paperless-ngx** | Document Archiving | EU (Open Source) | Self-hosted |
-| **Passbolt** | Password Manager | Luxembourg (EU) | Self-hosted or managed |
+| **Mullvad VPN** | VPN | Sweden (EU, GDPR) | Managed SaaS |
+| **n8n** | Automation / Workflows | Germany (EU) | Self-hosted or managed |
+| **Nextcloud** | File Storage, Calendar, Contacts, Collaboration | EU-hostable | Self-hosted or managed |
+| **Odoo** | CRM, Accounting / Invoicing, HR, Procurement | Belgium (EU) | Self-hosted or managed |
+| **ONLYOFFICE** | Office Suite / Document Editing | EU-hostable; ONLYOFFICE is developed by Ascensio System SIA (Latvia, EU) | Self-hosted or managed |
+| **Open WebUI** | AI Interface / LLM Frontend | EU-hostable (Open Source) | Self-hosted |
+| **OpenKM** | Document Workflow / Records Management | Spain (EU) | Self-hosted or managed |
+| **OpenOlat** | Learning Management System (LMS) | Switzerland (adequacy-approved) | Self-hosted or managed |
+| **OpenProject** | Project Management | Germany (EU, GDPR) — developed by OpenProject GmbH, Berlin | Self-hosted or managed |
+| **openrouteservice** | Routing / Fleet Planning | Germany (EU) via HeiGIT / Heidelberg ecosystem | Self-hosted or managed |
+| **opsi** | Endpoint Management / MDM | Germany (EU) via uib GmbH | Self-hosted |
+| **Outline** | Team Wiki & Knowledge Base | EU-hostable; Outline Inc. is US-based but the software is fully self-hostable | Self-hosted or managed |
+| **Paperless-ngx** | Document Management & Archiving | EU (Open Source) | Self-hosted |
+| **Passbolt** | Team Password Manager | Luxembourg (EU, GDPR) — Passbolt SA, Luxembourg | Self-hosted or managed |
 | **Penpot** | Design & Prototyping | Spain (EU) | Self-hosted or managed |
 | **Personio** | HR & Recruitment | EU (Germany) | SaaS |
-| **Planka** | Kanban Board | EU-hostable | Self-hosted |
+| **Planka** | Kanban Board | EU-hostable (open source, no vendor lock-in) | Self-hosted |
 | **Plausible Analytics** | Web Analytics | Estonia (EU) | Self-hosted or managed |
 | **PrestaShop** | E-commerce | EU (France) | Self-hosted / Managed |
-| **Proton Mail** | Email | Switzerland (Adequacy) | Managed SaaS |
-| **Proton VPN** | VPN | Switzerland (Adequacy) | Managed SaaS |
-| **Qwant** | Search Engine | France (EU) | Managed SaaS |
+| **Proton Mail** | Email | Switzerland (equivalent EU protection, subject to Swiss FADP) | Managed SaaS |
+| **Proton VPN** | VPN | Switzerland (equivalent EU protection, FADP) | Managed SaaS |
+| **Qwant** | Search Engine | France (EU, GDPR) | Managed SaaS |
 | **Recruitee** | HR & Recruitment | EU (Netherlands) | SaaS |
-| **Sentry (Self-hosted)** | Error Tracking | EU-hostable | Self-hosted |
-| **Shopware** | E-commerce | Germany (EU) | Self-hosted / SaaS |
-| **Startpage** | Search Engine | Netherlands (EU) | Managed SaaS |
-| **SwissTransfer** | File Transfer | Switzerland (Adequacy) | SaaS |
+| **Sentry (Self-hosted)** | Error Tracking & Application Monitoring | EU-hostable when self-hosted; sentry.io managed is US-hosted | Self-hosted |
+| **Shopware** | E-commerce | EU (Germany) | Self-hosted / SaaS |
+| **Startpage** | Search Engine | Netherlands (EU, GDPR) | Managed SaaS |
+| **SwissTransfer** | File Transfer | Switzerland (Adequacy-Approved) | SaaS |
 | **Tally** | Form Builder | Belgium (EU) | Managed SaaS |
-| **Tresorit** | File Transfer | Switzerland (Adequacy) | SaaS |
-| **Tuta** | Email | Germany (EU) | Managed SaaS |
-| **Wazuh** | Security Monitoring | Spain (EU) | Self-hosted or managed |
-| **Weblate** | Translation Mgmt | Czech Republic (EU) | Self-hosted or managed |
-| **ZITADEL** | Identity / SSO | Switzerland (Adequacy) | Self-hosted or managed |
-| **Zammad** | Helpdesk | Germany (EU) | Self-hosted or managed |
-| **eustella** | AI Assistant | Austria (EU) | Managed SaaS |
-| **langdock** | AI Assistant / Platform | Germany (EU) | Managed SaaS (Note: Azure Germany) |
-| **n8n** | Automation | Germany (EU) | Self-hosted or managed |
-| **openrouteservice** | Routing / Fleet | Germany (EU) | Self-hosted or managed |
-| **opsi** | Endpoint Management | Germany (EU) | Self-hosted |
+| **Tresorit** | File Transfer & Storage | Switzerland (Adequacy-Approved) | SaaS |
+| **Tuta (formerly Tutanota)** | Email | Germany (EU, GDPR) | Managed SaaS |
+| **Wazuh** | Security Monitoring / Endpoint Security | Spain (EU) | Self-hosted or managed |
+| **Weblate** | Translation Management / Localization | Czech Republic (EU) | Self-hosted or managed |
+| **Zammad** | Helpdesk / Ticketing | Germany (EU) | Self-hosted or managed |
+| **ZITADEL** | Identity / SSO | Switzerland (GDPR-equivalent, strong privacy law) | Self-hosted or managed |
 
-## Key Compliance Observations
+## Key Consistency Findings
 
-### 1. Sovereign AI and LLMs
-The addition of **Mistral AI, Aleph Alpha, EULLM, and Open WebUI** provides a complete, sovereign AI stack. These tools range from EU-native managed APIs (Mistral, Aleph Alpha) to fully self-hosted infrastructures (EULLM) and frontends (Open WebUI), ensuring that "Generative AI" does not necessitate data export to non-EU jurisdictions.
+### 1. The previous report was out of sync
+The earlier version of this file did not fully match the current `products/` directory. It had:
 
-### 2. The Self-Hosting Exception (Rule 3)
-A significant number of specialized tools (**AppFlowy, Logseq, Cal.com, Excalidraw, BigBlueButton, AnythingLLM, Open WebUI**) are developed outside the EU but are included under the "Self-Hosting Exception." These tools are open-source and verified to allow full data residency on EU infrastructure.
+- an outdated total count
+- missing product entries
+- shortened or normalized categories and jurisdictions that no longer matched the product documents exactly
+- naming differences such as `Grafana + Loki` vs `Grafana + Loki + Prometheus`
 
-### 3. Localization and PIM
-The inclusion of **Weblate** and **Akeneo PIM** ensures that cross-border EU businesses can manage translations and product information within European legal boundaries.
+### 2. This report now mirrors the product files exactly
+Each row above is aligned to the corresponding product document’s:
 
-### 4. Advanced Document Management
-With **OpenKM** and **Paperless-ngx**, the stack covers professional document workflow and archiving, critical for regulatory compliance.
+- title
+- category
+- jurisdiction
+- type
+
+That makes this report suitable as a local consistency reference for the repository.
+
+### 3. Local consistency does not guarantee external freshness
+Some product documents may still require future source refreshes for:
+
+- pricing
+- hosting plan names
+- setup commands
+- legal wording on jurisdiction or compliance
+
+Those checks should be done against official vendor or project documentation as a separate verification pass.

@@ -91,9 +91,12 @@ These are the cross-industry roles most likely to exist in private companies, pu
 *   **Cybersecurity Analyst:** Protects the organization's data and systems from digital threats.
 *   **Information Security Officer / CISO:** Owns security governance, policy, and risk posture.
 *   **Enterprise Architect / Solution Architect:** Defines system landscape, integrations, and technology standards.
+*   **AI / ML Engineer:** Builds, trains, deploys, and monitors machine learning models and AI systems.
+*   **MLOps Engineer:** Manages model lifecycle, inference infrastructure, and automated retraining pipelines.
+*   **AI Product Manager:** Owns AI feature strategy, responsible AI governance, and EU AI Act compliance.
 
 ### 7. Customer Success & Support
-*The direct link between the organization’s services and its users or customers.*
+*The direct link between the organization's services and its users or customers.*
 *   **Customer Support Specialist:** Handles inquiries, troubleshooting, and ticket management.
 *   **Technical Support Engineer:** Provides deep technical assistance for complex product issues.
 *   **Customer Success Manager:** Ensures long-term client satisfaction and retention.
@@ -201,7 +204,9 @@ These roles are common in particular industries, regulated domains, or instituti
 *   **Financial Crime Investigator:** Reviews alerts, cases, and suspicious activity escalations.
 *   **Credit Analyst:** Assesses borrower risk, documentation, and lending decisions.
 *   **Loan / Mortgage Administrator:** Coordinates case files, approvals, and servicing workflows.
-*   **Insurance Underwriter / Claims Specialist:** Assesses risk, policies, and claims documentation.
+*   **Insurance Underwriter:** Assesses risk, pricing, and policy terms for insurance products.
+*   **Claims Specialist / Adjuster:** Investigates, evaluates, and settles insurance claims.
+*   **Actuary:** Models financial risk, pricing, and reserves using statistical methods.
 *   **Treasury / Cash Manager:** Oversees liquidity, banking relationships, and payment flows.
 
 ### 17. Research, Development & Innovation
@@ -215,14 +220,15 @@ These roles are common in particular industries, regulated domains, or instituti
 *   **Lab Operations / Scientific Program Manager:** Coordinates research administration, equipment planning, and reporting.
 *   **IP / Patent Specialist:** Manages intellectual property, patents, and technical documentation.
 
-### 18. Engineering, Architecture & Built Environment
-*Office-based and project-administration roles common in engineering and construction-related sectors.*
+### 18. Engineering & Built Environment
+*Office-based and project-administration roles common in engineering, architecture, and construction.*
 *   **Engineer (Civil, Mechanical, Electrical, etc.):** Works on technical designs, specifications, and quality control.
 *   **Architect / Design Manager:** Coordinates building design, consultants, and documentation packages.
 *   **Urban Planner / Spatial Planner:** Works on land use, zoning, mobility, and public planning processes.
 *   **Construction Project Coordinator:** Manages schedules, permits, vendors, and site reporting.
 *   **BIM Coordinator / CAD Manager:** Maintains digital models, design standards, and multidisciplinary coordination.
 *   **Bid Engineer / Pre-Sales Engineer:** Translates technical requirements into proposals, demos, and solution designs.
+*   **Construction Project Admin:** Manages site documentation, safety filings, and subcontractor contracts.
 
 ### 19. Life Sciences, Pharma & Regulatory Operations
 *Office-based roles common in life sciences, biotech, and regulated product environments.*
@@ -233,95 +239,111 @@ These roles are common in particular industries, regulated domains, or instituti
 *   **Quality Systems Specialist:** Maintains SOPs, CAPAs, audits, and controlled documentation.
 *   **HSE / EHS Manager:** Oversees health, safety, and environmental compliance in regulated workplaces.
 
-## 19. Media, Publishing & Editorial
+### 20. Media, Publishing & Editorial
 *Knowledge and communication roles centered on publishing, review, and editorial workflows.*
 *   **Editor / Managing Editor:** Coordinates content quality, publishing schedules, and approvals.
 *   **Journalist / Research Reporter:** Produces researched content, interviews, and investigative documentation.
 *   **Publishing Coordinator:** Manages manuscripts, production schedules, rights, and contributor workflows.
+*   **Rights / Licensing Manager:** Handles intellectual property licensing, permissions, and usage agreements.
+*   **Audience Development Manager:** Grows readership, subscriptions, newsletters, and engagement analytics.
 
-## 20. Logistics, Transportation & Fleet Management
+### 21. Logistics, Transportation & Fleet Management
 *Administrative roles coordinating the movement of goods, people, and vehicles.*
 *   **Logistics Planner / Dispatcher:** Coordinates transport schedules, routes, and documentation.
 *   **Fleet Manager:** Oversees vehicle maintenance, fuel cards, insurance, and driver compliance.
 *   **Import/Export Coordinator:** Manages customs documentation, international trade rules, and shipping manifests.
 
-## 21. Hospitality, Tourism & Travel Management
-*The "back-office" roles of the travel and service industry.*
-*   **Hotel Manager / Revenue Manager:** Oversees facility operations, pricing strategy, and bookings.
-*   **Travel Consultant / Corporate Travel Manager:** Coordinates business travel, bookings, and expense policies.
-*   **Tourism Development Officer:** Researches and develops regional or national tourism strategies.
+### 22. Maritime & Shipping
+*Office-based roles in one of Europe's largest trade sectors (Hamburg, Rotterdam, Piraeus, Gothenburg).*
+*   **Chartering Manager / Broker:** Negotiates vessel charters, fixtures, and freight contracts.
+*   **Ship Operations Coordinator:** Manages port calls, bunker planning, crew changes, and voyage scheduling.
+*   **Marine Claims Handler:** Processes cargo damage, P&I claims, and average adjustments.
+*   **Port Agent / Liner Agent:** Coordinates vessel arrivals, customs clearance, and terminal operations.
+*   **HSEQ Manager (Maritime):** Oversees ISM Code compliance, safety management, and environmental reporting.
+*   **Freight Forwarder / Logistics Coordinator:** Manages multimodal transport, documentation, and customs brokerage.
 
-## 22. Energy, Utilities & Environmental Services
+### 23. Aviation & Aerospace
+*Office-based roles in airlines, airports, MRO, and aerospace manufacturing.*
+*   **Airline Operations Controller:** Manages flight dispatch, crew scheduling, and disruption handling.
+*   **Crew Planning / Rostering Specialist:** Builds rosters compliant with EASA flight-time limitations.
+*   **Airport Operations Coordinator:** Manages gate assignments, turnarounds, and ground handling contracts.
+*   **Aviation Safety / Compliance Manager:** Ensures EASA regulatory compliance, audits, and occurrence reporting.
+*   **MRO Planner:** Coordinates maintenance schedules, parts procurement, and airworthiness documentation.
+*   **Aerospace Program Manager:** Manages delivery milestones, supplier coordination, and certification timelines.
+
+### 24. Energy, Utilities & Environmental Services
 *White-collar roles in the critical infrastructure and green energy sectors.*
 *   **Energy Trader / Analyst:** Monitors energy markets, pricing, and grid demand.
 *   **Environmental Consultant:** Advises on impact assessments, carbon reporting, and sustainability.
 *   **Grid Operations Coordinator:** Manages the administrative side of utility distribution and maintenance scheduling.
+*   **Sustainability / ESG Officer:** Ensures the organization meets environmental, social, and governance standards.
 
-## 23. Retail & E-commerce Operations
-*The central management of physical and digital retail businesses.*
+### 25. Telecommunications
+*Office roles in operators, network vendors, and regulatory bodies.*
+*   **Network Planning Engineer:** Designs coverage, capacity, and rollout plans for fixed and mobile networks.
+*   **Spectrum / Regulatory Manager:** Manages spectrum licensing, BEREC compliance, and regulatory filings.
+*   **Carrier Relations Manager:** Negotiates interconnect, roaming, and wholesale agreements.
+*   **Service Assurance Analyst:** Monitors network KPIs, SLA performance, and escalation workflows.
+*   **Billing / Revenue Assurance Analyst:** Ensures rating accuracy, fraud detection, and revenue integrity.
+
+### 26. Agriculture & Agri-Business
+*Office-based roles in farming cooperatives, food industry, and EU agricultural policy.*
+*   **Agronomist / Agricultural Advisor:** Provides technical guidance on crop management, inputs, and sustainability.
+*   **CAP / Subsidy Administrator:** Manages EU Common Agricultural Policy applications, reporting, and compliance.
+*   **Food Safety / Quality Manager:** Ensures compliance with EU food safety regulations and traceability.
+*   **Cooperative Manager:** Runs member administration, pricing, logistics, and governance for farming cooperatives.
+*   **Agricultural Commodity Trader:** Manages procurement, pricing, and contract execution for agricultural products.
+
+### 27. Retail, E-commerce & FMCG (Corporate)
+*Head-office roles that manage retail networks, consumer goods, and merchandising.*
 *   **E-commerce Manager:** Oversees web store operations, digital inventory, and online customer journeys.
 *   **Retail Planner / Merchandiser:** Coordinates stock levels, pricing, and product placement across stores.
 *   **Digital Product Content Specialist:** Manages product descriptions, images, and metadata for online catalogs.
+*   **Retail Buyer / Purchasing Agent:** Selects and purchases goods for resale.
+*   **Supply Chain Analyst (FMCG):** Optimizes the flow of fast-moving consumer goods to retail outlets.
 
-## 24. Arts, Culture & Museum Management
+### 28. Hospitality, Tourism & Travel
+*The back-office roles of the travel and service industry.*
+*   **Hotel Manager / Revenue Manager:** Oversees facility operations, pricing strategy, and bookings.
+*   **Travel Consultant / Corporate Travel Manager:** Coordinates business travel, bookings, and expense policies.
+*   **Tourism Development Officer:** Researches and develops regional or national tourism strategies.
+*   **Tour Operator / Itinerary Planner:** Designs and packages travel experiences and tours.
+*   **Guest Relations / Hospitality Coordinator:** Manages VIP bookings, feedback, and customer experience programs.
+
+### 29. Arts, Culture & Museum Management
 *Administrative and curatorial roles in the cultural sector.*
 *   **Curator / Exhibition Manager:** Coordinates artistic content, loans, and exhibition logistics.
 *   **Cultural Program Manager:** Plans and executes public programs, festivals, and community arts initiatives.
 *   **Registrar / Collection Manager:** Manages the documentation, insurance, and movement of artworks or artifacts.
 
-## 25. Translation, Interpretation & Localization
+### 30. Translation, Interpretation & Localization
 *Language professionals managing cross-border communication.*
 *   **Translator / Localizer:** Adapts text and software for different linguistic and cultural contexts.
 *   **Localization Project Manager:** Coordinates large-scale translation projects, vendors, and deadlines.
 *   **Terminologist:** Maintains specialized glossaries and linguistic standards for organizations.
 
-## 26. Architecture, Urban Planning & Construction Management
-*The administrative and planning side of the built environment.*
-*   **Urban Planner:** Researches and develops land-use plans, zoning, and public infrastructure projects.
-*   **Architectural Assistant / CAD Coordinator:** Supports design documentation, project filing, and BIM coordination.
-*   **Construction Project Admin:** Manages site documentation, safety filings, and subcontractor contracts.
-
-## 27. Safety, Quality & Regulatory Compliance (QHSE)
-*Dedicated roles for maintaining standards and legal safety requirements.*
-*   **Quality Assurance (QA) Manager:** Ensures products and processes meet internal and external standards.
-*   **Health & Safety (HSE) Officer:** Manages workplace safety, risk assessments, and incident reporting.
-*   **Regulatory Affairs Specialist:** Manages certifications, filings, and compliance in highly regulated sectors (e.g., Pharma, Aviation).
-
-*   **Rights / Licensing Manager:** Handles intellectual property licensing, permissions, and usage agreements.
-*   **Audience Development Manager:** Grows readership, subscriptions, newsletters, and engagement analytics.
-
-### 21. Specialized Advisory & Consulting Roles
-*Cross-functional expert roles that typically appear in consulting firms or specialist advisory functions.*
-*   **Management Consultant:** Provides expert advice on strategy and organizational efficiency.
-*   **Technical Consultant / Functional Consultant:** Implements systems, process improvements, and client-specific configurations.
-*   **Quality Manager / Quality Assurance Specialist:** Maintains quality systems, audits, and process controls.
-*   **Sustainability / ESG Officer:** Ensures the organization meets environmental, social, and governance standards.
-
-### 22. Legal Practice & Law Firms
+### 31. Legal Practice & Law Firms
 *Roles specific to independent legal practices, chambers, and notaries.*
 *   **Lawyer / Attorney / Solicitor:** Represents clients, drafts legal documents, and manages cases.
 *   **Notary Public:** Authenticates legal documents, contracts, and transactions.
 *   **Legal Secretary:** Specialized administrative support for legal proceedings, court filings, and client correspondence.
 *   **Legal Researcher:** Conducts case law research and prepares briefings for attorneys.
 
-### 23. Real Estate, Brokerage & Property Services
+### 32. Real Estate, Brokerage & Property Services
 *Commercial and residential real estate roles focusing on transactions, appraisals, and property portfolios.*
 *   **Real Estate Agent / Broker:** Facilitates the buying, selling, and leasing of properties.
 *   **Property Appraiser / Valuer:** Estimates the market value of land and buildings.
 *   **Real Estate Portfolio Manager:** Manages investment strategy for property funds and large owners.
 *   **Leasing Agent:** Focuses on finding tenants and executing rental agreements.
 
-### 24. Retail, FMCG & Wholesale (Corporate)
-*Head-office roles that manage retail networks, consumer goods, and merchandising.*
-*   **Retail Buyer / Purchasing Agent:** Selects and purchases goods for resale.
-*   **Merchandiser:** Plans product ranges, inventory levels, and visual displays.
-*   **E-commerce Manager:** Manages online store operations, digital merchandising, and conversion.
-*   **Supply Chain Analyst (FMCG):** Optimizes the flow of fast-moving consumer goods to retail outlets.
+### 33. Safety, Quality & Regulatory Compliance (QHSE)
+*Dedicated roles for maintaining standards and legal safety requirements across industries.*
+*   **Quality Assurance (QA) Manager:** Ensures products and processes meet internal and external standards.
+*   **Health & Safety (HSE) Officer:** Manages workplace safety, risk assessments, and incident reporting.
+*   **Regulatory Affairs Specialist:** Manages certifications, filings, and compliance in highly regulated sectors.
 
-### 25. Travel, Tourism & Hospitality (Corporate)
-*Office-based roles managing travel operations, bookings, and hospitality networks.*
-*   **Travel Agent / Corporate Travel Manager:** Books and manages travel logistics for clients or employees.
-*   **Tour Operator / Itinerary Planner:** Designs and packages travel experiences and tours.
-*   **Revenue Manager (Hospitality):** Optimizes pricing and availability for hotels or airlines.
-*   **Guest Relations / Hospitality Coordinator:** Manages VIP bookings, feedback, and customer experience programs.
-
+### 34. Specialized Advisory & Consulting
+*Cross-functional expert roles that typically appear in consulting firms or specialist advisory functions.*
+*   **Management Consultant:** Provides expert advice on strategy and organizational efficiency.
+*   **Technical Consultant / Functional Consultant:** Implements systems, process improvements, and client-specific configurations.
+*   **Quality Manager / Quality Assurance Specialist:** Maintains quality systems, audits, and process controls.

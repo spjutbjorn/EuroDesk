@@ -15,6 +15,12 @@ Open WebUI is a highly feature-rich, user-friendly frontend for interacting with
 - Organizations needing fine-grained access control over who can use which AI models
 - Securely interacting with internal documents via RAG (Retrieval-Augmented Generation)
 
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run via Docker Compose on your own EU infrastructure |
+
 ## Self-Hosted Setup
 
 ### Requirements

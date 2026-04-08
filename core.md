@@ -183,3 +183,8 @@ This document maps the EuroDesk sovereign office stack to the most common white-
 *   [openrouteservice](products/openrouteservice.md) (Logistics for crop collection and distribution)
 *   [Odoo](products/odoo.md) (Cooperative member administration and commodity trading)
 *   [Akeneo PIM](products/akeneo.md) (Food safety and traceability data management)
+
+### 🧬 Life Sciences, Pharma & Regulatory Operations
+*   [ZITADEL](products/zitadel.md) (Strict access control for clinical data)
+*   [OpenKM](products/openkm.md) (Controlled document lifecycle and quality records)
+*   [Aleph Alpha](products/aleph-alpha.md) (Summarizing scientific literature and clinical reports)

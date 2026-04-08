@@ -15,7 +15,7 @@ AnythingLLM is an all-in-one platform that turns your internal documents, PDFs, 
 - Legal and research teams needing to query hundreds of documents securely
 - Individuals wanting a local AI assistant on their workstation
 
-## Setup Options
+## Hosting Options
 
 | Option | Description |
 |---|---|
