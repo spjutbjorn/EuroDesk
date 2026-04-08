@@ -110,6 +110,14 @@ server {
 - Best suited for teams with multiple apps to integrate
 - Kubernetes deployment is common for larger setups
 
+## Compliance Notes
+
+- **Jurisdiction:** CAOS AG, the company behind ZITADEL, is based in Switzerland.
+- **Data Protection:** Switzerland has a formal "Adequacy Decision" from the European Commission, meaning its data protection laws (FADP) provide a level of protection equivalent to the GDPR.
+- **Sovereignty:** Fully hostable on your own EU infrastructure. All identity data and login logs stay on your servers.
+- **Privacy:** As an open-source tool, you control all identity metadata. No telemetry is sent to CAOS AG.
+- **GDPR:** Fully compliant as a Swiss company.
+
 ## EuroDesk Verdict
 
 If you want a European identity platform with both managed and self-hosted paths, ZITADEL is one of the strongest missing building blocks for a complete office stack.

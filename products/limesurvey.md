@@ -88,6 +88,13 @@ server {
 - Needs maintenance if self-hosted
 - UI is functional rather than lightweight and minimal
 
+## Compliance Notes
+
+- **Jurisdiction:** LimeSurvey GmbH is based in Hamburg, Germany (EU).
+- **Data Sovereignty:** Fully hostable on your own EU infrastructure. All survey responses and participant information stays on your servers.
+- **Privacy:** Supports anonymous surveys and has built-in features for participant data removal to comply with GDPR.
+- **GDPR:** Fully compliant as a German company. Data Processing Agreement (DPA) available for managed Cloud customers.
+
 ## EuroDesk Verdict
 
 LimeSurvey is a strong addition for teams that need structured data collection without sending responses to a US SaaS form platform.

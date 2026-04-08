@@ -92,6 +92,13 @@ docker compose up -d
 - You may still need identity verification workflows for higher-assurance use cases
 - Self-hosting means handling email delivery and storage retention
 
+## Compliance Notes
+
+- **Jurisdiction:** Documenso is a German company, fully subject to the GDPR.
+- **Data Sovereignty:** All data is processed and stored on EU-based infrastructure in both managed and self-hosted deployments.
+- **Privacy:** As an open-source tool, it minimizes data collection and supports self-hosting for maximum privacy.
+- **Legal Compliance:** Supports European standards for electronic signatures (eIDAS). Review your local legal needs for specific signature levels (SES, AES, QES).
+
 ## EuroDesk Verdict
 
 Documenso closes a common office gap: document signing without defaulting to a US platform.

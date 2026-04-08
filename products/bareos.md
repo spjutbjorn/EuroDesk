@@ -87,6 +87,14 @@ sudo systemctl enable --now bareos-dir bareos-sd bareos-fd
 - Initial configuration is more complex than lightweight backup products
 - Best value appears when protecting multiple systems
 
+## Compliance Notes
+
+- **Jurisdiction:** Developed by Bareos GmbH & Co. KG, based in Cologne, Germany (EU).
+- **GDPR:** Complies with EU GDPR and German data protection laws (BDSG).
+- **Data Sovereignty:** All backup data, catalogs, and logs stay on your infrastructure.
+- **Privacy:** As an open-source tool, there is no telemetry. You have full control over the encryption of backup data before it is stored.
+- Ensure that backup volumes and catalogs are securely handled, as they may contain personal data from multiple systems.
+
 ## EuroDesk Verdict
 
 Bareos fills a major gap in EuroDesk: a serious EU backup and disaster recovery layer for the rest of the stack.

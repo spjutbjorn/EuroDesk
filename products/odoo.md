@@ -1,65 +1,33 @@
 # Odoo
 
-**Category:** CRM, Accounting / Invoicing, HR
+**Category:** CRM, Accounting / Invoicing, HR, Procurement
 **Type:** Self-hosted or managed
 **Jurisdiction:** Belgium (EU)
 **Website:** [odoo.com](https://www.odoo.com)
 
 ## What It Is
 
-Odoo is a modular business platform that covers CRM, invoicing, accounting, HR, project workflows, sales, and operations. For EuroDesk, it is a practical EU-based backbone when you want fewer separate tools and tighter business-process integration.
+Odoo is a modular business platform that covers CRM, invoicing, accounting, HR, purchasing, sales, and operations. For EuroDesk, it works well as an integrated European back-office platform when you want fewer separate tools and tighter workflows.
 
-## EU Hosting Options
+## Hosting Options
 
 | Option | Description |
 |---|---|
-| **Odoo Online / Odoo.sh** | Managed service from an EU vendor |
-| **Self-hosted** | Run on your own EU infrastructure |
+| **Self-hosted** | Run Odoo Community or Enterprise on your own EU infrastructure |
+| **Odoo-managed** | Use managed hosting from the Belgian vendor |
 
 ## Good Fit For
 
 - Sales pipelines and contact management
 - Quotes, invoices, and bookkeeping workflows
-- Employee records, leave requests, and HR processes
-- Teams that prefer an integrated back office
+- Employee records and leave processes
+- Purchasing, vendors, and approval workflows
 
-## Self-Hosted Setup
+## Why it fits EuroDesk
 
-### Requirements
-- Ubuntu server
-- PostgreSQL
-- Domain name and SMTP server
-
-### Install
-
-```bash
-sudo apt update
-sudo apt install -y postgresql git python3-pip python3-venv build-essential libpq-dev
-sudo adduser --system --home=/opt/odoo --group odoo
-sudo -u postgres createuser -s odoo
-git clone https://www.github.com/odoo/odoo --depth 1 --branch 17.0 /opt/odoo/src
-python3 -m venv /opt/odoo/venv
-/opt/odoo/venv/bin/pip install -r /opt/odoo/src/requirements.txt
-```
-
-### Basic Config
-
-```ini
-[options]
-admin_passwd = change-me
-db_host = False
-db_port = False
-db_user = odoo
-db_password = False
-xmlrpc_port = 8069
-proxy_mode = True
-```
-
-### Start
-
-```bash
-/opt/odoo/venv/bin/python /opt/odoo/src/odoo-bin -c /etc/odoo.conf
-```
+- **Jurisdiction:** Odoo S.A. is a Belgian company.
+- **Flexibility:** Available as an open-source Community edition or as managed hosting.
+- **All-in-one:** Replaces multiple fragmented SaaS tools with one integrated system.
 
 ## Recommended First Modules
 
@@ -68,21 +36,37 @@ proxy_mode = True
 3. Invoicing / Accounting
 4. Employees
 5. Time Off
+6. Purchase
 
 ## Key Features
 
 - CRM and pipeline management
 - Invoicing and accounting workflows
 - HR records and leave management
+- Purchasing and vendor workflows
 - Large ecosystem of modules
-- Self-hosted and managed options
 
-## Trade-offs
+## Compliance Notes
 
-- Broad scope means more setup than single-purpose tools
-- Module sprawl can add complexity if not governed
-- Accounting configuration should be reviewed by a local expert
+- Keep production data on EU-owned hosting and review any third-party module dependencies carefully.
+- Limit installed modules to the business functions you actually need.
+- Review accounting, payroll, and HR data access separately because they carry different sensitivity levels.
+
+## Alternatives Considered
+
+| Alternative | Why not |
+|---|---|
+| Salesforce | US company, CLOUD Act |
+| Hubspot | US company, high lock-in |
+| Microsoft Dynamics | US company, telemetry |
+
+## Compliance Notes
+
+- **Jurisdiction:** Odoo S.A. is based in Belgium (EU).
+- **Data Sovereignty:** Fully hostable on your own EU infrastructure or via the Odoo.sh cloud in EU regions.
+- **Privacy:** As a self-hosted tool, you have full control over all business data, customer information, and financial records.
+- **GDPR:** Fully compliant as a Belgian company. DPA available for managed customers.
 
 ## EuroDesk Verdict
 
-Odoo fills several missing business-office categories at once and fits the EuroDesk model well thanks to its Belgian base and self-hosting path.
+Odoo covers several missing business-office categories at once and is a strong fit when you want an EU-based operational backbone.

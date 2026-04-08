@@ -85,6 +85,13 @@ server {
 - Works best with internal IT ownership
 - Setup is more infrastructure-heavy than SaaS device management tools
 
+## Compliance Notes
+
+- **Jurisdiction:** Developed by uib GmbH, based in Mainz, Germany (EU).
+- **Data Sovereignty:** Fully hostable on your own EU infrastructure. All client data and software logs stay on your servers.
+- **Privacy:** As an open-source tool, there is no telemetry. You have full control over the management of all endpoints.
+- **GDPR:** Fully compliant as a German company. You control all device and user metadata.
+
 ## EuroDesk Verdict
 
 For organizations that need endpoint control as part of a sovereign office stack, opsi is a strong EU-native addition.

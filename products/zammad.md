@@ -67,6 +67,13 @@ sudo systemctl enable --now zammad
 - Best results come from a clean ticket workflow design
 - Large teams should plan permissions and queue structure early
 
+## Compliance Notes
+
+- **Jurisdiction:** Zammad GmbH is based in Berlin, Germany (EU).
+- **Data Sovereignty:** Fully hostable on your own EU infrastructure. All tickets and agent logs stay on your servers.
+- **Privacy:** As an open-source tool, you have full control over all personal data in support tickets.
+- **GDPR:** Fully compliant as a German company. DPA available for Zammad Cloud users.
+
 ## EuroDesk Verdict
 
 Zammad rounds out EuroDesk with a proper service desk layer for internal support and customer-facing ticket workflows.

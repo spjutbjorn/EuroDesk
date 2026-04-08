@@ -91,6 +91,13 @@ server {
 - Complex automations still need design and monitoring
 - High-volume jobs may need queue and database tuning
 
+## Compliance Notes
+
+- **Jurisdiction:** n8n is based in Berlin, Germany (EU).
+- **Data Sovereignty:** Fully hostable on your own EU infrastructure. All workflow and automation data stays on your servers.
+- **Privacy:** As a self-hosted tool, you have full control over the data processed. Telemetry can and should be disabled in the configuration.
+- **GDPR:** Fully compliant as a German company. DPA available for n8n Cloud users.
+
 ## EuroDesk Verdict
 
 n8n is one of the most valuable missing pieces because it connects the rest of the stack into a working system.

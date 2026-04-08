@@ -7,7 +7,13 @@
 
 ## What It Is
 
-Easy!Appointments is an open-source booking system for appointment scheduling, meeting slots, and service calendars. It is useful when a team needs customer or internal booking workflows without relying on a US SaaS scheduling platform.
+Easy!Appointments is an open-source booking system for appointment scheduling, meeting slots, and service calendars. It works well when a team needs booking workflows without relying on a US SaaS scheduling platform.
+
+## Hosting Options
+
+| Option | Description |
+|---|---|
+| **Self-hosted** | Run Easy!Appointments on your own EU-hosted infrastructure |
 
 ## Good Fit For
 
@@ -62,12 +68,11 @@ server {
 }
 ```
 
-## Recommended Uses
+## Compliance Notes
 
-1. Public booking for consultations
-2. Internal IT support slots
-3. Interview scheduling pages
-4. Shared department appointment calendars
+- Host booking data on EU-owned infrastructure and secure it with HTTPS.
+- Minimize personal data fields in public booking forms.
+- Sync only with EU-compliant mail and calendar systems where possible.
 
 ## Key Features
 
